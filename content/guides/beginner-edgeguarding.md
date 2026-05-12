@@ -9,95 +9,147 @@ difficulty: "Beginner"
 relatedGuides: ["common-recovery-habits", "how-to-recover-better", "beginner-ledgetrapping", "how-to-keep-advantage"]
 ---
 
-Edgeguarding is resource management and risk control. You are evaluating your opponent's jump, airdodge, and recovery angle while protecting your own stock. Many beginners lose winning positions by choosing high-risk offstage options when onstage ledgetrap would have closed the stock more safely.
+Edgeguarding is not just "go offstage and hit them." It is a resource-tracking game where you force the recovering player to spend options in a bad order, then cover what remains. The players who close stocks consistently are usually the players who track double jump, airdodge, and recovery timing while keeping their own return path safe.
 
-## What To Focus On First
+## Edgeguard Flowchart (Simple Version)
 
-### 1) Identify recovery type
-Before committing, ask: linear, vertical, mix-up heavy, or hitbox-heavy?
+Use this sequence in real matches until it becomes automatic:
 
-### 2) Decide between edgeguard and ledgetrap
-If your character's offstage risk is high, preserve stage and trap ledge instead.
+1. **Confirm launch position** - Are they far enough offstage that they must commit soon?
+2. **Count resources** - Do they still have jump? Have they already used airdodge?
+3. **Choose coverage lane** - High lane, low lane, or stay stage-side and threaten both.
+4. **Force commitment** - Threaten a hitbox/fake to make them spend jump or airdodge early.
+5. **Close the branch** - Intercept recovery path, or hand off to [ledgetrapping](/glossary/ledgetrapping) if kill is not guaranteed.
 
-### 3) Track opponent panic recovery
-Under pressure, many players reuse one route. Punish the route, not random positions.
+If you skip steps 2-4, you are usually gambling rather than edgeguarding.
+
+## Resource Tracking: What Experienced Players Actually Watch
+
+Most offstage decisions become easier when you track only two resources first: **double jump** and **air dodge**.
+
+- **Double jump spent early:** biggest vulnerability window; path is usually more predictable.
+- **Airdodge spent near ledge:** often creates a forced timing where you can cover the follow-up with reaction.
+- **No primary resources left:** you can pressure the remaining recovery move with lower risk.
+
+Experienced players are not "guessing better." They are reducing guesswork by shrinking the opponent's option tree before swinging.
+
+## Why Double Jump Is the Key Tell
+
+When players burn jump early, they often lose the ability to change height late. That means their recovery line becomes easier to map:
+
+- early jump -> often commits to higher/diagonal return
+- delayed jump -> often commits to lower recovery timing with less escape variety
+
+This is why many strong edgeguards look patient at first: they are waiting to see *when* jump is spent, then punishing the most constrained phase of recovery.
+
+## Recovery Path Theory: High vs Low
+
+### Low recoveries
+Low recoveries are common because stage geometry protects the recovering player. If you challenge too early, you can get clipped, trade badly, or let them wall-tech situations that should have been yours.
+
+Better plan:
+- threaten low without overcommitting
+- force jump/airdodge first
+- intercept the rise timing or cover ledge options after the forced commit
+
+### High recoveries
+High recoveries often happen after conditioning: the opponent fears low interception and burns extra resources to bypass ledge. This can look scary, but it is frequently more punishable if you are already stage-positioned.
+
+Better plan:
+- stay grounded or ledge-adjacent
+- react to landing lane
+- convert into anti-air or landing trap, then continue advantage
+
+## Forcing Commitments Without Throwing Your Stock
+
+You do not always need to hit immediately. Sometimes the best edgeguard tool is a threat:
+
+- drift into intercept range, then pull back
+- show jump-in pressure to bait panic airdodge
+- hold burst range near ledge to make them choose early
+
+This "threat first, hit second" style is what turns random recoveries into readable recoveries.
+
+## Practical Match Scenarios
+
+### Mario edgeguarding Samus
+Samus often wants to vary timing with projectile utility and recovery drift. Instead of chasing deep every time, Mario can hold stage-side jump threat, force an early commit, then cover the next lane with bair/fair timing or ledge pressure.
+
+### Cloud edgeguarding Joker
+If Joker saves jump and drifts low, Cloud should not auto-swing deep. Hold wall-adjacent spacing, force Joker to choose timing, then punish the forced return route or transition to ledgetrap when risk is unfavorable.
+
+### Kirby edgeguarding swordies
+Against long-range recoveries, Kirby players often overextend for spikes and lose stage. A stronger plan is to force one defensive commit first, take a safe hit, then trap ledge and punish panic jump.
 
 ## Common Beginner Mistakes
 
-- Jumping offstage without checking opponent resources.
-- Fishing spikes when a simple hit or ledgetrap would end stock.
-- Not respecting hitboxes on certain recoveries.
-- Failing to preserve jump for your own recovery.
-- Taking low-reward chase routes while ahead.
+- Committing before confirming resource usage.
+- Treating every offstage position like a spike opportunity.
+- Spending your own jump too early and losing return safety.
+- Ignoring stage position and giving up ledge control for low-value damage.
+- Repeating the same interception timing every stock.
 
-## Practical Match Examples
+## What Experienced Players Look For
 
-### Example 1: Opponent recovers low every stock
-Adjustment:
-- Hold ledge height and threaten late intercept.
-- If they start mixing timing, fake commitment then punish regrab or neutral getup.
-- Keep your double jump unless kill is guaranteed.
+- **Resource order:** jump first, airdodge first, or special first?
+- **Panic timing:** do they panic when you threaten, or only when hit?
+- **Recovery lane preference:** do they default to low path, high bypass, or late snap?
+- **Stock-state behavior:** do they get riskier at last stock/high percent?
 
-### Example 2: Opponent recovers high after being hit offstage
-Adjustment:
-- Stay near stage and anti-air recovery drift.
-- Force landing trap instead of deep chase.
-- Convert to [juggling](/glossary/juggling) if edgeguard hit is not free.
+Once you identify one repeatable habit, punish that habit until they prove they changed it.
 
-### Example 3: You lose stock first while edgeguarding
-Adjustment:
-- Reduce chase depth one layer.
-- Prioritize stage hold and [ledgetrapping](/glossary/ledgetrapping).
-- Take guaranteed damage and reset rather than all-in finishers.
+## Adaptation Between Stocks and Games
 
-## Adaptation Tips Between Games
+Use this mini review loop:
 
-- If they save jump late, delay your intercept timing.
-- If they always airdodge near ledge, wait and punish landing.
-- If they recover with hitbox, fake challenge and whiff punish endlag.
-- If your edgeguards are failing, convert to onstage pressure first.
-- If game is last-stock, favor options that cannot throw away your own stock.
+1. What resource did they spend first in pressure?
+2. What did I overcommit to?
+3. What one timing change will I test next stock?
 
-## Opponent Habits and Panic Options
+Example:
+- Stock 1: they always panic airdodge near ledge.
+- Stock 2 plan: fake early interception, wait, punish airdodge landing.
+- Stock 3 plan: if they stop airdodging, shift to jump/ledge route coverage.
 
-Look for:
+That is practical adaptation: one clear branch change at a time.
 
-- Immediate directional airdodge toward stage.
-- Same low angle recovery route every time.
-- Panic jump after first offstage hit.
-- Aggressive recovery hitbox only when behind.
-- Ledge jump panic after surviving edgeguard attempt.
+## Pressure Situations and Ledge Interactions
 
-These habits often appear by game two if you maintain steady pressure.
+Not every edgeguard should end offstage. If direct interception is low odds, preserve stage and force a ledge interaction where you keep advantage.
 
-## Training Mode Ideas
+Good edgeguard flow often looks like:
+- push offstage ->
+- threaten one intercept ->
+- force defensive commit ->
+- return stage ->
+- punish ledge escape habit
 
-### Drill 1: Recovery route recognition (6 minutes)
-- Record three recovery angles.
-- Practice calling route before pressing your option.
+This is also why [beginner ledgetrapping](/guides/beginner-ledgetrapping) and edgeguarding should be trained together, not separately.
 
-### Drill 2: Low-risk edgeguard reps (7 minutes)
-- Practice one safe aerial intercept and immediate return path.
-- Goal: successful challenge without self-destruct risk.
+## Training Mode Ideas (High Transfer)
 
-### Drill 3: Edgeguard-to-ledgetrap handoff (7 minutes)
-- Hit once offstage, then return to stage and trap.
-- Goal: keep advantage regardless of direct kill.
+### Drill 1: Resource callout reps (7 minutes)
+Record three recovery patterns and call "jump" / "airdodge" out loud before choosing coverage.
+
+### Drill 2: High-vs-low reaction reps (8 minutes)
+Set one high and one low recovery pattern. Do not pre-commit. React and cover.
+
+### Drill 3: Force-then-punish reps (8 minutes)
+Use movement threat first, then punish the forced option. Goal is habit punishment, not random hits.
+
+### Drill 4: Edgeguard-to-ledgetrap conversion (7 minutes)
+Land one offstage hit, return safely, and close with ledge pressure.
 
 ## Media Placeholders
 
-- **Clip placeholder:** "Edgeguard vs ledgetrap choice examples with risk commentary."
-- **Diagram placeholder:** "Recovery tree by route type and recommended responses."
-- **Screenshot placeholder:** "Replay timeline with resource checks before offstage commit."
-
-## Improve Your Conversion Chain
-
-If you struggle choosing when to stay onstage, combine this with [beginner ledgetrapping](/guides/beginner-ledgetrapping). If your predictions feel random, review [common recovery habits](/guides/common-recovery-habits) and apply one new read per set.
+- **Clip placeholder:** "Resource-tracking edgeguard sequence: force jump -> force airdodge -> close stock."
+- **Diagram placeholder:** "Edgeguard decision tree: resources, path branch, and low-risk coverage options."
+- **Screenshot placeholder:** "Replay annotation showing where jump was spent and why recovery became predictable."
 
 ## Related Links
 - [Common recovery habits](/guides/common-recovery-habits)
 - [How to recover better](/guides/how-to-recover-better)
+- [Beginner ledgetrapping](/guides/beginner-ledgetrapping)
 - [How to keep advantage](/guides/how-to-keep-advantage)
-- [Neutral game glossary](/glossary/neutral-game)
+- [Ledgetrapping glossary](/glossary/ledgetrapping)
 - [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
