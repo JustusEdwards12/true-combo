@@ -140,12 +140,6 @@ Use movement threat first, then punish the forced option. Goal is habit punishme
 ### Drill 4: Edgeguard-to-ledgetrap conversion (7 minutes)
 Land one offstage hit, return safely, and close with ledge pressure.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Resource-tracking edgeguard sequence: force jump -> force airdodge -> close stock."
-- **Diagram placeholder:** "Edgeguard decision tree: resources, path branch, and low-risk coverage options."
-- **Screenshot placeholder:** "Replay annotation showing where jump was spent and why recovery became predictable."
-
 ## Related Links
 - [Common recovery habits](/guides/common-recovery-habits)
 - [How to recover better](/guides/how-to-recover-better)
