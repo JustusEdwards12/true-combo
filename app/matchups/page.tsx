@@ -1,0 +1,45 @@
+import { ArticleCard } from "@/components/ArticleCard";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getAllMatchups, sortByDateDesc } from "@/lib/content/load";
+import { readingTimeFromMarkdown } from "@/lib/read-time";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Matchups",
+  description:
+    "Smash Ultimate matchup notes: gameplans, neutral patterns, and edge-case answers.",
+  path: "/matchups",
+});
+
+export default function MatchupsPage() {
+  const matchups = sortByDateDesc(getAllMatchups());
+
+  return (
+    <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Matchups" }]} />
+      <h1 className="mt-6 text-3xl font-semibold tracking-tight text-zinc-50">
+        Matchups
+      </h1>
+      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+        Tight, actionable notes—what to respect on reaction, what to call out on
+        prediction, and how to close stocks cleanly.
+      </p>
+      <div className="mt-12 grid gap-5 sm:grid-cols-2">
+        {matchups.map(({ data, content }) => (
+          <ArticleCard
+            key={data.slug}
+            title={data.title}
+            description={data.description}
+            href={`/matchups/${data.slug}`}
+            date={data.date}
+            category={data.category}
+            difficulty={data.difficulty}
+            tags={data.tags}
+            readTimeMinutes={readingTimeFromMarkdown(content)}
+            microLabel="MATCHUP"
+          />
+        ))}
+      </div>
+    </div>
+  );
+}

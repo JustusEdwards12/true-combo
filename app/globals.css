@@ -1,0 +1,262 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050506;
+  --foreground: #fafafa;
+  --muted: #71717a;
+  --accent: #22d3ee;
+  --card: rgba(12, 12, 14, 0.65);
+  --border: rgba(39, 39, 42, 0.85);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.22);
+  color: var(--foreground);
+}
+
+/* —— Homepage atmosphere (decorative) —— */
+.tc-bg-base {
+  background: radial-gradient(
+      ellipse 120% 80% at 50% -30%,
+      rgba(18, 24, 32, 0.9),
+      transparent 55%
+    ),
+    #050506;
+}
+
+.tc-bg-aurora {
+  background: radial-gradient(
+      ellipse 70% 45% at 20% 20%,
+      rgba(34, 211, 238, 0.12),
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 55% 40% at 85% 15%,
+      rgba(139, 92, 246, 0.09),
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse 50% 35% at 60% 95%,
+      rgba(6, 182, 212, 0.06),
+      transparent 45%
+    );
+}
+
+.tc-bg-mesh {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 85% 70% at 50% 40%, black, transparent);
+}
+
+.tc-bg-stage-lines {
+  background: linear-gradient(
+      105deg,
+      transparent 0%,
+      transparent 38%,
+      rgba(63, 63, 70, 0.12) 38.5%,
+      rgba(63, 63, 70, 0.12) 39%,
+      transparent 39.5%,
+      transparent 62%,
+      rgba(63, 63, 70, 0.1) 62.5%,
+      rgba(63, 63, 70, 0.1) 63%,
+      transparent 63.5%
+    ),
+    linear-gradient(
+      to top,
+      rgba(24, 24, 27, 0.85) 0%,
+      rgba(24, 24, 27, 0.35) 28%,
+      transparent 52%
+    );
+}
+
+.tc-bg-scan {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(255, 255, 255, 0.018) 3px,
+    rgba(255, 255, 255, 0.018) 4px
+  );
+  opacity: 0.35;
+  mix-blend-mode: overlay;
+}
+
+.tc-bg-vignette {
+  background: radial-gradient(
+    ellipse 75% 65% at 50% 45%,
+    transparent 30%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+.tc-particles {
+  overflow: hidden;
+}
+
+.tc-particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 9999px;
+  background: rgba(34, 211, 238, 0.35);
+  box-shadow: 0 0 12px rgba(34, 211, 238, 0.25);
+  opacity: 0.5;
+}
+
+.tc-particle:nth-child(1) {
+  left: 12%;
+  top: 22%;
+}
+.tc-particle:nth-child(2) {
+  left: 78%;
+  top: 18%;
+  background: rgba(167, 139, 250, 0.4);
+  box-shadow: 0 0 12px rgba(167, 139, 250, 0.2);
+}
+.tc-particle:nth-child(3) {
+  left: 64%;
+  top: 42%;
+}
+.tc-particle:nth-child(4) {
+  left: 28%;
+  top: 58%;
+  background: rgba(244, 114, 182, 0.35);
+  box-shadow: 0 0 10px rgba(244, 114, 182, 0.15);
+}
+.tc-particle:nth-child(5) {
+  left: 88%;
+  top: 62%;
+}
+.tc-particle:nth-child(6) {
+  left: 8%;
+  top: 72%;
+}
+
+@keyframes tc-aurora-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(-2%, 1.5%, 0) scale(1.03);
+    opacity: 0.88;
+  }
+}
+
+@keyframes tc-scan-drift {
+  0% {
+    transform: translateY(0);
+    opacity: 0.28;
+  }
+  100% {
+    transform: translateY(6px);
+    opacity: 0.38;
+  }
+}
+
+@keyframes tc-float-pulse {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+    opacity: 0.65;
+  }
+}
+
+.tc-anim-aurora {
+  animation: tc-aurora-drift 22s ease-in-out infinite alternate;
+}
+
+.tc-anim-scan {
+  animation: tc-scan-drift 14s ease-in-out infinite alternate;
+}
+
+.tc-anim-float .tc-particle {
+  animation: tc-float-pulse 9s ease-in-out infinite;
+}
+.tc-anim-float .tc-particle:nth-child(2) {
+  animation-duration: 12s;
+  animation-delay: -2s;
+}
+.tc-anim-float .tc-particle:nth-child(3) {
+  animation-duration: 10s;
+  animation-delay: -4s;
+}
+.tc-anim-float .tc-particle:nth-child(4) {
+  animation-duration: 11s;
+  animation-delay: -1s;
+}
+.tc-anim-float .tc-particle:nth-child(5) {
+  animation-duration: 13s;
+  animation-delay: -5s;
+}
+.tc-anim-float .tc-particle:nth-child(6) {
+  animation-duration: 10s;
+  animation-delay: -3s;
+}
+
+/* Section entrance: lightweight, no layout thrash */
+@keyframes tc-reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.tc-home-section {
+  animation: tc-reveal 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--tc-reveal-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tc-anim-aurora,
+  .tc-anim-scan,
+  .tc-anim-float .tc-particle {
+    animation: none !important;
+  }
+  .tc-bg-aurora {
+    transform: none;
+    opacity: 0.92;
+  }
+  .tc-bg-scan {
+    transform: none;
+    opacity: 0.22;
+  }
+  .tc-anim-float .tc-particle {
+    opacity: 0.4;
+    transform: none;
+  }
+  .tc-home-section {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+}
