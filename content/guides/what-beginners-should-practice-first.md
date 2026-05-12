@@ -1,6 +1,6 @@
 ---
 title: "What Beginners Should Practice First"
-description: "A priority stack for new competitors: movement, defense, neutral, and replay habits."
+description: "A practical training roadmap for new players: what to practice first, how to structure sessions, and how to adapt from real matches."
 slug: "what-beginners-should-practice-first"
 date: "2026-05-12"
 category: "Fundamentals"
@@ -9,42 +9,110 @@ difficulty: "Beginner"
 relatedGuides: ["best-training-mode-drills", "best-beginner-characters", "building-better-habits", "why-beginners-lose-neutral"]
 ---
 
-## Intro
+If you are new, your goal is not to master everything. Your goal is to build a game that still works when you are nervous, behind, or facing unfamiliar matchups. The fastest way to do that is prioritization: train the skills that reduce free deaths and improve decision quality first.
 
-Beginners improve fastest by mastering a few high-impact basics. Priority matters more than trying every advanced technique too early.
+## What To Focus On First (Priority Order)
 
-## Practical Examples
+### 1) Movement consistency
+Can you move where you want without thinking? If not, your strategy cannot happen on purpose.
 
-- Week one: movement consistency with short hop and fast-fall control.
-- Week two: defensive stability with teching, landing, and corner escapes.
-- Week three: neutral review with burst range awareness and whiff punishes.
+### 2) Defensive survival
+Most new players lose stocks from panic habits in [disadvantage state](/glossary/disadvantage-state), not from getting outplayed in neutral.
 
-## Common Mistakes
+### 3) Neutral structure
+Learn one stable way to enter mid-range and one way to punish whiffs. Keep it simple.
 
-- Skipping fundamentals to chase character-specific tech only.
-- Practicing too many skills in one session.
-- Ignoring replay review until bad habits are entrenched.
+### 4) Advantage conversion
+When you win neutral, turn it into corner pressure, then ledgetrap or edgeguard. Do not skip the position step.
 
-## Focus First
+### 5) Replay correction loop
+If you do not review why you lost stocks, training quickly becomes random.
 
-Follow a three-block routine each session: execution warmup, scenario drill, replay notes.
+## Common Beginner Mistakes In Practice Plans
 
-## In-Match Adjustments
+- Practicing ten skills per session and retaining none.
+- Grinding high-execution combos before fixing panic options.
+- Doing only training mode without any "decision" drills.
+- Never testing whether the skill survives in real matches.
+- Ignoring opponent habits and only watching your own mistakes.
 
-- If overwhelmed, cut practice list to two skills.
-- If plateauing, revisit neutral and defensive basics.
-- If tournament nerves hit, lean on your most drilled defaults.
+## Practical Match Examples: Converting Training Into Results
 
-## Quick Tips
+### Example 1: You lose to mashy pressure
+Training focus:
+- Out-of-shield punish consistency.
+- Landing without immediate panic aerial.
 
-- Consistency is the first competitive skill.
-- Simple routines beat random grinding.
-- Measure progress in decision quality, not clips.
+In-match adaptation:
+- Block first hit, then wait for overextension.
+- If you keep pressing while trapped, commit to one defensive default per stock.
 
-## Related Links
-- [Best training mode drills](/guides/best-training-mode-drills)
-- [Best beginner characters](/guides/best-beginner-characters)
-- [Building better habits](/guides/building-better-habits)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+### Example 2: You cannot approach zoners
+Training focus:
+- Walk-shield spacing.
+- Jump timing variation.
+
+In-match adaptation:
+- Claim center slowly.
+- Force zoner into corner where projectile routes are weaker.
+- Punish panic jumps once they run out of space.
+
+### Example 3: You win neutral but drop stocks
+Training focus:
+- One low-risk ledgetrap sequence.
+- One guaranteed kill confirm at common percents.
+
+In-match adaptation:
+- Stop chasing deep edgeguards if your character is weak offstage.
+- Keep [stage control](/glossary/stage-control), force a ledge guess, then close stock.
+
+## Adaptation Tips (Set-To-Set)
+
+- If your approach keeps failing, spend one game only collecting habits.
+- If you are getting hit by burst options, play just outside [burst range](/glossary/burst-range) and punish entry.
+- If opponents shield a lot, use delayed pressure and grab checks to test [shield-pressure](/glossary/shield-pressure) discipline.
+- If you panic at kill percent, choose one "safe reset" option before each stock starts.
+- Between games, ask one concrete question: "Where did I lose neutral most often?"
+
+## Opponent Habits and Panic Options To Track
+
+Track these because they are common at beginner and intermediate levels:
+
+- Defensive roll from corner.
+- Immediate jump from ledge.
+- Attack after being minus on shield.
+- Airdodge toward center while landing.
+- Dash-in panic when behind in percent.
+
+If you can identify two of these in one game, you can usually call them out in game two.
+
+## Training Mode Ideas (20-Minute Session)
+
+### Block A - Execution warmup (6 minutes)
+- Short hop + fast fall control.
+- Dash stop precision at key spacings.
+
+### Block B - Scenario reps (8 minutes)
+- Corner defense repetition.
+- Ledge trap route for one common getup option.
+
+### Block C - Decision rehearsal (6 minutes)
+- Record CPU behavior.
+- Practice patience into punish, not immediate swing.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two-game adaptation example from panic rolls to roll punish."
+- **Diagram placeholder:** "Beginner priority pyramid: survive -> neutral -> convert."
+- **Screenshot placeholder:** "Simple replay log sheet with one correction per set."
+
+## Build A Stable Week Plan
+
+Use this weekly loop:
+
+- **Day 1-2:** movement + defense.
+- **Day 3-4:** neutral entry + whiff punish.
+- **Day 5:** advantage conversion and closeouts.
+- **Day 6:** review sets and rewrite next week's priorities.
+
+If you want a drill bank for this structure, combine it with [best training mode drills](/guides/best-training-mode-drills), then check [common beginner mistakes](/guides/common-beginner-mistakes) after every ranked session to keep your plan honest.

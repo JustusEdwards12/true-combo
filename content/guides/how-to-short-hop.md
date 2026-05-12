@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["what-is-neutral", "how-to-fast-fall-consistently", "best-training-mode-drills", "how-to-stop-autopiloting"]
 ---
 
-## Intro
+Making short hop execution useful in real neutral, pressure, and movement choices is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: connect short hop consistency to spacing control and safer approach layers.
 
-Short hop consistency is less about hand speed and more about rhythm. Competitive players use short hops to threaten space while staying ready to shield, whiff punish, or reset center.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Short hopping with no spacing purpose.
+- Always adding aerial immediately.
+- Using one jump rhythm that gets anti-aired.
+- Forgetting grounded threat while tunnel-visioning on jumps.
 
-- Mario short-hop back air at max range, then drift out to avoid a panic grab.
-- Cloud short-hop empty land into dash back to bait a jump, then anti-air the swing.
-- Run a 2-minute drill: alternate empty short hop, short-hop aerial, and short-hop fast-fall aerial.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Treating short hop as an input test instead of a spacing tool.
-- Only jumping forward, which makes your timing readable by stock two.
-- Autopiloting aerial every short hop instead of mixing empty landings.
+### Approach prediction
+Opponent anti-airs your repeated short-hop aerial. Use empty short hop and delayed aerial rhythm to force mistimed anti-air responses.
+### Shield pressure entry
+You land in front of shield every time. Drift spacing to safer contact point and prepare OOS bait.
+### Corner escape jump
+Short-hop panic at ledge gets stuffed. Use grounded exits and reserve jump as mixed timing escape.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Pick one spacing marker on stage and repeat 30 clean short-hop reps from that marker. If the rep drifts too far in, reset immediately. Quality beats volume.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If anti-aired repeatedly, switch to empty short hop into shield or dash back.
-- If your aerial keeps hitting shield, delay timing and land farther outside grab range.
-- If your hands tense up, simplify to empty short hops for one game to reset rhythm.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Use short hop to ask questions, not force openings.
-- Record your inputs in training mode and count accidental full hops.
-- Pair short hop practice with fast-fall control for real matches.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [Fast-fall consistency](/guides/how-to-fast-fall-consistently)
-- [Best training mode drills](/guides/best-training-mode-drills)
-- [How to stop autopiloting](/guides/how-to-stop-autopiloting)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Immediate aerial on every jump.
+- Predictable jump timing after dash.
+- Fast-fall autopilot regardless of spacing.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Empty vs aerial ratio drill (8 minutes)
+Alternate empty short hops and aerial short hops to break rhythm.
+### Drift control reps (8 minutes)
+Practice landing short hops at three exact spacings.
+### Pressure transfer set (10 minutes)
+Use short hop only when it supports a clear neutral or pressure goal.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-short-hop` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [how to fast fall consistently](/guides/how-to-fast-fall-consistently), [how to space safely](/guides/how-to-space-safely), [anti-airing glossary](/glossary/anti-airing), [what is neutral](/guides/what-is-neutral). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

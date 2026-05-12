@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-keep-advantage", "landing-safely", "understanding-stage-control", "improve-advantage-state"]
 ---
 
-## Intro
+Controlling airborne opponents with positioning and anti-air patience is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: convert anti-air openings into sustained advantage without overcommitting.
 
-Juggling is controlled anti-air pressure. You are tracking landing resources and forcing predictable descent, not endlessly chasing with up smashes.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Jumping too high and losing stage control.
+- Swinging early against airdodge.
+- Forcing kill move instead of extending pressure.
+- Ignoring landing drift patterns.
 
-- After launcher, position under landing lane and wait for drift before swinging.
-- Cover platform tech options with delayed anti-air timing.
-- Punish panic airdodge by holding ground and striking landing lag.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Jumping first and losing under-positioning.
-- Swinging before confirming landing route.
-- Ignoring opponent double-jump usage.
+### Airdodge panic
+Opponent airdodges to center when juggled. Delay aerial and punish landing lag path.
+### Fast-fall mix
+Opponent changes fall timing to escape. Track drift lane first, then challenge descent with grounded anti-air.
+### Corner landing trap
+Opponent drifts to ledge to escape juggle. Transition to ledgetrap structure and punish jump option.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Train one launcher into juggle route and one anti-air reset when combo ends.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If opponent lands aggressively, shield once then punish.
-- If they drift out, keep center and trap re-entry.
-- If they airdodge often, delay button and catch landing.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Positioning under opponent matters most.
-- Count jump and airdodge before committing.
-- Resetting juggle is still a win.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Landing safely](/guides/landing-safely)
-- [Improve advantage state](/guides/improve-advantage-state)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Overcommitting vertically.
+- Losing center after one anti-air attempt.
+- Not tracking jump usage.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Landing lane drill (8 minutes)
+Record three drift paths and practice coverage with minimal overcommitment.
+### Airdodge punish reps (8 minutes)
+Delay anti-air by one beat to catch panic timing.
+### Juggle-to-ledge sequence (10 minutes)
+Start from anti-air and end with ledge trap without losing center.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `juggling-basics` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [juggling glossary](/glossary/juggling), [anti-airing glossary](/glossary/anti-airing), [beginner ledgetrapping](/guides/beginner-ledgetrapping), [how to keep advantage](/guides/how-to-keep-advantage). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

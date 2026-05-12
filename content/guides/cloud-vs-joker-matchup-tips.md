@@ -1,6 +1,6 @@
 ---
 title: "Cloud vs Joker Matchup Tips"
-description: "Practical spacing and tempo tips for one of Ultimate's high-speed sword vs mobility matchups."
+description: "A practical Cloud vs Joker guide covering spacing warfare, Arsene tempo shifts, and adaptation between games."
 slug: "cloud-vs-joker-matchup-tips"
 date: "2026-05-12"
 category: "Matchup"
@@ -9,37 +9,94 @@ difficulty: "Intermediate"
 relatedGuides: ["cloud-beginner-guide", "how-to-space-safely", "burst-range-explained", "how-to-read-opponents"]
 ---
 
-## Intro
+Cloud vs Joker is a tempo matchup. Cloud wants to keep the game at sword range with deliberate pressure; Joker wants to break rhythm with movement, whiff punishes, and Arsene momentum swings. Whoever controls pace usually controls neutral.
 
-Cloud vs Joker revolves around spacing tempo. Cloud wants controlled walling, while Joker wants to crack rhythm with movement and whiff punishes.
+## What To Focus On First
 
-## Practical Examples
+### 1) Spacing discipline
+Cloud must avoid giving Joker free scramble entries. Joker must avoid jumping into pre-positioned anti-air lanes.
 
-- Cloud should hold back air lane and avoid predictable landing timings.
-- Joker should threaten dash-in feints to force premature sword swings.
-- Both sides benefit from corner pressure instead of risky offstage chases.
+### 2) Resource and tempo awareness
+Arsene changes risk/reward. During Arsene, Cloud should simplify and protect stage; Joker should push advantage without overextending.
 
-## Common Mistakes
+### 3) Ledge flow decisions
+Both characters can pressure ledge hard. Smart players choose stable traps over low-percentage hard reads.
 
-- Cloud overswinging once Joker enters scramble range.
-- Joker jumping into pre-positioned anti-air space.
-- Ignoring Arsene timer and tempo swings.
+## Common Mistakes For Both Sides
 
-## Focus First
+- Cloud overswinging after one blocked aerial.
+- Cloud spending Limit without clear positional gain.
+- Joker forcing dash-in at bad [burst range](/glossary/burst-range).
+- Joker autopilot jump-ins against anti-air coverage.
+- Both sides overchasing edgeguards and losing stage.
 
-Drill one neutral sequence for each side: walling sequence for Cloud and bait-punish sequence for Joker.
+## Practical Match Examples
 
-## In-Match Adjustments
+### Example 1: Joker keeps weaving around Cloud aerials
+Cloud adjustment:
+- Swing less often.
+- Use dash stop threat to bait entry.
+- Punish Joker's second movement, not the first.
 
-- If Joker parries consistently, Cloud should vary aerial timing.
-- If Cloud walls too far back, Joker should claim center for free.
-- If stocks are close, both players should prioritize stage over raw kill swings.
+### Example 2: Cloud's walling is too passive
+Joker adjustment:
+- Take center stage for free instead of forcing immediate hit.
+- Bait panic aerial and [whiff punish](/glossary/whiff-punishing).
+- Corner Cloud before hunting kill.
 
-## Quick Tips
+### Example 3: Arsene appears and neutral becomes chaotic
+Cloud adjustment:
+- Reduce risk and keep stage.
+- Avoid committal anti-air guesses.
+- Force Joker to approach into sword lane.
 
-- Range discipline decides this matchup.
-- Tempo changes matter more than single interactions.
-- Conditioning creates the biggest openings.
+Joker adjustment:
+- Threaten burst but avoid trading your lead on hard reads.
+- Use Arsene pressure to force ledge, then trap escapes.
+
+## Adaptation Tips Between Games
+
+- If Cloud's aerial timing gets parried, delay and vary landing rhythm.
+- If Joker dashes under aerial lanes, lower spacing and threaten grounded buttons.
+- If Cloud backs up too far, Joker should claim stage before pressing.
+- If Joker overuses defensive roll at ledge, Cloud can hold position and punish path.
+- If Arsene windows are wasted, Joker should prioritize stage gain over raw damage.
+
+## Opponent Habits and Panic Options
+
+Look for:
+
+- Cloud panic up-B out of pressure.
+- Cloud defensive jump from corner.
+- Joker panic airdodge to center while landing.
+- Joker immediate dash-back after blocked approach.
+- Last-stock defensive shielding when pressure starts.
+
+Habit reads matter more than one-time guesses in this matchup.
+
+## Training Mode Ideas
+
+### Drill 1: Cloud anti-entry spacing (7 minutes)
+- Record Joker dash feint + burst.
+- Practice punishing second movement beat.
+
+### Drill 2: Joker whiff punish rhythm (7 minutes)
+- Record Cloud aerial walling patterns.
+- Practice delayed punish, not preemptive dash-in.
+
+### Drill 3: Arsene phase plan (6 minutes)
+- Rehearse one low-risk gameplan for Arsene active and inactive states.
+- Goal: stable decisions under tempo swing.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Cloud adapting aerial timing after repeated parries."
+- **Diagram placeholder:** "Cloud wall zone vs Joker entry lanes."
+- **Screenshot placeholder:** "Set notes tracking Arsene phase decisions."
+
+## Follow-Up Study
+
+Use [cloud beginner guide](/guides/cloud-beginner-guide) for baseline Cloud structure and [how to read opponents](/guides/how-to-read-opponents) to sharpen adaptation in longer sets where both players change tempo repeatedly.
 
 ## Related Links
 - [Cloud character page](/characters/cloud)

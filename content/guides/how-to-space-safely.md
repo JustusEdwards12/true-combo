@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["burst-range-explained", "how-to-whiff-punish", "how-to-improve-shield-pressure", "what-is-neutral"]
 ---
 
-## Intro
+Maintaining threatening positions while minimizing punish risk is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: win neutral by controlling distance, timing, and retreat paths.
 
-Safe spacing means your hitbox reaches first or your hurtbox exits before retaliation. Strong players build spacing around burst range and drift control.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Swinging from outside effective range.
+- Holding one spacing regardless of matchup speed.
+- Backing up too far and surrendering center.
+- Entering burst range without exit route.
 
-- Cloud back air at tip range where shield grab cannot reach.
-- Mario drift-back neutral air to test reactions before re-engaging.
-- Walk-in, walk-out footsies to bait dash attack.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Dashing in at full speed every interaction.
-- Spacing with no awareness of opponent burst range.
-- Swinging from max range with no follow-up plan.
+### Swordie wall spacing
+You challenge sword tip directly and lose trades. Shift one step outside range, bait swing, then punish end position.
+### Rushdown pressure spacing
+Opponent overshoots dash entries. Hold stop-point spacing and punish the overextension lane.
+### Ledge pressure spacing
+You stand too close and eat getup attack. Maintain coverage spacing that still threatens jump and neutral getup.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Pick two spacing markers on each legal stage and practice entering/exiting those zones.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If punished on shield, drift farther before button.
-- If opponent camps, claim space by walking and shield discipline.
-- If they overshoot, hold your ground and whiff punish.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Spacing is movement plus timing, not only distance.
-- Use hit-confirm windows instead of blind commitment.
-- Track where your safest aerial actually lands.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [Burst range explained](/guides/burst-range-explained)
-- [How to whiff punish](/guides/how-to-whiff-punish)
-- [What is neutral](/guides/what-is-neutral)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Drifting in after blocked move.
+- Panic shield inside burst range.
+- Jumping backward every reset.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Threat ring drill (8 minutes)
+Mark preferred spacing ring and rehearse movement around it.
+### Whiff window reps (8 minutes)
+Punish only when opponent attack fully misses.
+### Spacing hold mini-set (10 minutes)
+Play for center control and safe contact points over damage race.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-space-safely` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [burst range explained](/guides/burst-range-explained), [whiff punishing glossary](/glossary/whiff-punishing), [stage control glossary](/glossary/stage-control), [swordie matchup fundamentals](/matchups/swordie-matchup-fundamentals). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

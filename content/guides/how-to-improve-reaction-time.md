@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["best-training-mode-drills", "burst-range-explained", "landing-safely", "how-to-stop-autopiloting"]
 ---
 
-## Intro
+Improving practical reactions through better anticipation, positioning, and pattern recognition is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: shift from raw-speed obsession to reaction-ready setup and habit reads.
 
-Reaction time in Smash is mostly pattern recognition plus good positioning. You react faster when your spacing narrows the number of possibilities.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Training random visual drills with no match transfer.
+- Standing too close for realistic reaction windows.
+- Ignoring anticipation cues in neutral.
+- Calling every late decision a reaction problem.
 
-- Use training mode playback for one burst option and one anti-air response.
-- Practice ledge reaction by covering only jump and neutral getup first.
-- Set five-minute blocks for visual confirm punishes instead of guess swings.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Training random speed tests that do not map to game states.
-- Standing too close and needing impossible reactions.
-- Expecting instant gains without repeated scenario drilling.
+### Ledge option punish
+You cannot react to jump/roll mix. Stand at a spacing where two options are reactable and pre-cover the third.
+### Burst check neutral
+Opponent overshoots dash timing. Hold outside burst range so reaction window becomes manageable.
+### Pressure scramble
+You mash because reads feel too fast. Slow pace with shield or movement reset and react to second action.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Prioritize reaction drills tied to your biggest stock-loss situations, not generic exercises.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If late on punishes, widen spacing to buy recognition time.
-- If overreacting, hold shield and confirm before swinging.
-- If mentally overloaded, reduce options you are trying to cover.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Good positioning creates better reactions.
-- Scenario reps beat broad reaction gimmicks.
-- Pair reaction training with VOD review tags.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [Best training mode drills](/guides/best-training-mode-drills)
-- [Burst range explained](/guides/burst-range-explained)
-- [How to stop autopiloting](/guides/how-to-stop-autopiloting)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Overfocusing on speed instead of pre-positioning.
+- Reacting from panic distances.
+- Ignoring repeated option timing cues.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Two-option reaction drill (8 minutes)
+Record two options and react from optimal spacing only.
+### Cue recognition reps (8 minutes)
+Practice identifying startup cues before punish attempt.
+### Set transfer block (10 minutes)
+Play short sets where reaction goal is one scenario only.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-improve-reaction-time` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [how to read opponents](/guides/how-to-read-opponents), [burst range explained](/guides/burst-range-explained), [mental stack](/glossary/mental-stack), [ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

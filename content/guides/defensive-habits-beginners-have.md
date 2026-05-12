@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-avoid-panic-options", "best-oos-options", "escaping-the-corner", "how-to-tech"]
 ---
 
-## Intro
+Fixing recurring defensive mistakes that turn survivable positions into stock losses is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: replace panic defense with predictable, low-risk escape structures.
 
-Beginner defense usually fails from predictability: same shield timing, same jump panic, same roll path. Fixing one habit can instantly raise set consistency.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Roll-spamming from corner.
+- Always jumping after shielding pressure.
+- Attacking from disadvantage instead of resetting.
+- Airdodging to center every juggle.
 
-- Shield hold too long, then panic roll when pressure escalates.
-- Jump from corner at first sign of danger.
-- Airdodge toward center every juggle scenario.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Defending without stage-awareness context.
-- Mashing options before confirming opponent commitment.
-- Trying to solve every situation with one defensive button.
+### Cornered under pressure
+Opponent reads roll and jump repeatedly. Pre-plan a three-option escape order and rotate intentionally by stock.
+### Landing panic
+You press aerial every descent and get punished. Delay landing hitboxes and choose empty land plus shield more often.
+### Ledge desperation
+You pick getup attack at obvious timings. Return to spacing-first exits and punish overcommit afterward.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Audit your three most common defensive losses and assign one better default to each.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If grabbed from shield repeatedly, move before pressure locks in.
-- If jumps are read, delay jump timing and drift mix.
-- If rolls are punished, use hold-position and spot-dodge mix sparingly.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Defense is option rotation plus patience.
-- Your best defense is often spacing earlier.
-- Track defensive habits by percent and stage side.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [How to avoid panic options](/guides/how-to-avoid-panic-options)
-- [Best OOS options](/guides/best-oos-options)
-- [Escaping the corner](/guides/escaping-the-corner)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Immediate jump from ledge.
+- Directional airdodge toward center while juggled.
+- Mash after blocking minus pressure.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Corner escape rotation (8 minutes)
+Practice wait, roll timing mix, and jump variation in sequence.
+### Landing patience reps (8 minutes)
+Land without pressing for ten reps before adding one counter-hit.
+### Defensive note loop (8 minutes)
+Review one lost stock and write exact panic trigger and replacement.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `defensive-habits-beginners-have` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [how to avoid panic options](/guides/how-to-avoid-panic-options), [disadvantage state](/glossary/disadvantage-state), [escaping the corner](/guides/escaping-the-corner), [panic options glossary](/glossary/panic-options). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-fight-zoners", "burst-range-explained", "how-to-improve-reaction-time", "understanding-stage-control"]
 ---
 
-## Intro
+Handling repetitive projectile patterns without losing pace, patience, or stage is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: convert frustration matchups into structured anti-zoner decision-making.
 
-Projectile spam feels overwhelming when you challenge from bad ranges. Structured movement and shield timing convert spam into predictable patterns.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Jumping over every projectile on instinct.
+- Trying to punish startup from full screen.
+- Giving up center after each block sequence.
+- Tilting after chip damage and forcing risky entries.
 
-- Dash in small bursts between projectiles instead of full commits.
-- Short-hop over low projectiles only when spacing allows safe landing.
-- Take center after each successful avoid instead of swinging instantly.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Jumping from full screen on autopilot.
-- Shielding forever without claiming space.
-- Swinging through projectile hitboxes without setup.
+### Fast projectile rhythm
+Opponent fires repeatedly from safe distance. Walk-shield to mid-range, then punish follow-up option instead of first projectile.
+### Corner lock sequence
+You are trapped by projectile plus anti-air threat. Use timing variation to escape and reset center before engaging.
+### Lead management
+You get an early lead and still force approaches. Hold position and make zoner come forward into your punish windows.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Identify one projectile rhythm you can consistently bypass, then build your punish route from that entry.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If spam speed increases, slow your approach and block-select.
-- If zoner runs away, walk forward and trap corner exits.
-- If hit repeatedly, reset and adjust burst range.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Most spam has spacing weaknesses.
-- Small space gains add up quickly.
-- Do not rush the punish before position is won.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [How to fight zoners](/guides/how-to-fight-zoners)
-- [Burst range explained](/guides/burst-range-explained)
-- [How to improve reaction time](/guides/how-to-improve-reaction-time)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Panic jump after taking one projectile hit.
+- Dash-in commit after every shield block.
+- Ignoring opponent roll panic once cornered.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Walk-shield lane drill (8 minutes)
+Advance to mid-range with minimal jump usage.
+### Rhythm read reps (8 minutes)
+Record fast and delayed projectiles; react to tempo change.
+### Corner conversion drill (10 minutes)
+Start with zoner at ledge and practice safe jump/roll coverage.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `dealing-with-projectile-spam` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [how to fight zoners](/guides/how-to-fight-zoners), [anti-projectile counterplay](/matchups/anti-projectile-counterplay), [zoner matchup fundamentals](/matchups/zoner-matchup-fundamentals), [stage control glossary](/glossary/stage-control). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-stop-autopiloting", "building-better-habits", "why-beginners-lose-neutral", "what-beginners-should-practice-first"]
 ---
 
-## Intro
+Understanding gsp expectations so players train correctly instead of chasing rank swings is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: connect ranking fluctuations to decision quality and long-term progression habits.
 
-GSP reflects online outcomes, not total competitive skill. Treat it like a thermometer: useful trend signal, terrible identity metric.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Treating short-term GSP drops as evidence training failed.
+- Changing strategy every two losses.
+- Playing tilted sessions that reinforce bad habits.
+- Ignoring replay review because rank moved up anyway.
 
-- Use quickplay to gather matchup reps, then lab the exact neutral losses that repeat.
-- If your GSP climbs but offline results stall, compare your risk patterns between environments.
-- Run first-to-fives in arena to test adaptation beyond one-game volatility.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Changing main after short losing streaks.
-- Grinding only for number recovery instead of skill goals.
-- Reinforcing lag-dependent habits that fail offline.
+### Rank spike then crash
+You gain points quickly, then lose to adaptation gaps. Treat rank swings as feedback on consistency, not as proof of character strength.
+### Late-session tilt queue
+After multiple losses, decision quality falls hard. Stop queueing and run focused drill block tied to recurring loss condition.
+### Plateau period
+You hover around same rank for weeks. Track neutral-win conversion and panic-death rate to find real growth targets.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Attach one learning objective to each online block, like anti-zoner spacing or ledge discipline. Stop after objective quality drops.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If opponents mash unsafe burst options online, tighten punish timing instead of matching chaos.
-- If connection quality is unstable, shift to movement and spacing drills.
-- If tilt rises, end session and run training mode fundamentals.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Use GSP trend lines, not single-session spikes.
-- Offline validation keeps online habits honest.
-- Track decision quality, not only wins.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [Building better habits](/guides/building-better-habits)
-- [What beginners should practice first](/guides/what-beginners-should-practice-first)
-- [Why beginners lose neutral](/guides/why-beginners-lose-neutral)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Queueing while frustrated.
+- Playing for rank recovery instead of improvement goals.
+- Ignoring matchup notes between games.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Rank-neutral routine (10 minutes)
+Before queue: one movement drill, one defense drill, one adaptation focus.
+### Post-session review (10 minutes)
+Tag three stocks: neutral loss, defensive panic, closeout miss.
+### Weekly baseline check
+Compare decision metrics, not just current GSP number.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-gsp-works` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [building better habits](/guides/building-better-habits), [matchup adaptation between games](/matchups/matchup-adaptation-between-games), [mental stack](/glossary/mental-stack), [what beginners should practice first](/guides/what-beginners-should-practice-first). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

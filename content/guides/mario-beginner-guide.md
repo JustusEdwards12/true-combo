@@ -1,6 +1,6 @@
 ---
 title: "Mario: Beginner Guide for Smash Ultimate"
-description: "Coaching-style Mario fundamentals: practical confirms, pressure flow, and matchup-ready adjustments."
+description: "A practical Mario roadmap focused on spacing, burst threat, conversion discipline, and matchup adaptation."
 slug: "mario-beginner-guide"
 date: "2026-05-12"
 category: "Character"
@@ -9,37 +9,88 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-whiff-punish", "how-to-keep-advantage", "landing-safely", "mario-vs-samus-matchup-basics"]
 ---
 
-## Intro
+Mario wins when you play compact, disciplined offense: get in with purpose, convert cleanly, keep stage, and avoid greedy overextensions. He can do a lot, but beginners improve faster when they use a repeatable gameplan instead of forcing combo clips every neutral win.
 
-Mario rewards clean neutral wins and disciplined advantage routing. Your goal is to win close range without forcing unsafe ladders every opening.
+## What To Focus On First
 
-## Practical Examples
+### 1) Neutral entry without autopilot
+Mario's approach is strong, but linear full-hop entries get anti-aired. Learn to rotate between grounded threat, empty movement, and delayed aerial timing.
 
-- Use fireball at mid-range to force jump, then anti-air with up air.
-- At ledge, threaten back air while preserving center stage.
-- After down throw at low percent, prioritize consistent follow-up over max extension.
+### 2) Reliable starter routes
+Pick one low-percent and one mid-percent route you can land in sets. Do not chase max damage until your confirms are stable under pressure.
 
-## Common Mistakes
+### 3) Ledge conversion
+Many Mario players win neutral but fail to close stocks. Build one ledgetrap flowchart and repeat it before adding reads.
 
-- Fishing up-smash when a corner trap would be safer.
-- Running in with the same full-hop aerial rhythm.
-- Overextending ladders and losing stage when combo drops.
+## Common Beginner Mistakes With Mario
 
-## Focus First
+- Dash-in aerial from too far away, losing to disjoints.
+- Forcing up-smash in neutral instead of pushing to corner first.
+- Extending combo too hard and giving up [stage control](/glossary/stage-control).
+- Panic up-B out of shield when a safer reset was available.
+- Chasing edgeguards offstage against recoveries that are better trapped on ledge.
 
-Master one bread-and-butter starter at low and mid percent plus one ledge trap pattern. Consistency wins more than highlight routes.
+## Practical Match Examples
 
-## In-Match Adjustments
+### Example 1: Opponent keeps anti-airing your jump-in
+Adjustment:
+- Approach with more ground movement.
+- Use fireball to force commitment first.
+- Hold just outside their [burst range](/glossary/burst-range), then punish whiff.
 
-- If opponents shield fireball, threaten grab or empty hop.
-- If anti-aired repeatedly, mix grounded burst range traps.
-- If juggled heavily, prioritize safe landings over reversal swings.
+### Example 2: You get cornered after dropped combos
+Adjustment:
+- End routes earlier if extension is uncertain.
+- Keep center and force them to escape rather than gambling offstage.
+- If they panic jump from corner, anti-air and loop back into advantage.
 
-## Quick Tips
+### Example 3: You cannot close stocks
+Adjustment:
+- Stop hunting raw kills from center.
+- Push to ledge using safe pressure.
+- Cover jump and neutral getup first; add roll hard-read only after pattern appears.
 
-- Mario wins through pressure tempo, not pure rushdown.
-- Use advantage to corner first, kill second.
-- Keep your recovery route varied even when ahead.
+## Adaptation Tips Between Games
+
+- If they shield fireball consistently, run empty movement into grab threat.
+- If they mash after your pressure, space to bait and [whiff punish](/glossary/whiff-punishing).
+- If they airdodge in landing panic, delay anti-air to catch descent.
+- If they DI your combo route out, switch to guaranteed damage and reset.
+- If they reverse juggle often, value stable landings over risky counter-swings.
+
+## Opponent Habits and Panic Options To Exploit
+
+- Immediate roll after corner shielding.
+- Jump from ledge at same timing every stock.
+- Mash attack after blocked aerial.
+- Panic airdodge to stage when juggled.
+- Unsafe burst option when behind.
+
+Call one habit early, then structure your advantage around it.
+
+## Training Mode Ideas For Mario
+
+### Drill 1: Entry spacing (6 minutes)
+- Practice stopping at threat range, then reacting.
+- Goal: no blind aerials from outside range.
+
+### Drill 2: Confirm stability (8 minutes)
+- Rehearse two core follow-up routes from common starters.
+- Goal: consistent damage, no drops from overextension.
+
+### Drill 3: Ledge closeout (6 minutes)
+- Practice covering jump and neutral getup first.
+- Goal: stocks closed with position, not desperation.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Mario anti-airing repeated ledge jumps."
+- **Diagram placeholder:** "Mario neutral entry layers: ground feint, fireball check, burst punish."
+- **Screenshot placeholder:** "Replay note showing dropped extension vs safe reset decision."
+
+## Related Practice Routes
+
+Pair this with [how to keep advantage](/guides/how-to-keep-advantage) if you win neutral but lose stocks, and review [mario vs samus matchup basics](/guides/mario-vs-samus-matchup-basics) for anti-zoner pacing.
 
 ## Related Links
 - [Mario character page](/characters/mario)

@@ -1,6 +1,6 @@
 ---
 title: "Mario vs Samus Matchup Basics"
-description: "A realistic gameplan for Mario players navigating Samus zoning and corner pressure."
+description: "A realistic Mario vs Samus gameplan focused on anti-projectile pacing, burst-range discipline, and ledge conversion."
 slug: "mario-vs-samus-matchup-basics"
 date: "2026-05-12"
 category: "Matchup"
@@ -9,37 +9,90 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-fight-zoners", "how-to-space-safely", "mario-beginner-guide", "dealing-with-projectile-spam"]
 ---
 
-## Intro
+Mario vs Samus is usually decided by patience and stage positioning, not raw aggression. Mario wants to enter mid-range without eating charge shot tempo; Samus wants to force predictable jumps and trap landings. If Mario gets impatient, Samus controls the whole pace. If Mario enters cleanly and keeps corner pressure, the matchup swings fast.
 
-Mario vs Samus is a patience test. Mario must close space without giving Samus clean anti-air and charge shot tempo.
+## What To Focus On First
 
-## Practical Examples
+### 1) Entry discipline
+Use walk-shield, controlled drift, and fireball checks to enter space safely. Do not commit from full stage.
 
-- Use fireball and walk-shield to claim mid-range before committing.
-- At ledge, hold position for jump and neutral getup rather than chasing offstage recklessly.
-- Punish predictable missile rhythm with jump timing mix and grounded burst.
+### 2) Mid-range threat
+At mid-range, force Samus to pick between anti-air, shield, or retreat. Punish whichever becomes predictable.
 
-## Common Mistakes
+### 3) Corner conversion
+When you corner Samus, preserve stage and make ledge decisions hard. Overchasing offstage often gives Samus reset.
 
-- Full-hop approaching from too far away.
-- Swinging early into Samus shield at max range.
-- Ignoring Samus ledgetrap threat after overextended edgeguard.
+## Common Beginner Mistakes In This Matchup
 
-## Focus First
+- Full-hop approach from outside your real threat zone.
+- Forcing fireball rhythm that Samus can jump over and punish.
+- Swinging early on shield and losing to out-of-shield responses.
+- Chasing offstage without confirming Samus resources.
+- Panicking in corner and giving Samus ledgetrap loops.
 
-Focus on two entries into mid-range and one corner conversion route per game.
+## Practical Match Examples
 
-## In-Match Adjustments
+### Example 1: Samus holds charge and waits
+Adjustment:
+- Do not force immediate entry.
+- Feint approach to bait jump or defensive option.
+- Take center first, then pressure with mixed timing.
 
-- If charge shot is held, fake approach and bait defensive jump.
-- If Samus stays grounded, pressure shield with spaced aerial then grab mix.
-- If you are cornered, escape first before contesting projectile setup.
+### Example 2: You get clipped trying to jump in
+Adjustment:
+- Reduce jump frequency in neutral.
+- Approach in shorter segments with shield checks.
+- Punish anti-air whiffs at [burst range](/glossary/burst-range).
 
-## Quick Tips
+### Example 3: Samus escapes corner repeatedly
+Adjustment:
+- Stop chasing immediate kill.
+- Cover jump and roll with position-first ledgetrap.
+- If Samus chooses neutral getup shield often, delay and grab.
 
-- Damage race favors Samus at long range.
-- Mario wins by controlled mid-range entries.
-- Keep your anti-zoner patience throughout the set.
+## Adaptation Tips Between Games
+
+- If missile rhythm is predictable, pre-position for intercept instead of reacting late.
+- If Samus retreat-jumps frequently, hold ground and anti-air landing path.
+- If charge shot punishes your jump startup, stay grounded longer and threaten dash stop.
+- If your corner escapes fail, simplify to one low-risk escape option first.
+- If Samus shields under pressure, vary [shield-pressure](/glossary/shield-pressure) timing before committing.
+
+## Opponent Habits and Panic Options
+
+Samus players under pressure often show:
+
+- Jump from corner after first blocked hit.
+- Roll in after shielding at ledge.
+- Defensive charge hold waiting for unsafe commitment.
+- Airdodge to stage when anti-aired.
+- Panic tether timing when resources are low.
+
+Read one habit early, punish it twice, then expect a counter-adjustment.
+
+## Training Mode Ideas For This Matchup
+
+### Drill 1: Anti-zoner entry routes (7 minutes)
+- Practice walk-shield and short movement bursts.
+- Goal: reach mid-range without taking projectile damage repeatedly.
+
+### Drill 2: Mid-range whiff punish (6 minutes)
+- Record anti-air and retreat options.
+- Punish only confirmed whiffs.
+
+### Drill 3: Corner closeout sequence (7 minutes)
+- Start Samus at ledge.
+- Practice covering jump + neutral getup while maintaining center.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Mario entering against charge shot without overcommitting."
+- **Diagram placeholder:** "Safe entry lanes vs Samus projectile control zones."
+- **Screenshot placeholder:** "Replay tags: failed jump-in vs successful grounded entry."
+
+## Contextual Follow-Up
+
+Pair this with [how to fight zoners](/guides/how-to-fight-zoners) if neutral entry is the main issue, and check [mario beginner guide](/guides/mario-beginner-guide) for conversion routes once you get inside.
 
 ## Related Links
 - [Mario character page](/characters/mario)

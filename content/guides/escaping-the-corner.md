@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["landing-safely", "how-to-avoid-panic-options", "understanding-stage-control", "defensive-habits-beginners-have"]
 ---
 
-## Intro
+Escaping corner pressure without surrendering extra stocks is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: use timing, spacing, and option rotation to reset center safely.
 
-Corner play decides close games. Escaping safely means choosing a route before panic starts and rotating options before they become predictable.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Choosing one escape route repeatedly.
+- Mashing from corner before checking opponent spacing.
+- Rolling through pressure at predictable timings.
+- Jumping into anti-air lanes from panic.
 
-- From corner shield, use delayed jump once opponent overcommits low.
-- Roll only after conditioning shield hold, not as default.
-- Take platform route when horizontal lane is heavily covered.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Immediate panic jump every time you are trapped.
-- Rolling on fixed rhythm at high percent.
-- Swinging reversal without spacing confirmation.
+### Swordie corner trap
+Opponent stands at anti-jump distance. Delay jump and threaten roll timing mix only when their spacing drifts forward.
+### Projectile corner lock
+You shield too long and lose stage entirely. Use short movement bursts between projectiles to reclaim space before committing.
+### Last-stock corner panic
+You need one clean reset but force a scramble. Pick lowest-risk exit and prioritize center over immediate damage.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Prepare a three-option corner plan: jump route, grounded route, and patient hold route.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If anti-aired repeatedly, fake jump and regain space grounded.
-- If grabbed often, move earlier before shield lock begins.
-- If corner pressure resets, prioritize stage reclaim over hit trading.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Corner defense is a timing battle.
-- Mix patience with movement.
-- Stage control recovery starts with one clean escape.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [Landing safely](/guides/landing-safely)
-- [How to avoid panic options](/guides/how-to-avoid-panic-options)
-- [Understanding stage control](/guides/understanding-stage-control)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Shield hold until grab range.
+- Panic jump from ledge.
+- Immediate attack after corner escape.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Corner map drill (8 minutes)
+Mark dangerous and safe exits against different archetypes.
+### Exit timing reps (8 minutes)
+Practice delayed jump, late roll, and grounded reset in varied order.
+### Escape-then-hold game (10 minutes)
+After escaping, hold center for three seconds before attacking.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `escaping-the-corner` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [defensive habits beginners have](/guides/defensive-habits-beginners-have), [stage control glossary](/glossary/stage-control), [ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide), [rushdown matchup fundamentals](/matchups/rushdown-matchup-fundamentals). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

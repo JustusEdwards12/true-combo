@@ -9,42 +9,74 @@ difficulty: "Beginner"
 relatedGuides: ["building-better-habits", "common-beginner-mistakes", "how-to-read-opponents", "how-to-avoid-panic-options"]
 ---
 
-## Intro
+Breaking repeated decision loops so in-match choices stay intentional is usually where set momentum is decided. This guide focuses on practical decisions you can reproduce in ranked and bracket: how to recognize patterns quickly, how to pick lower-risk options when pressure rises, and how to convert small wins into stable control instead of volatile guesses. The objective is simple: install pause points and adaptation checks during games.
 
-Autopilot happens when your default patterns run without awareness. Competitive growth comes from interrupting those loops and choosing better options in real time.
+## Common Beginner Mistakes
 
-## Practical Examples
+- Repeating the same opening every stock.
+- Playing faster after one lost exchange.
+- Skipping between-game adjustments.
+- Confusing muscle memory with good decision-making.
 
-- Between stocks, call out one repeated habit aloud: jump-in, roll, or panic aerial.
-- Use game-start objective like 'hold center' to anchor decisions.
-- After each loss, identify one autopilot sequence and replace it next game.
+A good correction rule is to fix one mistake category per week: spacing errors first, panic-defense errors second, and closeout overcommit errors third. This progression lowers random losses and improves adaptation speed in longer sets.
 
-## Common Mistakes
+## Practical Match Scenarios
 
-- Trying to fix every bad habit at once.
-- Switching playstyle completely mid-set without structure.
-- Confusing random options with real adaptation.
+### Opening habit exposed
+Opponent punishes your first approach every game. Change opening objective from hit to information collection for one stock.
+### Corner panic loop
+You repeat roll on defense under stress. Add a deliberate pause and rotate preplanned escape options.
+### Closeout autopilot
+You fish same kill move repeatedly. Switch to position-first closeout through ledge pressure.
 
-## Focus First
+## Risk/Reward and Positioning Details
 
-Choose one phase to de-autopilot this week: neutral, advantage, or disadvantage.
+Risk management matters more than highlight outcomes. When your option can lose stage, stock, or tempo on whiff, require stronger evidence before committing. When your option preserves center and keeps pressure active, it is usually the better default in even or winning states.
 
-## In-Match Adjustments
+Positioning checkpoints to apply in-game:
 
-- If you catch autopilot jump-ins, force two grounded interactions.
-- If ledge autopilot appears, vary timing before option select.
-- If panic starts, slow to simple fundamentals.
+- Keep one retreat lane available before you press.
+- Treat center stage as a resource that improves both offense and defense.
+- At ledge, cover two options with stable spacing before hard reads.
+- In disadvantage, prioritize reset quality over immediate retaliation.
 
-## Quick Tips
+## Opponent Habits and Adaptation Logic
 
-- Awareness beats speed.
-- Set goals that are measurable in-game.
-- Keep adaptation notes between games.
+Use a simple read loop every game: observe one repeated habit, test a punish route once, confirm on second occurrence, then rotate when they adapt. This keeps your plan grounded instead of guess-heavy.
 
-## Related Links
-- [Building better habits](/guides/building-better-habits)
-- [How to read opponents](/guides/how-to-read-opponents)
-- [How to avoid panic options](/guides/how-to-avoid-panic-options)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)
+Habit patterns worth tracking:
+
+- Predictable jump timing at round start.
+- Immediate attack after blocking.
+- Same ledge option every stock.
+
+Between games, write one sentence: "When pressured, they usually ___." Then choose one punish route you can execute consistently at tournament pace.
+
+## Progression Steps
+
+1. **Foundation phase:** build one reliable default for neutral, defense, and closeout.
+2. **Control phase:** punish repeated habits while keeping stage and tempo.
+3. **Setplay phase:** adapt between games without abandoning your core plan.
+
+Players often skip phase one and wonder why adaptation never sticks. Stable defaults are what make advanced reads practical.
+
+## Training Drill Suggestions
+
+### Pause cue drill (6 minutes)
+Use a visual cue each neutral reset to force one intentional decision.
+### One-change game sets (8 minutes)
+Change one specific behavior per game and track results.
+### Autopilot audit review (10 minutes)
+Tag replay moments where you acted before confirming spacing or habit.
+
+If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-stop-autopiloting` situations."
+- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
+- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
+
+## Contextual Follow-Up
+
+Continue with [building better habits](/guides/building-better-habits), [how to read opponents](/guides/how-to-read-opponents), [mental stack glossary](/glossary/mental-stack), [matchup adaptation between games](/matchups/matchup-adaptation-between-games). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

@@ -1,6 +1,6 @@
 ---
 title: "Beginner Edgeguarding Guide for Smash Ultimate"
-description: "Convert offstage advantage with practical routes, risk control, and matchup-aware edgeguard layers."
+description: "A beginner-friendly edgeguarding guide with risk/reward logic, recovery-type adaptation, and practical offstage decision-making."
 slug: "beginner-edgeguarding"
 date: "2026-05-12"
 category: "Fundamentals"
@@ -9,37 +9,90 @@ difficulty: "Beginner"
 relatedGuides: ["common-recovery-habits", "how-to-recover-better", "beginner-ledgetrapping", "how-to-keep-advantage"]
 ---
 
-## Intro
+Edgeguarding is resource management and risk control. You are evaluating your opponent's jump, airdodge, and recovery angle while protecting your own stock. Many beginners lose winning positions by choosing high-risk offstage options when onstage ledgetrap would have closed the stock more safely.
 
-Edgeguarding is a resource check: jumps, airdodge, and recovery angles. You are not trying to style every stock; you are trying to close with favorable risk.
+## What To Focus On First
 
-## Practical Examples
+### 1) Identify recovery type
+Before committing, ask: linear, vertical, mix-up heavy, or hitbox-heavy?
 
-- Against linear recoveries, hold ledge height and threaten a late aerial instead of immediate deep chase.
-- Force low recovery with projectile or disjoint, then trap ledge getup timing.
-- When edgeguard risk is high, stay on stage and transition to ledgetrap pressure.
+### 2) Decide between edgeguard and ledgetrap
+If your character's offstage risk is high, preserve stage and trap ledge instead.
 
-## Common Mistakes
+### 3) Track opponent panic recovery
+Under pressure, many players reuse one route. Punish the route, not random positions.
 
-- Jumping offstage before confirming opponent resources.
-- Committing to spike attempts while already ahead in stage control.
-- Ignoring your own recovery route after failed edgeguard.
+## Common Beginner Mistakes
 
-## Focus First
+- Jumping offstage without checking opponent resources.
+- Fishing spikes when a simple hit or ledgetrap would end stock.
+- Not respecting hitboxes on certain recoveries.
+- Failing to preserve jump for your own recovery.
+- Taking low-reward chase routes while ahead.
 
-Learn one low-risk edgeguard pattern and one ledgetrap conversion for your main. Drill both from replay scenarios you lose often.
+## Practical Match Examples
 
-## In-Match Adjustments
+### Example 1: Opponent recovers low every stock
+Adjustment:
+- Hold ledge height and threaten late intercept.
+- If they start mixing timing, fake commitment then punish regrab or neutral getup.
+- Keep your double jump unless kill is guaranteed.
 
-- If opponent recovers high, prioritize anti-air over ledge commitment.
-- If they mix timings, hold stage and react to regrab habits.
-- If you keep dying offstage first, reduce depth and value reset.
+### Example 2: Opponent recovers high after being hit offstage
+Adjustment:
+- Stay near stage and anti-air recovery drift.
+- Force landing trap instead of deep chase.
+- Convert to [juggling](/glossary/juggling) if edgeguard hit is not free.
 
-## Quick Tips
+### Example 3: You lose stock first while edgeguarding
+Adjustment:
+- Reduce chase depth one layer.
+- Prioritize stage hold and [ledgetrapping](/glossary/ledgetrapping).
+- Take guaranteed damage and reset rather than all-in finishers.
 
-- Track jumps before committing.
-- A clean ledgetrap often beats a risky deep chase.
-- Treat edgeguard decisions as stock-value math.
+## Adaptation Tips Between Games
+
+- If they save jump late, delay your intercept timing.
+- If they always airdodge near ledge, wait and punish landing.
+- If they recover with hitbox, fake challenge and whiff punish endlag.
+- If your edgeguards are failing, convert to onstage pressure first.
+- If game is last-stock, favor options that cannot throw away your own stock.
+
+## Opponent Habits and Panic Options
+
+Look for:
+
+- Immediate directional airdodge toward stage.
+- Same low angle recovery route every time.
+- Panic jump after first offstage hit.
+- Aggressive recovery hitbox only when behind.
+- Ledge jump panic after surviving edgeguard attempt.
+
+These habits often appear by game two if you maintain steady pressure.
+
+## Training Mode Ideas
+
+### Drill 1: Recovery route recognition (6 minutes)
+- Record three recovery angles.
+- Practice calling route before pressing your option.
+
+### Drill 2: Low-risk edgeguard reps (7 minutes)
+- Practice one safe aerial intercept and immediate return path.
+- Goal: successful challenge without self-destruct risk.
+
+### Drill 3: Edgeguard-to-ledgetrap handoff (7 minutes)
+- Hit once offstage, then return to stage and trap.
+- Goal: keep advantage regardless of direct kill.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Edgeguard vs ledgetrap choice examples with risk commentary."
+- **Diagram placeholder:** "Recovery tree by route type and recommended responses."
+- **Screenshot placeholder:** "Replay timeline with resource checks before offstage commit."
+
+## Improve Your Conversion Chain
+
+If you struggle choosing when to stay onstage, combine this with [beginner ledgetrapping](/guides/beginner-ledgetrapping). If your predictions feel random, review [common recovery habits](/guides/common-recovery-habits) and apply one new read per set.
 
 ## Related Links
 - [Common recovery habits](/guides/common-recovery-habits)

@@ -1,6 +1,6 @@
 ---
 title: "Beginner Ledgetrapping Guide for Smash Ultimate"
-description: "Learn practical ledgetrap structure, realistic option coverage, and match-ready adjustments."
+description: "A practical ledgetrapping guide covering spacing discipline, option coverage, adaptation logic, and stock-closing consistency."
 slug: "beginner-ledgetrapping"
 date: "2026-05-12"
 category: "Fundamentals"
@@ -9,37 +9,90 @@ difficulty: "Beginner"
 relatedGuides: ["how-to-improve-shield-pressure", "how-to-keep-advantage", "escaping-the-corner", "common-recovery-habits"]
 ---
 
-## Intro
+Ledgetrapping is not guessing randomly at ledge. It is a positioning problem: stand where your threat overlaps the opponent's common escapes, then adapt after seeing what they do under stress.
 
-Ledgetrapping is where disciplined players farm stocks. You are not covering every option at once; you are forcing predictable escapes and punishing the second habit.
+## What To Focus On First
 
-## Practical Examples
+### 1) Position before buttons
+Stand just outside getup attack range unless your character has a specific close trap.
 
-- Stand outside getup attack range and threaten jump plus neutral getup.
-- Show dash back once to bait roll, then hard-cover roll next interaction.
-- Use projectile or disjoint to force ledge timing before committing.
+### 2) Cover two options by default
+Do not try to beat all options at once. Cover two, scout the third, punish the repeat.
 
-## Common Mistakes
+### 3) Track patterns per stock
+Ledge decisions change with percent and set pressure. Keep short notes mentally: jump, neutral getup, roll, attack, stall.
 
-- Standing too close and getting hit by getup attack repeatedly.
-- Swinging early at ledge invincibility instead of reacting.
-- Giving up trap position to chase one risky option.
+## Common Beginner Mistakes
 
-## Focus First
+- Standing too close and losing to getup attack.
+- Swinging into ledge invincibility.
+- Chasing one read and giving up center stage.
+- Not punishing repeated ledge jump panic.
+- Overusing hard reads before collecting information.
 
-Choose two options to cover by default for your next set, then adapt third option only after seeing repetition.
+## Practical Match Examples
 
-## In-Match Adjustments
+### Example 1: Opponent jumps from ledge every time
+Adjustment:
+- Hold anti-air height rather than hugging ledge.
+- Punish landing location, not jump startup.
+- Once they stop jumping, reintroduce ground coverage.
 
-- If they jump often, hold anti-air height instead of hugging ledge.
-- If they neutral getup shield, add tomahawk grab timing.
-- If they stall, threaten ledge regrab punish without overcommitting.
+### Example 2: Opponent neutral getup shields
+Adjustment:
+- Delay your pressure half-beat.
+- Grab or reposition to maintain [stage control](/glossary/stage-control).
+- Avoid immediate second swing into shield.
 
-## Quick Tips
+### Example 3: Opponent rolls when cornered at high percent
+Adjustment:
+- Show forward pressure once.
+- Dash back to leave roll lane open.
+- Punish roll path on reaction for clean stock.
 
-- Your positioning matters more than button speed.
-- Count their last three ledge options before hard reads.
-- Corner pressure wins long sets.
+## Adaptation Tips Between Games
+
+- If they vary timing with stalls, focus on position and punish regrabs.
+- If your trap keeps failing, simplify to one safe option and one punish.
+- If they attack from ledge often, shift farther out and whiff punish.
+- If they stop choosing your covered options, take the "free center" and reset.
+- If you are behind, keep trap structure; panic hard reads often lose the stock race.
+
+## Opponent Habits and Panic Options
+
+Watch for these panic patterns:
+
+- Habit jump at the same timing.
+- Instant roll when shield gets touched.
+- Getup attack panic after two trapped attempts.
+- Airdodge to stage after ledge jump.
+- Aggressive ledge option only when behind in percent.
+
+Recognizing panic options turns ledge from guesswork into repeatable pressure.
+
+## Training Mode Ideas
+
+### Drill 1: Spacing marks (6 minutes)
+- Mark where getup attack reaches.
+- Practice standing just outside that range while threatening jump.
+
+### Drill 2: Option callout reps (7 minutes)
+- Record two ledge options and one delayed option.
+- Practice covering your two defaults and reacting to the third.
+
+### Drill 3: Stock close simulation (7 minutes)
+- Start both players at high percent with opponent at ledge.
+- Goal: close stock without losing center.
+
+## Media Placeholders
+
+- **Clip placeholder:** "Three stocks closed through anti-jump ledgetrap adaptation."
+- **Diagram placeholder:** "Ledge option coverage zones and spacing markers."
+- **Screenshot placeholder:** "Replay labels: jump habit, roll habit, stall timing."
+
+## Next Link In The Chain
+
+Pair this with [beginner edgeguarding](/guides/beginner-edgeguarding) to decide when to stay onstage vs go offstage, and use [common recovery habits](/guides/common-recovery-habits) to predict ledge timing more accurately.
 
 ## Related Links
 - [How to keep advantage](/guides/how-to-keep-advantage)
