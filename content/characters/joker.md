@@ -1,6 +1,6 @@
 ---
-title: "Joker"
-description: "Footsies-first toolkit with a comeback swing—Arsene rewards clean neutral more than gimmicks."
+title: "Joker Character Guide for Smash Ultimate"
+description: "Joker guide for Smash Ultimate covering neutral spacing, Arsene tempo shifts, and adaptation habits for competitive sets."
 slug: "joker"
 date: "2026-05-12"
 category: "Fighter"

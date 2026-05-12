@@ -1,6 +1,6 @@
 ---
-title: "Mario"
-description: "All-rounder with strong aerials, simple confirms, and a punish game that grows with fundamentals-first play."
+title: "Mario Beginner Character Guide for Smash Ultimate"
+description: "Mario guide for Smash Ultimate: strong aerials, simple confirms, and a punish game that rewards fundamentals-first improvement."
 slug: "mario"
 date: "2026-05-04"
 updated: "2026-05-12"

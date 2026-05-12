@@ -5,10 +5,15 @@ import { readingTimeFromMarkdown } from "@/lib/read-time";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Matchups",
+  title: "Smash Ultimate Matchup Strategy",
   description:
-    "Smash Ultimate matchup notes: gameplans, neutral patterns, and edge-case answers.",
+    "Smash Ultimate matchup strategy guides with gameplans, neutral patterns, punish routes, and adaptation notes for competitive sets.",
   path: "/matchups",
+  keywords: [
+    "Smash Ultimate matchup strategy",
+    "Smash Ultimate matchup guides",
+    "Smash Ultimate neutral and punish game",
+  ],
 });
 
 export default function MatchupsPage() {
@@ -18,11 +23,12 @@ export default function MatchupsPage() {
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Matchups" }]} />
       <h1 className="mt-6 text-3xl font-semibold tracking-tight text-zinc-50">
-        Matchups
+        Smash Ultimate Matchup Strategy
       </h1>
       <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-        Tight, actionable notes—what to respect on reaction, what to call out on
-        prediction, and how to close stocks cleanly.
+        Tight, actionable matchup notes: what to respect on reaction, what to
+        call out on adaptation, and how to close stocks cleanly in tournament
+        pace sets.
       </p>
       <div className="mt-12 grid gap-5 sm:grid-cols-2">
         {matchups.map(({ data, content }) => (

@@ -5,10 +5,15 @@ import { getAllGlossaryTerms } from "@/lib/content/load";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Glossary",
+  title: "Smash Ultimate Glossary",
   description:
-    "Definitions of common Smash Ultimate and competitive fighting game terms.",
+    "Definitions of common Smash Ultimate and competitive fighting game terms for beginners and tournament-focused players.",
   path: "/glossary",
+  keywords: [
+    "Smash Ultimate glossary",
+    "Smash Ultimate terms",
+    "fighting game terminology",
+  ],
 });
 
 export default function GlossaryPage() {
@@ -23,7 +28,7 @@ export default function GlossaryPage() {
     >
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Glossary" }]} />
       <h1 className="mt-6 text-3xl font-semibold tracking-tight text-zinc-50">
-        Glossary
+        Smash Ultimate Glossary
       </h1>
       <p className="mt-4 text-sm leading-relaxed text-zinc-400 sm:text-base">
         Quick definitions you can reference between games—precise language, no

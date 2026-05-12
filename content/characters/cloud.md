@@ -1,6 +1,6 @@
 ---
-title: "Cloud"
-description: "Mid-range sword control, strong ledgetrapping patterns, and limit as a deliberate tempo swing."
+title: "Cloud Beginner Character Guide for Smash Ultimate"
+description: "Cloud guide for Smash Ultimate focused on sword spacing, ledgetrapping patterns, and Limit timing for consistent bracket play."
 slug: "cloud"
 date: "2026-05-05"
 updated: "2026-05-12"

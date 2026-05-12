@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { ArticleJsonLd } from "@/components/ArticleJsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { GuidePrevNext } from "@/components/GuidePrevNext";
@@ -25,10 +26,18 @@ export async function generateMetadata({ params }: Props) {
   const doc = getGuideBySlug(slug);
   if (!doc) return {};
   const modified = doc.data.updated ?? doc.data.date;
+  const title = /smash ultimate/i.test(doc.data.title)
+    ? doc.data.title
+    : `${doc.data.title} (Smash Ultimate Guide)`;
   return buildMetadata({
-    title: doc.data.title,
+    title,
     description: doc.data.description,
     path: `/guides/${slug}`,
+    keywords: [
+      "Smash Ultimate guide",
+      "Smash Ultimate beginner improvement",
+      "competitive Smash mechanics",
+    ],
     type: "article",
     publishedTime: doc.data.date,
     modifiedTime: modified,
@@ -133,6 +142,30 @@ export default async function GuidePage({ params }: Props) {
               className="prose-guide mt-10 max-w-3xl"
               toc={toc}
             />
+            <aside className="mt-10 rounded-xl border border-zinc-800/80 bg-zinc-900/30 p-6 text-sm text-zinc-400">
+              <p className="font-medium text-zinc-300">
+                Continue your Smash Ultimate improvement path
+              </p>
+              <p className="mt-2 leading-relaxed">
+                Pair this guide with{" "}
+                <Link href="/guides#beginner" className="text-cyan-400 hover:underline">
+                  beginner mechanics guides
+                </Link>
+                ,{" "}
+                <Link href="/characters" className="text-cyan-400 hover:underline">
+                  character guides
+                </Link>
+                ,{" "}
+                <Link href="/matchups" className="text-cyan-400 hover:underline">
+                  matchup strategy
+                </Link>
+                , and{" "}
+                <Link href="/glossary" className="text-cyan-400 hover:underline">
+                  glossary terms
+                </Link>
+                .
+              </p>
+            </aside>
             {data.relatedGuides && data.relatedGuides.length > 0 ? (
               <RelatedGuides slugs={data.relatedGuides} />
             ) : null}

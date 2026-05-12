@@ -1,6 +1,6 @@
 ---
-title: "Kirby"
-description: "Forgiving jumps, strong low-level edgeguards, and lessons in patience that scale into honest fundamentals."
+title: "Kirby Beginner Character Guide for Smash Ultimate"
+description: "Kirby guide for Smash Ultimate with forgiving movement, beginner edgeguard plans, and neutral patience that scales competitively."
 slug: "kirby"
 date: "2026-05-12"
 category: "Fighter"

@@ -13,6 +13,7 @@ type BuildMetadataOptions = {
   description: string;
   /** Path starting with / */
   path?: string;
+  keywords?: string[];
   type?: "website" | "article";
   publishedTime?: string;
   modifiedTime?: string;
@@ -28,6 +29,7 @@ export function buildMetadata({
   title,
   description,
   path = "/",
+  keywords,
   type = "website",
   publishedTime,
   modifiedTime,
@@ -40,6 +42,7 @@ export function buildMetadata({
   return {
     title: fullTitle,
     description,
+    ...(keywords && keywords.length > 0 ? { keywords } : {}),
     metadataBase: new URL(base.endsWith("/") ? base : `${base}/`),
     alternates: { canonical: url },
     openGraph: {

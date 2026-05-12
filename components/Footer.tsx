@@ -26,11 +26,17 @@ export function Footer() {
           <Link href="/guides" className="hover:text-cyan-400">
             Guides
           </Link>
+          <Link href="/guides#beginner" className="hover:text-cyan-400">
+            Mechanics
+          </Link>
           <Link href="/characters" className="hover:text-cyan-400">
             Characters
           </Link>
           <Link href="/matchups" className="hover:text-cyan-400">
             Matchups
+          </Link>
+          <Link href="/glossary" className="hover:text-cyan-400">
+            Glossary
           </Link>
           <Link href="/" className="hover:text-cyan-400" rel="home">
             {host}

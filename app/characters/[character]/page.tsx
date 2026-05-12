@@ -23,10 +23,20 @@ export async function generateMetadata({ params }: Props) {
   const doc = getCharacterBySlug(character);
   if (!doc) return {};
   const modified = doc.data.updated ?? doc.data.date;
+  const title = /smash ultimate/i.test(doc.data.title)
+    ? doc.data.title
+    : `${doc.data.title} Character Guide for Smash Ultimate`;
   return buildMetadata({
-    title: `${doc.data.title} (Smash Ultimate guide)`,
+    title,
     description: doc.data.description,
     path: `/characters/${character}`,
+    keywords: [
+      "Smash Ultimate character guide",
+      `${doc.data.title} Smash Ultimate guide`,
+      "Smash Ultimate beginner improvement",
+    ],
+    type: "article",
+    publishedTime: doc.data.date,
     modifiedTime: modified,
   });
 }
@@ -132,6 +142,14 @@ export default async function CharacterPage({ params }: Props) {
               className="text-cyan-400 hover:underline"
             >
               roster picks for learning
+            </Link>
+            , plus{" "}
+            <Link href="/matchups" className="text-cyan-400 hover:underline">
+              matchup strategy
+            </Link>{" "}
+            and{" "}
+            <Link href="/glossary" className="text-cyan-400 hover:underline">
+              glossary terms
             </Link>
             .
           </p>

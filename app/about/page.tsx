@@ -4,9 +4,14 @@ import { buildMetadata } from "@/lib/seo";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata = buildMetadata({
-  title: "About",
+  title: "About TrueCombo - Smash Ultimate Learning Platform",
   description: `What ${SITE_NAME} is: competitive Smash Ultimate learning, written for clarity and speed.`,
   path: "/about",
+  keywords: [
+    "Smash Ultimate learning platform",
+    "competitive Smash Ultimate guides",
+    "Smash Ultimate improvement",
+  ],
 });
 
 export default function AboutPage() {

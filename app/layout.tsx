@@ -19,19 +19,29 @@ const siteUrl = getSiteUrl().replace(/\/$/, "");
 
 export const metadata: Metadata = {
   metadataBase: new URL(`${siteUrl}/`),
-  title: SITE_NAME,
+  title: {
+    default: `${SITE_NAME} | Smash Ultimate Guides and Matchup Strategy`,
+    template: `%s | ${SITE_NAME}`,
+  },
   description: SITE_TAGLINE,
+  keywords: [
+    "Smash Ultimate guides",
+    "Smash Ultimate character guides",
+    "Smash Ultimate matchup strategy",
+    "beginner Smash Ultimate improvement",
+    "competitive Smash mechanics",
+  ],
   openGraph: {
     siteName: SITE_NAME,
     locale: "en_US",
     type: "website",
-    title: SITE_NAME,
+    title: `${SITE_NAME} | Smash Ultimate Guides and Matchup Strategy`,
     description: SITE_TAGLINE,
     url: `${siteUrl}/`,
   },
   twitter: {
     card: "summary_large_image",
-    title: SITE_NAME,
+    title: `${SITE_NAME} | Smash Ultimate Guides and Matchup Strategy`,
     description: SITE_TAGLINE,
   },
 };

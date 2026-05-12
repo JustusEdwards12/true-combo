@@ -1,6 +1,6 @@
 ---
-title: "Samus"
-description: "Charge shot conditioning, zair spacing, and a patient neutral that teaches real stage control."
+title: "Samus Character Guide for Smash Ultimate"
+description: "Samus guide for Smash Ultimate with charge-shot conditioning, zair spacing, and patient neutral control for tournament play."
 slug: "samus"
 date: "2026-05-12"
 category: "Fighter"

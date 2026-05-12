@@ -12,20 +12,21 @@ import {
   sortByDateDesc,
 } from "@/lib/content/load";
 import { readingTimeFromMarkdown } from "@/lib/read-time";
+import { buildMetadata } from "@/lib/seo";
 
 const hubLanes = [
   {
     index: "01",
-    title: "Beginner Mechanics",
+    title: "Beginner Mechanics Guides",
     description:
-      "Short hops, teching, and defensive defaults—mechanics that hold up offline.",
+      "Short hops, teching, and defensive defaults for Smash Ultimate players building tournament fundamentals.",
     href: "/guides#beginner",
     phase: "neutral" as const,
     framesLabel: "LANE · MECH",
   },
   {
     index: "02",
-    title: "Character Guides",
+    title: "Smash Ultimate Character Guides",
     description:
       "Honest kits, starter routes, and the mistakes that cost stocks in bracket.",
     href: "/characters",
@@ -34,18 +35,18 @@ const hubLanes = [
   },
   {
     index: "03",
-    title: "Matchup Theory",
+    title: "Smash Ultimate Matchup Strategy",
     description:
-      "Respect windows, punish plans, and how to stay composed on stream.",
+      "Respect windows, punish plans, and adaptation habits for real set play.",
     href: "/matchups",
     phase: "punish" as const,
     framesLabel: "SET · LOG",
   },
   {
     index: "04",
-    title: "Competitive Concepts",
+    title: "Competitive Smash Concepts",
     description:
-      "Neutral framing, advantage cycles, and how to review without cope.",
+      "Neutral framing, advantage cycles, and VOD review frameworks that turn theory into cleaner decisions.",
     href: "/guides#concepts",
     phase: "confirm" as const,
     framesLabel: "META · READ",
@@ -53,10 +54,10 @@ const hubLanes = [
 ];
 
 const resourceChips = [
-  { label: "Beginner Mechanics", href: "/guides#beginner" },
-  { label: "Character Guides", href: "/characters" },
-  { label: "Matchup Theory", href: "/matchups" },
-  { label: "Competitive Concepts", href: "/guides#concepts" },
+  { label: "Beginner Mechanics Guides", href: "/guides#beginner" },
+  { label: "Smash Ultimate Character Guides", href: "/characters" },
+  { label: "Matchup Strategy", href: "/matchups" },
+  { label: "Competitive Smash Concepts", href: "/guides#concepts" },
 ] as const;
 
 const learningPathways = [
@@ -102,6 +103,20 @@ function sectionRevealStyle(ms: number): CSSProperties {
   return { "--tc-reveal-delay": `${ms}ms` } as CSSProperties;
 }
 
+export const metadata = buildMetadata({
+  title: "Smash Ultimate Guides, Character Guides, and Matchup Strategy",
+  description:
+    "TrueCombo is a competitive Super Smash Bros. Ultimate improvement hub with beginner mechanics guides, character guides, matchup strategy, and concept training for tournament play.",
+  path: "/",
+  keywords: [
+    "Smash Ultimate guides",
+    "Smash Ultimate beginner guide",
+    "Smash Ultimate character guides",
+    "Smash Ultimate matchup strategy",
+    "competitive Smash mechanics",
+  ],
+});
+
 export default function HomePage() {
   const sortedGuides = sortByDateDesc(getAllGuides());
 
@@ -138,9 +153,11 @@ export default function HomePage() {
                 Get better at Smash Ultimate, one true combo at a time.
               </h1>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-                Character guides, matchup analysis, mechanics breakdowns, and
-                competitive improvement resources—built like an esports desk,
-                written for bracket night.
+                Serious Super Smash Bros. Ultimate guides for beginner
+                improvement, character mastery, matchup strategy, and
+                competitive mechanics, built like an esports desk and written
+                for
+                bracket night.
               </p>
 
               <ul className="mt-8 flex flex-wrap gap-2" aria-label="Topics">
@@ -161,7 +178,7 @@ export default function HomePage() {
                   href="/guides"
                   className="inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-400 px-7 text-sm font-semibold text-zinc-950 shadow-[0_16px_40px_-18px_rgba(34,211,238,0.55)] transition-[transform,filter] duration-300 motion-safe:hover:-translate-y-0.5 hover:brightness-105"
                 >
-                  Start Learning
+                  Start Smash Ultimate Guides
                 </Link>
                 <Link
                   href="/characters"
@@ -259,8 +276,8 @@ export default function HomePage() {
           <SectionHeading
             id="training-lanes-heading"
             kicker="Coverage map"
-            title="Training lanes"
-            subtitle="Pick a lane like you’d pick a stage—know the win condition, respect the counterpick."
+              title="Smash Ultimate learning pathways"
+              subtitle="Pick a lane like you pick a stage: mechanics, characters, matchups, and concepts built for competitive improvement."
           />
           <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {hubLanes.map((lane) => (
@@ -282,8 +299,8 @@ export default function HomePage() {
             <SectionHeading
               id="featured-beginner-heading"
               kicker="Fundamentals"
-              title="Featured beginner guides"
-              subtitle="Execution and defense you can drill in training mode—built to survive offline neutral."
+              title="Beginner mechanics guides"
+              subtitle="Execution, defense, and movement drills that turn early Smash Ultimate practice into consistent match wins."
             />
             <Link
               href="/guides#beginner"
@@ -323,8 +340,8 @@ export default function HomePage() {
             <SectionHeading
               id="featured-guides-heading"
               kicker="Editorial picks"
-              title="Featured guides"
-              subtitle="High-signal articles to read before your next local—mechanics, concepts, and honest character notes."
+              title="Featured Smash Ultimate guides"
+              subtitle="High-signal reads before your next local: mechanics, competitive concepts, and practical improvement frameworks."
             />
             <Link
               href="/guides"
@@ -365,8 +382,8 @@ export default function HomePage() {
             <SectionHeading
               id="character-guides-heading"
               kicker="Roster lab"
-              title="Character guides"
-              subtitle="Loadouts, gameplans, and the habits that separate pools from top 8."
+              title="Smash Ultimate character guides"
+              subtitle="Character gameplans, core confirms, and matchup-aware habits that separate pools exits from bracket runs."
             />
             <Link
               href="/characters"
@@ -400,8 +417,8 @@ export default function HomePage() {
             <SectionHeading
               id="matchup-analysis-heading"
               kicker="Bracket science"
-              title="Matchup analysis"
-              subtitle="Set logic you can rehearse—respect on reaction, punish on conditioning."
+              title="Smash Ultimate matchup strategy"
+              subtitle="Set logic you can rehearse: what to respect on reaction, what to punish on adaptation, and how to close stocks."
             />
             <Link
               href="/matchups"
@@ -441,8 +458,8 @@ export default function HomePage() {
             <SectionHeading
               id="competitive-concepts-heading"
               kicker="Theorycraft"
-              title="Competitive concepts"
-              subtitle="VOD review, neutral language, and how to think in advantage cycles—not vibes."
+              title="Competitive Smash concepts"
+              subtitle="Neutral, advantage state, disadvantage, and VOD review language that turns theory into better in-game decisions."
             />
             <Link
               href="/guides#concepts"
@@ -488,8 +505,8 @@ export default function HomePage() {
             <SectionHeading
               id="latest-articles-heading"
               kicker="Feed"
-              title="Latest articles"
-              subtitle="Fresh drops and refreshed routes—new guides land here first."
+              title="Latest Smash Ultimate guides"
+              subtitle="New and updated guides across mechanics, characters, and matchup strategy."
             />
             <Link
               href="/guides"

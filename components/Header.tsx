@@ -6,18 +6,19 @@ import { ComboMark } from "@/components/brand/ComboMark";
 
 const nav = [
   { href: "/guides", label: "Guides" },
+  { href: "/guides#beginner", label: "Mechanics" },
   { href: "/characters", label: "Characters" },
   { href: "/matchups", label: "Matchups" },
   { href: "/glossary", label: "Glossary" },
-  { href: "/about", label: "About" },
 ] as const;
 
 function NavLink({ href, children }: { href: string; children: string }) {
   const pathname = usePathname();
+  const hrefPath = href.split("#")[0] || "/";
   const active =
-    href === "/"
+    hrefPath === "/"
       ? pathname === "/"
-      : pathname === href || pathname.startsWith(`${href}/`);
+      : pathname === hrefPath || pathname.startsWith(`${hrefPath}/`);
 
   return (
     <Link
