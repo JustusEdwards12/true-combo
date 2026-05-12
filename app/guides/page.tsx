@@ -46,7 +46,10 @@ export default function GuidesPage() {
   const sorted = sortByDateDesc(getAllGuides());
   const fundamentals = sorted.filter((g) => g.data.category === "Fundamentals");
   const concepts = sorted.filter((g) => g.data.category === "Concepts");
-  const characterGuides = sorted.filter((g) => g.data.category === "Character");
+  const characterGuides = sorted.filter(
+    (g) =>
+      g.data.category === "Character" || g.data.category === "Roster",
+  );
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">

@@ -24,6 +24,6 @@ This matchup is a **range negotiation**: Cloud wants to pin Mario to the end of 
 
 ## Study links
 
-Brush up on [neutral planning](/guides/what-is-neutral) and Mario’s [starter guide](/guides/mario-beginner-guide) while you lab this set.
+Brush up on [neutral planning](/guides/what-is-neutral) and Mario’s [starter guide](/guides/mario-beginner-guide) while you lab this set. Fundamentals: [short hops](/guides/how-to-short-hop) and [OOS defaults](/guides/best-oos-options).
 
-Cloud players should read [Cloud’s beginner guide](/guides/cloud-beginner-guide) for honest notes on limit discipline.
+Cloud players should read [Cloud’s beginner guide](/guides/cloud-beginner-guide) for honest notes on limit discipline, plus [edgeguard layers](/guides/beginner-edgeguarding) for closing stocks.

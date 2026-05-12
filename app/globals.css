@@ -236,7 +236,26 @@ body {
   animation-delay: var(--tc-reveal-delay, 0ms);
 }
 
+/* Navbar combo mark — subtle “idle” pulse */
+@keyframes tc-logo-node-pulse {
+  0%,
+  100% {
+    opacity: 0.78;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.tc-logo-node {
+  animation: tc-logo-node-pulse 3.2s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .tc-logo-node {
+    animation: none !important;
+    opacity: 0.92;
+  }
   .tc-anim-aurora,
   .tc-anim-scan,
   .tc-anim-float .tc-particle {

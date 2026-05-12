@@ -1,28 +1,50 @@
 ---
-title: "How to short hop in Smash Ultimate"
-description: "A clean approach to short hops: timing, macros, and why they matter in neutral."
+title: "How to Short Hop Consistently in Smash Ultimate"
+description: "Build a reliable short hop: timing windows, macro habits, and how it upgrades your neutral and advantage."
 slug: "how-to-short-hop"
 date: "2026-05-01"
+updated: "2026-05-10"
 category: "Fundamentals"
 tags: ["movement", "execution", "neutral"]
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "mario-beginner-guide"]
+relatedGuides: ["what-is-neutral", "best-beginner-characters", "common-beginner-mistakes"]
 ---
 
-A **short hop** is a low jump that keeps your aerials fast and your hurtbox smaller than a full jump. In Ultimate, it is one of the first execution skills that pays rent in real games—not just in training mode.
+A **short hop** keeps your aerials fast and your commitment smaller than a full jump. In Ultimate, consistency here is one of the highest ROI drills you can run—especially if you plan to compete offline where execution checks are unforgiving.
 
-## The two reliable methods
+## Why short hops matter
 
-1. **Quick tap** — Tap jump (or your jump button) and release quickly. The window is strict, but it is the default path most players learn first.
-2. **Attack-cancel macro** — Jump immediately out of a grounded attack within its first frames. This is character- and situation-specific, but it is a common tournament technique once fundamentals are stable.
+- **Neutral probes** — You can threaten an aerial without floating in a long jump arc.
+- **Safer pressure** — Many characters’ best “pokes” are rising or falling aerials from a low jump.
+- **Combo bridges** — A lot of early-percent routes assume you can short hop into a move on command.
 
-## What to practice
+## Two practical acquisition paths
 
-- Land **rising aerials** and **falling aerials** from a short hop at a fixed range on a training dummy.
-- Alternate between **empty short hops** and **threatened aerials** so your opponent cannot autopilot shield.
+### Quick tap (universal)
 
-## How this connects to neutral
+Tap jump or your jump button and release quickly. The window is strict, but it is the baseline most players learn first. If you miss, you usually get a full hop—treat that as feedback, not failure.
 
-Short hops are how you **probe** without committing to a full jump arc. Pair them with a grounded gameplan so you are not predictable—see our guide on [neutral and footsies](/guides/what-is-neutral).
+### Attack-cancel routes (character-specific)
 
-If you are learning a fundamentals-friendly character, [Mario’s beginner guide](/guides/mario-beginner-guide) shows simple routes that reward clean short hops.
+Some characters stabilize low aerials by jumping immediately out of certain grounded attacks. Lab your main’s community notes, but **do not** skip the plain short hop—attack cancels are supplements, not replacements.
+
+## A training mode loop that transfers
+
+1. Stand at a fixed spacing from a CPU or dummy.
+2. Alternate **empty short hops** and **single aerial** short hops.
+3. Add one defensive layer: after landing, reset to neutral instead of rolling on autopilot.
+
+> Tip: Film 30 seconds of attempts. Count full hops by mistake. Your goal is downward trend over sessions, not perfection in one grind.
+
+## Link this to neutral and roster choice
+
+Short hops are how you **ask questions** without spending all your air resources. Pair the mechanic with a clear neutral read: [what neutral is in Ultimate](/guides/what-is-neutral).
+
+If you are still choosing a main, biased toward simple execution, read [best beginner characters](/guides/best-beginner-characters)—several reward clean hops early.
+
+## Common failure modes
+
+- Jumping during panic scramble (fix with [tech habits](/guides/how-to-tech) and calmer drift).
+- Always approaching the same aerial—mix in [out-of-shield answers](/guides/best-oos-options) and grounded threats so opponents cannot hard-read your jump.
+
+For a wider habit audit, see [common beginner mistakes](/guides/common-beginner-mistakes).

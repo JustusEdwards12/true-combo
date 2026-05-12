@@ -1,27 +1,69 @@
 ---
 title: "Cloud"
-description: "Mid-range sword control, strong ledgetrapping patterns, and limit as a tempo swing."
+description: "Mid-range sword control, strong ledgetrapping patterns, and limit as a deliberate tempo swing."
 slug: "cloud"
 date: "2026-05-05"
+updated: "2026-05-12"
 category: "Fighter"
 tags: ["cloud", "sword"]
 character: "Cloud"
 difficulty: "Beginner-friendly"
+relatedGuides: ["cloud-beginner-guide", "what-is-neutral", "beginner-edgeguarding", "improve-advantage-state"]
 ---
 
-Cloud wants **clean spacing** and **patient limit usage**. He rewards players who can repeat the same neutral patterns until opponents leak a punishable habit.
+## Character overview
+
+Cloud wants **clean spacing** and **patient Limit usage**. He rewards players who can repeat the same neutral patterns until opponents leak a punishable habit.
+
+## Difficulty
+
+**Beginner-friendly** neutral structure with a ceiling around **commit discipline** and recovery planning.
 
 ## Strengths
 
-- Large, disjointed **normals** that bully sloppy approaches.
-- Strong **advantage** cycles when opponents respect his space.
-- **Limit** can convert small wins into big swings when timed deliberately.
+- Large disjointed **normals** that punish sloppy approaches.
+- Strong **advantage** when opponents respect his space.
+- **Limit** converts small wins into large swings when timed well.
 
-## Watchouts
+## Weaknesses
 
-- Poor limit timing creates **whiff windows** good players will bank.
-- Linear recovery patterns can be planned for once your habits are scouted.
+- Poor Limit timing creates **whiff windows** strong players exploit.
+- Recovery can become **linear** once habits are scouted.
 
-## Next step
+## Best stages (general training)
 
-Read the full [Cloud beginner guide](/guides/cloud-beginner-guide) for a starter lab plan.
+- Medium layouts where Cloud can **wall** space without infinite runaway.
+- Practice **platform** interactions—Cloud’s reward changes sharply with vertical positioning.
+
+## Beginner gameplan
+
+1. Hold mid-range and force **shield** with safe pokes.
+2. Call out shield habits with **grab** and cross-up aerials.
+3. Spend Limit for **confirmed** routes or to reverse a bad position—not to panic.
+
+## Key moves
+
+- **Bair / Fair** — Spacing toolkit staples.
+- **Cross Slash / Limit upgrades** — Commit-heavy; use with intent.
+- **Blade beam** — Conditioning tool at range.
+
+## Basic combos
+
+Focus on **low execution** strings that reward drift control: short hop aerial chains into advantage resets at early percents.
+
+## Out of shield options
+
+Lab Cloud’s fastest answers at common spacings—pair with [OOS fundamentals](/guides/best-oos-options).
+
+## Kill confirms
+
+Kill routes vary by patch perception and percent—prioritize **edgeguard** finishes and **back air** punishes as stable first goals.
+
+## Common mistakes
+
+- Limit burn with no follow-up plan.
+- Approaching behind the same aerial drift every time.
+
+## Extended guide
+
+Read the full [Cloud beginner guide](/guides/cloud-beginner-guide).

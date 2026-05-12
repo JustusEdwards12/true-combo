@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ComboMark } from "@/components/brand/ComboMark";
 
 const nav = [
   { href: "/guides", label: "Guides" },
@@ -22,9 +23,7 @@ function NavLink({ href, children }: { href: string; children: string }) {
     <Link
       href={href}
       className={`group relative px-2.5 py-2 text-xs font-medium transition-colors sm:px-3 sm:text-sm ${
-        active
-          ? "text-zinc-100"
-          : "text-zinc-500 hover:text-zinc-200"
+        active ? "text-zinc-100" : "text-zinc-500 hover:text-zinc-200"
       }`}
     >
       <span>{children}</span>
@@ -43,33 +42,26 @@ function NavLink({ href, children }: { href: string; children: string }) {
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-800/60 bg-zinc-950/75 shadow-[0_1px_0_0_rgba(255,255,255,0.03)_inset] backdrop-blur-xl backdrop-saturate-150">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-4 sm:px-6">
         <Link
           href="/"
-          className="group flex items-center gap-2 text-sm font-semibold tracking-tight text-zinc-100"
+          className="group flex min-w-0 items-center gap-3 text-zinc-100"
         >
-          <span
-            className="font-mono text-[10px] text-zinc-600 transition-colors group-hover:text-cyan-500/80"
-            aria-hidden
-          >
-            [
-          </span>
-          <span className="transition-colors group-hover:text-cyan-50">
-            TrueCombo
-          </span>
-          <span
-            className="font-mono text-[10px] text-zinc-600 transition-colors group-hover:text-cyan-500/80"
-            aria-hidden
-          >
-            ]
-          </span>
-          <span
-            className="ml-0.5 h-1.5 w-1.5 rounded-full bg-cyan-400/90 shadow-[0_0_10px_rgba(34,211,238,0.6)]"
+          <ComboMark
+            className="h-9 w-9 shrink-0 text-cyan-400/85 transition-all duration-300 group-hover:scale-[1.03] group-hover:text-cyan-300"
             aria-hidden
           />
+          <div className="flex min-w-0 flex-col leading-none">
+            <span className="font-mono text-[9px] font-medium uppercase tracking-[0.28em] text-zinc-600 transition-colors duration-300 group-hover:text-zinc-500">
+              Smash Ultimate
+            </span>
+            <span className="mt-1.5 text-[15px] font-semibold tracking-[0.04em] text-zinc-50 transition-colors duration-300 group-hover:text-white sm:text-base">
+              TrueCombo
+            </span>
+          </div>
         </Link>
         <nav
-          className="flex items-center gap-0.5 sm:gap-1"
+          className="flex shrink-0 items-center gap-0.5 sm:gap-1"
           aria-label="Main navigation"
         >
           {nav.map((item) => (

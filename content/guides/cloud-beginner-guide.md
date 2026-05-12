@@ -1,30 +1,41 @@
 ---
-title: "Cloud: beginner guide (Smash Ultimate)"
-description: "Spacing, limit management, and honest notes for picking up Cloud in Ultimate."
+title: "Cloud: Beginner Guide for Smash Ultimate"
+description: "Spacing, limit tempo, and honest notes for learning Cloud in Ultimate without feeding whiff punishes."
 slug: "cloud-beginner-guide"
 date: "2026-05-05"
+updated: "2026-05-12"
 category: "Character"
-tags: ["cloud", "sword", "spacing"]
+tags: ["cloud", "sword"]
 character: "Cloud"
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "how-to-tech"]
+relatedGuides: ["what-is-neutral", "how-to-tech", "beginner-edgeguarding", "improve-advantage-state"]
 ---
 
-Cloud is a **spacing character** with big disjoints and strong reward when you force predictable responses. The skill ceiling is not “fancy combos”—it is **commit discipline**.
+Cloud is a **mid-range control** character: disjointed normals, strong reward when opponents respect your space, and a **Limit** swing that can flip tempo when timed deliberately.
 
-## Neutral identity
+## Gameplan snapshot
 
-- **Bait shields** with safe pokes, then call out the habit with grab or cross-up aerials.
-- **Limit** is a tempo button, not a panic button—spend it when a route is **guaranteed** or when you need to flip a bad position.
+Bait shields with safe pokes, call out habits with grab or cross-up aerials, and spend Limit when a route is **real**—not when you panic.
 
-## First lab checklist
+## Key moves to lab first
 
-1. **Short hop fast fall aerials** at a fixed spacing on a dummy.
-2. **OOS options** you can execute when autopiloting under pressure (keep the list small).
-3. One **edgeguard** pattern you repeat until it is boring.
+- **Short hop fast-fall aerials** — Stabilize your wall at a fixed range on a dummy.
+- **Cross-up nair / bair angles** — Learn drift so you do not land in front of shield every time.
+- **Up-B out of shield (situational)** — Character-dependent commit; lab end lag honestly.
 
-## Concepts to pair
+## Advantage
 
-Cloud’s neutral is a case study in [footsies and framing](/guides/what-is-neutral)—read that alongside these notes.
+Cloud shines when he earns [advantage](/guides/improve-advantage-state): ledge cycles, platform routes, and mid-range resets that force jumps.
 
-When you get touched, defensive habits matter: review [how to tech](/guides/how-to-tech) so scrambles do not snowball.
+## Edgeguard notes
+
+You do not always need deep commits—sometimes stage control and [edgeguard layers](/guides/beginner-edgeguarding) close stocks.
+
+## Common mistakes
+
+- Spending Limit to escape neutral without a payoff.
+- Predictable recovery lines once habits are scouted.
+
+## Related reading
+
+Concepts: [neutral](/guides/what-is-neutral). Defense: [teching](/guides/how-to-tech). Character page: [Cloud](/characters/cloud).

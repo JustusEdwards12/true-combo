@@ -1,28 +1,37 @@
 ---
-title: "How to tech in Smash Ultimate"
-description: "Teching on the ground, wall techs, and the habits that stop you from getting combo’d for free."
+title: "How to Tech Reliably in Smash Ultimate"
+description: "Ground techs, mixups, and the defensive habits that stop free follow-ups—without guessing every time."
 slug: "how-to-tech"
 date: "2026-05-02"
+updated: "2026-05-10"
 category: "Fundamentals"
 tags: ["defense", "knockdown", "habits"]
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "how-to-short-hop"]
+relatedGuides: ["what-is-neutral", "how-to-short-hop", "best-oos-options", "beginner-ledgetrapping"]
 ---
 
-**Teching** is pressing shield **right before** you hit the ground (or a wall) after a knockdown to flip upright instead of staying in lag. It is not flashy, but it deletes a huge amount of “free” follow-ups in real matches.
+**Teching** is pressing shield right before you touch the floor (or certain walls) to flip out of knockdown instead of eating standard follow-ups. It will not fix bad neutral—but it removes a huge amount of “free” damage at every level.
 
-## Ground tech timing
+## Timing you can internalize
 
-Watch your character’s tumble—tech when you **contact the floor**. If you are early, you get lockout; if you are late, you eat a setup.
+Watch your tumble. Tech on **floor contact**, not when you think you are “close.” Early inputs create lockout; late inputs get you caught by end lag.
 
-## Mixups that matter
+## Mixups that matter (keep the menu small)
 
-- **Neutral tech** — Default, safest when you are unsure.
-- **Roll tech** — Useful when your opponent autopilots a single coverage angle—do not spam it.
-- **In-place vs away** — Pick based on stage position and your remaining resources (jump, air dodge).
+- **Neutral tech** — Default when you do not have a read.
+- **Roll tech** — Useful when opponents autopilot one coverage angle; punishable if spammed.
+- **In-place vs away** — Choose based on stage position, percent, and remaining jumps/airdodge.
 
-## Study pairings
+> Warning: If you always tech roll toward center vs a player who runs up-grabs, you are donating openings. Let data from sets decide your mix.
 
-Neutral collapses quickly when every knockdown becomes a 50/50 you lose—read [what neutral is](/guides/what-is-neutral) alongside your defensive reps.
+## Link tech skill to the rest of your game
 
-Movement fundamentals like [short hopping](/guides/how-to-short-hop) help you **avoid** the knockdown in the first place.
+Neutral collapses into scrambles—[understanding neutral](/guides/what-is-neutral) tells you *when* you should be willing to burn resources to avoid knockdown in the first place.
+
+Movement fundamentals like [short hops](/guides/how-to-short-hop) reduce how often you are tumbling toward the corner.
+
+For defensive offense, read [out-of-shield options](/guides/best-oos-options)—teching gets you upright; OOS gets you turns.
+
+## Ledgetrapping context
+
+If you are teching because you keep returning to the ledge on disadvantage, also study [beginner ledgetrapping](/guides/beginner-ledgetrapping) from the attacker’s perspective—you will recognize what they are fishing for.

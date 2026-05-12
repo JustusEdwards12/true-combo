@@ -1,31 +1,41 @@
 ---
-title: "Mario: beginner guide (Smash Ultimate)"
-description: "A focused starter plan for Mario—simple confirms, neutral tools, and common mistakes."
+title: "Mario: Beginner Guide for Smash Ultimate"
+description: "Starter routes, honest strengths, and the habits that cost Mario players stocks in bracket."
 slug: "mario-beginner-guide"
 date: "2026-05-04"
+updated: "2026-05-12"
 category: "Character"
-tags: ["mario", "all-rounder", "fundamentals"]
+tags: ["mario", "all-rounder"]
 character: "Mario"
 difficulty: "Beginner"
-relatedGuides: ["how-to-short-hop", "what-is-neutral"]
+relatedGuides: ["how-to-short-hop", "what-is-neutral", "best-oos-options", "improve-advantage-state"]
 ---
 
-Mario rewards **clean fundamentals**: approachable combos, a strong aerial kit, and a punish game that scales as your execution tightens.
+Mario is a fundamentals character: strong aerial control, simple reward off openings, and a punish game that scales as your execution tightens.
 
-## Gameplan in one paragraph
+## Gameplan snapshot
 
-Control mid-range with **safe aerials**, threaten grab when opponents shield too long, and convert early hits into **edgeguards** instead of overchasing onstage.
+Control mid-range with **safe aerials**, threaten grab when opponents shield too long, and convert hits into **edge scenarios** instead of overchasing on stage.
 
-## Key tools to lab
+## Key moves to lab first
 
-- **Forward air** — Space it; it is a workhorse at low and mid percents.
-- **Up air ladders** — Learn one stable route in training mode before improvising mid-match.
-- **Fireball** — Use it to **reset** neutral, not to win it by itself.
+- **Forward air** — Your spacing poke at low/mid percents; learn safe landing patterns.
+- **Up air** — Ladder routes are execution checks—learn one stable sequence before improvising.
+- **Fireball** — Use it to **reset** neutral, not to win neutral by itself.
 
-## Execution note
+## Out of shield
 
-Mario’s pressure gets dramatically better when your **short hops** are crisp—use the drills in [how to short hop](/guides/how-to-short-hop).
+Mario’s answers vary by spacing—build a small menu with your coach or VOD review. Start from the framework in [OOS basics](/guides/best-oos-options).
 
-## Matchup thinking
+## Advantage and kills
 
-If you want a template for decision-making under pressure, read [what neutral means](/guides/what-is-neutral) and apply the VOD questions after every session.
+Mario rewards clean [advantage cycles](/guides/improve-advantage-state): corner opponents, threaten jump, and route to your kill tools at higher percents.
+
+## Common mistakes
+
+- Overapproaching with the same full-hop aerial.
+- Fishing ladder routes at percents where a simpler confirm wins.
+
+## Related reading
+
+Movement: [short hops](/guides/how-to-short-hop). Concepts: [neutral](/guides/what-is-neutral). Full character page: [Mario](/characters/mario).

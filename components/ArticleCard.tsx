@@ -35,7 +35,7 @@ export function ArticleCard({
     <article className="h-full">
       <Link
         href={href}
-        className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-800/85 bg-gradient-to-b from-zinc-900/55 to-zinc-950/90 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04),0_0_0_1px_rgba(0,0,0,0.35)] transition-[transform,box-shadow,border-color,background-color] duration-300 ease-out motion-safe:hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0_28px_70px_-34px_rgba(34,211,238,0.22),inset_0_1px_0_0_rgba(255,255,255,0.06)] ${
+        className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-800/85 bg-gradient-to-b from-zinc-900/55 to-zinc-950/90 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04),0_0_0_1px_rgba(0,0,0,0.35)] outline-none ring-cyan-500/0 transition-[transform,box-shadow,border-color,background-color] duration-300 ease-out focus-visible:ring-2 focus-visible:ring-cyan-500/50 motion-safe:hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0_28px_70px_-34px_rgba(34,211,238,0.22),inset_0_1px_0_0_rgba(255,255,255,0.06)] ${
           isFeatured ? "p-7" : "p-5"
         } `}
       >

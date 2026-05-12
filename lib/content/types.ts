@@ -3,6 +3,8 @@ export interface GuideFrontmatter {
   description: string;
   slug: string;
   date: string;
+  /** ISO date; defaults to `date` for SEO if omitted */
+  updated?: string;
   category?: string;
   tags?: string[];
   character?: string;
@@ -16,10 +18,12 @@ export interface CharacterFrontmatter {
   description: string;
   slug: string;
   date: string;
+  updated?: string;
   category?: string;
   tags?: string[];
   character?: string;
   difficulty?: string;
+  relatedGuides?: string[];
 }
 
 export interface MatchupFrontmatter {

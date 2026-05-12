@@ -59,23 +59,61 @@ const resourceChips = [
   { label: "Competitive Concepts", href: "/guides#concepts" },
 ] as const;
 
+const learningPathways = [
+  {
+    label: "Neutral",
+    subtopics: "Spacing • Baiting • Stage Control",
+    href: "/guides#concepts",
+    accent: "text-cyan-200/95",
+  },
+  {
+    label: "Advantage",
+    subtopics: "Juggling • Pressure • Ledgetrapping",
+    href: "/guides#concepts",
+    accent: "text-cyan-300/95",
+  },
+  {
+    label: "Disadvantage",
+    subtopics: "DI • Escaping • Recovery",
+    href: "/guides#concepts",
+    accent: "text-violet-200/95",
+  },
+  {
+    label: "Matchup Theory",
+    subtopics: "Adaptation • Habits • Punishes",
+    href: "/matchups",
+    accent: "text-amber-200/90",
+  },
+  {
+    label: "Mental Stack",
+    subtopics: "Awareness • Priority • Decision Speed",
+    href: "/guides#concepts",
+    accent: "text-cyan-200/90",
+  },
+  {
+    label: "Conditioning",
+    subtopics: "Timing • Threats • Pattern Breaks",
+    href: "/guides#concepts",
+    accent: "text-cyan-300/90",
+  },
+] as const;
+
 function sectionRevealStyle(ms: number): CSSProperties {
   return { "--tc-reveal-delay": `${ms}ms` } as CSSProperties;
 }
 
 export default function HomePage() {
   const sortedGuides = sortByDateDesc(getAllGuides());
-  const totalLibraryMinutes = sortedGuides.reduce(
-    (acc, doc) => acc + readingTimeFromMarkdown(doc.content),
-    0,
-  );
 
+  const featuredBeginner = sortByDateDesc(
+    sortedGuides.filter((g) => g.data.category === "Fundamentals"),
+  ).slice(0, 4);
   const featuredGuides = sortedGuides.slice(0, 3);
-  const latestGuides = sortedGuides.slice(3, 9);
+  const latestGuides = sortedGuides.slice(3, 12);
   const conceptGuides = sortedGuides.filter(
     (g) => g.data.category === "Concepts",
   );
-  const characters = sortByDateDesc(getAllCharacters()).slice(0, 4);
+  const characters = sortByDateDesc(getAllCharacters()).slice(0, 5);
   const matchups = sortByDateDesc(getAllMatchups()).slice(0, 3);
 
   return (
@@ -87,8 +125,8 @@ export default function HomePage() {
         aria-labelledby="hero-heading"
       >
         <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500/25 to-transparent" />
-        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:py-28">
-          <div className="grid gap-12 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-16">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
+          <div className="grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-12">
             <div className="tc-home-section" style={sectionRevealStyle(0)}>
               <p className="font-mono text-[10px] font-medium uppercase tracking-[0.32em] text-cyan-500/85">
                 Super Smash Bros. Ultimate · Knowledge hub
@@ -137,74 +175,72 @@ export default function HomePage() {
             <aside
               className="tc-home-section relative overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-950/50 p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.03)_inset] backdrop-blur-sm sm:p-8"
               style={sectionRevealStyle(60)}
-              aria-label="Coverage snapshot"
+              aria-label="Competitive learning pathways"
             >
-              <div className="pointer-events-none absolute -right-20 top-1/2 h-64 w-64 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
+              <div className="pointer-events-none absolute -right-20 top-1/2 h-64 w-64 -translate-y-1/2 rounded-full bg-cyan-500/15 blur-3xl" />
+              <div className="pointer-events-none absolute inset-x-6 top-[4.5rem] h-px bg-gradient-to-r from-transparent via-cyan-400/35 to-transparent" />
+              <div className="pointer-events-none absolute bottom-10 left-1/2 h-20 w-40 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-2xl" />
+
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-zinc-500">
-                    Live resource depth
+                  <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-zinc-500">
+                    Competitive learning pathways
                   </p>
-                  <p className="mt-2 font-mono text-3xl font-semibold tabular-nums tracking-tight text-zinc-100">
-                    {totalLibraryMinutes}
-                    <span className="ml-2 align-top text-sm font-medium text-cyan-400/90">
-                      min
-                    </span>
-                  </p>
-                  <p className="mt-1 text-xs text-zinc-500">
-                    Editorial minutes across published guides—expandable every
-                    patch cycle.
-                  </p>
-                  <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.2em] text-zinc-600">
-                    KO threat meter ·{" "}
-                    <span className="text-amber-200/80">142.6%</span>{" "}
-                    <span className="text-zinc-600">(display)</span>
+                  <h2 className="mt-3 max-w-[20ch] text-xl font-semibold tracking-tight text-zinc-100 sm:text-2xl">
+                    Build tournament-ready decision making.
+                  </h2>
+                  <p className="mt-3 max-w-md text-sm leading-relaxed text-zinc-400">
+                    Choose a concept lane and train the same high-leverage
+                    situations that decide real sets.
                   </p>
                 </div>
-                <div className="flex shrink-0 gap-1 pt-1" aria-hidden>
+                <div className="mt-1 flex shrink-0 gap-1.5" aria-hidden>
                   {[0, 1, 2].map((i) => (
                     <span
                       key={i}
-                      className="h-6 w-5 rounded-sm border border-zinc-600 bg-gradient-to-b from-zinc-700/80 to-zinc-900 shadow-[0_0_0_1px_rgba(0,0,0,0.5)]"
+                      className="h-2.5 w-2.5 rounded-full border border-cyan-300/40 bg-cyan-400/20 shadow-[0_0_16px_rgba(34,211,238,0.18)]"
                     />
                   ))}
                 </div>
               </div>
 
-              <div className="mt-8 space-y-3 font-mono text-[10px] uppercase tracking-[0.18em]">
-                <div className="flex items-center justify-between rounded-lg border border-zinc-800/80 bg-zinc-900/40 px-3 py-2">
-                  <span className="text-amber-200/85">Neutral</span>
-                  <span className="tabular-nums text-zinc-500">FOCUS · MID</span>
-                </div>
-                <div className="flex items-center justify-between rounded-lg border border-cyan-500/15 bg-cyan-500/5 px-3 py-2">
-                  <span className="text-cyan-200/90">Advantage</span>
-                  <span className="tabular-nums text-cyan-500/60">PRESS · OKI</span>
-                </div>
-                <div className="flex items-center justify-between rounded-lg border border-zinc-800/80 bg-zinc-900/40 px-3 py-2">
-                  <span className="text-rose-200/80">Disadvantage</span>
-                  <span className="tabular-nums text-zinc-500">ESCAPE · DI</span>
-                </div>
-              </div>
+              <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+                {learningPathways.map((path) => (
+                  <li key={path.label}>
+                    <Link
+                      href={path.href}
+                      className="group relative block overflow-hidden rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3 transition-[transform,border-color,background-color,box-shadow] duration-300 motion-safe:hover:-translate-y-0.5 hover:border-cyan-500/35 hover:bg-cyan-500/[0.07] hover:shadow-[0_14px_36px_-22px_rgba(34,211,238,0.55)]"
+                    >
+                      <span className="pointer-events-none absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-transparent via-cyan-400/70 to-transparent opacity-60 transition-opacity group-hover:opacity-100" />
+                      <p
+                        className={`font-mono text-[10px] uppercase tracking-[0.18em] ${path.accent}`}
+                      >
+                        {path.label}
+                      </p>
+                      <p className="mt-2 text-[11px] leading-relaxed text-zinc-500 transition-colors group-hover:text-zinc-300">
+                        {path.subtopics}
+                      </p>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
 
-              <div className="mt-8 border-t border-zinc-800/80 pt-6">
+              <div className="mt-7 border-t border-zinc-800/80 pt-5">
                 <p className="font-mono text-[9px] uppercase tracking-[0.25em] text-zinc-600">
-                  Combo visualization
+                  Tactical focus flow
                 </p>
-                <div
-                  className="mt-3 flex items-end gap-1"
-                  aria-hidden
-                >
-                  {[40, 72, 55, 90, 48].map((h, i) => (
+                <div className="mt-3 grid grid-cols-5 items-center gap-2" aria-hidden>
+                  {[26, 44, 34, 54, 38].map((h, i) => (
                     <span
                       key={i}
-                      className="w-2 rounded-t-sm bg-gradient-to-t from-cyan-600/50 to-cyan-300/80 opacity-80 transition-opacity hover:opacity-100"
-                      style={{ height: `${h}px` }}
+                      className="rounded-full bg-gradient-to-r from-cyan-500/35 to-cyan-300/70 transition-opacity duration-300 hover:opacity-100"
+                      style={{ height: `${h / 2}px` }}
                     />
                   ))}
                 </div>
-                <p className="mt-3 text-[11px] leading-relaxed text-zinc-600">
-                  Bars read as relative commitment—longer isn’t “better,” it’s
-                  more conditioning before the kill confirm.
+                <p className="mt-3 text-[11px] leading-relaxed text-zinc-500">
+                  Start with neutral control, then layer pressure, adaptation,
+                  and confirms as your reads tighten.
                 </p>
               </div>
             </aside>
@@ -213,7 +249,7 @@ export default function HomePage() {
       </section>
 
       <section
-        className="border-b border-zinc-800/60 py-16 sm:py-20"
+        className="border-b border-zinc-800/60 py-12 sm:py-16"
         aria-labelledby="training-lanes-heading"
       >
         <div
@@ -226,7 +262,7 @@ export default function HomePage() {
             title="Training lanes"
             subtitle="Pick a lane like you’d pick a stage—know the win condition, respect the counterpick."
           />
-          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {hubLanes.map((lane) => (
               <HubLinkCard key={lane.href} {...lane} />
             ))}
@@ -235,7 +271,48 @@ export default function HomePage() {
       </section>
 
       <section
-        className="border-b border-zinc-800/60 py-16 sm:py-20"
+        className="border-b border-zinc-800/60 py-12 sm:py-16"
+        aria-labelledby="featured-beginner-heading"
+      >
+        <div
+          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          style={sectionRevealStyle(110)}
+        >
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <SectionHeading
+              id="featured-beginner-heading"
+              kicker="Fundamentals"
+              title="Featured beginner guides"
+              subtitle="Execution and defense you can drill in training mode—built to survive offline neutral."
+            />
+            <Link
+              href="/guides#beginner"
+              className="text-sm font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+            >
+              All fundamentals →
+            </Link>
+          </div>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {featuredBeginner.map(({ data, content }) => (
+              <ArticleCard
+                key={data.slug}
+                title={data.title}
+                description={data.description}
+                href={`/guides/${data.slug}`}
+                date={data.date}
+                category={data.category}
+                difficulty={data.difficulty}
+                tags={data.tags}
+                readTimeMinutes={readingTimeFromMarkdown(content)}
+                microLabel="GUIDE"
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="border-b border-zinc-800/60 py-12 sm:py-16"
         aria-labelledby="featured-guides-heading"
       >
         <div
@@ -256,7 +333,7 @@ export default function HomePage() {
               View archive →
             </Link>
           </div>
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {featuredGuides.map(({ data, content }) => (
               <ArticleCard
                 key={data.slug}
@@ -277,7 +354,7 @@ export default function HomePage() {
       </section>
 
       <section
-        className="border-b border-zinc-800/60 py-16 sm:py-20"
+        className="border-b border-zinc-800/60 py-12 sm:py-16"
         aria-labelledby="character-guides-heading"
       >
         <div
@@ -298,7 +375,7 @@ export default function HomePage() {
               Full roster →
             </Link>
           </div>
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {characters.map(({ data }) => (
               <CharacterCard
                 key={data.slug}
@@ -312,7 +389,7 @@ export default function HomePage() {
       </section>
 
       <section
-        className="border-b border-zinc-800/60 py-16 sm:py-20"
+        className="border-b border-zinc-800/60 py-12 sm:py-16"
         aria-labelledby="matchup-analysis-heading"
       >
         <div
@@ -333,7 +410,7 @@ export default function HomePage() {
               All matchups →
             </Link>
           </div>
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {matchups.map(({ data, content }) => (
               <ArticleCard
                 key={data.slug}
@@ -353,7 +430,7 @@ export default function HomePage() {
       </section>
 
       <section
-        className="border-b border-zinc-800/60 py-16 sm:py-20"
+        className="border-b border-zinc-800/60 py-12 sm:py-16"
         aria-labelledby="competitive-concepts-heading"
       >
         <div
@@ -374,7 +451,7 @@ export default function HomePage() {
               Jump to section →
             </Link>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {conceptGuides.length === 0 ? (
               <p className="text-sm text-zinc-500">
                 Concept guides are on the way—browse all guides for now.
@@ -400,7 +477,7 @@ export default function HomePage() {
       </section>
 
       <section
-        className="py-16 sm:py-24"
+        className="py-12 sm:py-20"
         aria-labelledby="latest-articles-heading"
       >
         <div
@@ -421,7 +498,7 @@ export default function HomePage() {
               Open feed →
             </Link>
           </div>
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {latestGuides.length === 0 ? (
               <p className="col-span-full text-sm text-zinc-500">
                 You’re caught up—check featured guides above.
