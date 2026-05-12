@@ -1,40 +1,50 @@
 ---
 title: "How GSP Works in Smash Ultimate (Practical Guide)"
-description: "What GSP measures, what it does not, and how to use Elite Smash and quickplay data without sabotaging your improvement."
+description: "Use GSP as a feedback tool without letting online habits damage your bracket fundamentals."
 slug: "how-gsp-works"
-date: "2026-05-05"
-updated: "2026-05-11"
+date: "2026-05-12"
 category: "Concepts"
-tags: ["online", "meta", "mindset"]
+tags: ["online", "mindset", "improvement"]
 difficulty: "Beginner"
-relatedGuides: ["common-beginner-mistakes", "what-is-neutral", "best-beginner-characters"]
+relatedGuides: ["how-to-stop-autopiloting", "building-better-habits", "why-beginners-lose-neutral", "what-beginners-should-practice-first"]
 ---
 
-**GSP (Global Smash Power)** is an online rating per character. It is useful as a rough progress tracker—and dangerous as a **self-worth meter**.
+## Intro
 
-## What GSP is good for
+GSP reflects online outcomes, not total competitive skill. Treat it like a thermometer: useful trend signal, terrible identity metric.
 
-- Quick exposure to many playstyles at low commitment.
-- A loose signal that your fundamentals are stabilizing—**when** paired with offline habits.
+## Practical Examples
 
-## What GSP is bad at measuring
+- Use quickplay to gather matchup reps, then lab the exact neutral losses that repeat.
+- If your GSP climbs but offline results stall, compare your risk patterns between environments.
+- Run first-to-fives in arena to test adaptation beyond one-game volatility.
 
-- Adaptation under tournament pressure.
-- Stage selection discipline and etiquette.
-- Execution consistency on LAN delay profiles.
+## Common Mistakes
 
-> Warning: Rulesets and connection quality vary. Do not treat online wins as proof of complete skill.
+- Changing main after short losing streaks.
+- Grinding only for number recovery instead of skill goals.
+- Reinforcing lag-dependent habits that fail offline.
 
-## Practical rules for improvement players
+## Focus First
 
-1. **Use online for reps, not validation** — Log habits, not streaks.
-2. **Prefer arenas with friends** for stable rules when possible.
-3. **Translate lessons** into [neutral review](/guides/what-is-neutral) questions after sessions.
+Attach one learning objective to each online block, like anti-zoner spacing or ledge discipline. Stop after objective quality drops.
 
-## Avoid common traps
+## In-Match Adjustments
 
-Autopilot strategies that farm quickplay can create [beginner mistakes](/guides/common-beginner-mistakes) that get exposed offline—especially jump patterns and shield reliance.
+- If opponents mash unsafe burst options online, tighten punish timing instead of matching chaos.
+- If connection quality is unstable, shift to movement and spacing drills.
+- If tilt rises, end session and run training mode fundamentals.
 
-## Roster note
+## Quick Tips
 
-If you are learning, bias toward characters that teach honest lessons—see [beginner characters](/guides/best-beginner-characters).
+- Use GSP trend lines, not single-session spikes.
+- Offline validation keeps online habits honest.
+- Track decision quality, not only wins.
+
+## Related Links
+- [Building better habits](/guides/building-better-habits)
+- [What beginners should practice first](/guides/what-beginners-should-practice-first)
+- [Why beginners lose neutral](/guides/why-beginners-lose-neutral)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

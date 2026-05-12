@@ -1,41 +1,50 @@
 ---
 title: "What Is Neutral in Smash Ultimate?"
-description: "A competitor’s definition of neutral, advantage, and disadvantage—plus a VOD workflow that turns jargon into adjustments."
+description: "Practical neutral coaching: identify first commitments, control burst range, and stop losing neutral to predictable options."
 slug: "what-is-neutral"
-date: "2026-05-03"
-updated: "2026-05-10"
+date: "2026-05-12"
 category: "Concepts"
-tags: ["neutral", "advantage", "review"]
-difficulty: "Intermediate"
-relatedGuides: ["how-to-short-hop", "how-to-tech", "improve-advantage-state", "beginner-edgeguarding"]
+tags: ["neutral", "decision-making", "review"]
+difficulty: "Beginner"
+relatedGuides: ["burst-range-explained", "how-to-whiff-punish", "why-beginners-lose-neutral", "understanding-stage-control"]
 ---
 
-**Neutral** is not “nothing is happening.” It is the phase where neither player has a stable, repeatable punish lined up—both are trading **threats** and **risk**.
+## Intro
 
-## Three exchange states (plain language)
+Neutral is the phase where both players still have options and no guaranteed punish is locked in. Real neutral is about claiming space and information, not swinging first.
 
-- **Neutral** — You are contesting space and turns without a guaranteed follow-up sequence.
-- **Advantage** — You have forced a defensive response (shield, jump, corner, ledge) that you can plan around.
-- **Disadvantage** — You are the one answering: offstage, low resources, or in knockdown scenarios.
+## Practical Examples
 
-## A VOD routine that actually changes play
+- You stand at Fox dash attack range, show shield once, then dash back and punish the overshoot.
+- Against Samus, you hold center and make her commit to missile timing before jumping.
+- You win neutral by cornering, not by instantly forcing a risky kill move.
 
-1. Mark the **first committed option** that loses each exchange (not just who got hit).
-2. Name the **habit**: drift pattern, jump pattern, OOS autopilot, etc.
-3. Pick **one** counter-adjustment to test next session.
+## Common Mistakes
 
-> Note: If you only watch your wins, you will reinforce fiction. Bracket growth comes from the ugly reps.
+- Confusing movement for pressure and drifting in with no threat behind it.
+- Jumping from disadvantage into neutral with the same landing timing.
+- Ignoring stage position and giving up center for one unsafe chase.
 
-## Examples you will recognize
+## Focus First
 
-- You full-hop forward three times per stock → opponents pre-emptively anti-air.
-- You respect too long in mid-range → you give away stage without gaining information.
-- You win neutral once, then overchase → you throw away [advantage state](/guides/improve-advantage-state).
+During VOD review, label each lost neutral exchange with the first commitment that failed. Keep one recurring habit on your notes for the next session.
 
-## Tie-ins across the site
+## In-Match Adjustments
 
-Movement quality decides who blinks first—[short hop consistency](/guides/how-to-short-hop) matters.
+- If they shield often, threaten tomahawk grab or delayed aerial.
+- If they mash burst options, hold slightly farther and prioritize whiff punishes.
+- If they retreat constantly, walk forward and trap their corner exits.
 
-When neutral collapses, you will spend time scrambling on knockdown—[teching fundamentals](/guides/how-to-tech) buy another decision.
+## Quick Tips
 
-If you lose neutral at the ledge repeatedly, pair this framework with [beginner ledgetrapping](/guides/beginner-ledgetrapping) and [edgeguarding basics](/guides/beginner-edgeguarding).
+- Neutral wins come from repeatable spacing, not hero reads.
+- Respect burst range before committing to your own aerial.
+- When unsure, reset center and force another interaction.
+
+## Related Links
+- [Burst range explained](/guides/burst-range-explained)
+- [How to whiff punish](/guides/how-to-whiff-punish)
+- [Why beginners lose neutral](/guides/why-beginners-lose-neutral)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

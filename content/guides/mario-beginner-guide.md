@@ -1,41 +1,50 @@
 ---
 title: "Mario: Beginner Guide for Smash Ultimate"
-description: "Starter routes, honest strengths, and the habits that cost Mario players stocks in bracket."
+description: "Coaching-style Mario fundamentals: practical confirms, pressure flow, and matchup-ready adjustments."
 slug: "mario-beginner-guide"
-date: "2026-05-04"
-updated: "2026-05-12"
+date: "2026-05-12"
 category: "Character"
 tags: ["mario", "all-rounder"]
-character: "Mario"
 difficulty: "Beginner"
-relatedGuides: ["how-to-short-hop", "what-is-neutral", "best-oos-options", "improve-advantage-state"]
+relatedGuides: ["how-to-whiff-punish", "how-to-keep-advantage", "landing-safely", "mario-vs-samus-matchup-basics"]
 ---
 
-Mario is a fundamentals character: strong aerial control, simple reward off openings, and a punish game that scales as your execution tightens.
+## Intro
 
-## Gameplan snapshot
+Mario rewards clean neutral wins and disciplined advantage routing. Your goal is to win close range without forcing unsafe ladders every opening.
 
-Control mid-range with **safe aerials**, threaten grab when opponents shield too long, and convert hits into **edge scenarios** instead of overchasing on stage.
+## Practical Examples
 
-## Key moves to lab first
+- Use fireball at mid-range to force jump, then anti-air with up air.
+- At ledge, threaten back air while preserving center stage.
+- After down throw at low percent, prioritize consistent follow-up over max extension.
 
-- **Forward air** — Your spacing poke at low/mid percents; learn safe landing patterns.
-- **Up air** — Ladder routes are execution checks—learn one stable sequence before improvising.
-- **Fireball** — Use it to **reset** neutral, not to win neutral by itself.
+## Common Mistakes
 
-## Out of shield
+- Fishing up-smash when a corner trap would be safer.
+- Running in with the same full-hop aerial rhythm.
+- Overextending ladders and losing stage when combo drops.
 
-Mario’s answers vary by spacing—build a small menu with your coach or VOD review. Start from the framework in [OOS basics](/guides/best-oos-options).
+## Focus First
 
-## Advantage and kills
+Master one bread-and-butter starter at low and mid percent plus one ledge trap pattern. Consistency wins more than highlight routes.
 
-Mario rewards clean [advantage cycles](/guides/improve-advantage-state): corner opponents, threaten jump, and route to your kill tools at higher percents.
+## In-Match Adjustments
 
-## Common mistakes
+- If opponents shield fireball, threaten grab or empty hop.
+- If anti-aired repeatedly, mix grounded burst range traps.
+- If juggled heavily, prioritize safe landings over reversal swings.
 
-- Overapproaching with the same full-hop aerial.
-- Fishing ladder routes at percents where a simpler confirm wins.
+## Quick Tips
 
-## Related reading
+- Mario wins through pressure tempo, not pure rushdown.
+- Use advantage to corner first, kill second.
+- Keep your recovery route varied even when ahead.
 
-Movement: [short hops](/guides/how-to-short-hop). Concepts: [neutral](/guides/what-is-neutral). Full character page: [Mario](/characters/mario).
+## Related Links
+- [Mario character page](/characters/mario)
+- [Mario vs Samus matchup basics](/guides/mario-vs-samus-matchup-basics)
+- [How to keep advantage](/guides/how-to-keep-advantage)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

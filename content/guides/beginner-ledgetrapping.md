@@ -1,40 +1,50 @@
 ---
 title: "Beginner Ledgetrapping Guide for Smash Ultimate"
-description: "Hold the ledge with intent: two-option math, timing traps, and how to punish common getups without guessing everything."
+description: "Learn practical ledgetrap structure, realistic option coverage, and match-ready adjustments."
 slug: "beginner-ledgetrapping"
-date: "2026-05-11"
+date: "2026-05-12"
 category: "Fundamentals"
-tags: ["ledge", "advantage", "oki"]
+tags: ["ledge", "advantage", "pressure"]
 difficulty: "Beginner"
-relatedGuides: ["beginner-edgeguarding", "improve-advantage-state", "how-to-tech"]
+relatedGuides: ["how-to-improve-shield-pressure", "how-to-keep-advantage", "escaping-the-corner", "common-recovery-habits"]
 ---
 
-Ledgetrapping is advantage play at the ledge: you force a **getup decision** and try to cover plausible answers without overcommitting.
+## Intro
 
-## Start with two-option thinking
+Ledgetrapping is where disciplined players farm stocks. You are not covering every option at once; you are forcing predictable escapes and punishing the second habit.
 
-Pick **two** getups you will respect this game—often normal and roll, or jump and normal—based on what your opponent repeats.
+## Practical Examples
 
-## Timing beats stuffing every option
+- Stand outside getup attack range and threaten jump plus neutral getup.
+- Show dash back once to bait roll, then hard-cover roll next interaction.
+- Use projectile or disjoint to force ledge timing before committing.
 
-Many beginners stand at ledge and press buttons constantly. Better players **wait** for a tell: jump height, roll startup, or neutral getup sound cue (practice dependent).
+## Common Mistakes
 
-> Tip: If you lose ledge traps to the same jump every game, that is not “random”—it is a habit you are not punishing.
+- Standing too close and getting hit by getup attack repeatedly.
+- Swinging early at ledge invincibility instead of reacting.
+- Giving up trap position to chase one risky option.
 
-## Tools by archetype (general)
+## Focus First
 
-- **Disjoint** — Threaten space without hugging the ledge.
-- **Grab** — Punish shield on ledge or predictable rolls when safe.
-- **Run-off aerial** — Strong when you have a read, risky as autopilot.
+Choose two options to cover by default for your next set, then adapt third option only after seeing repetition.
 
-## Connect to edgeguards
+## In-Match Adjustments
 
-If they bypass your trap by recovering high, switch layers to [edgeguard planning](/guides/beginner-edgeguarding).
+- If they jump often, hold anti-air height instead of hugging ledge.
+- If they neutral getup shield, add tomahawk grab timing.
+- If they stall, threaten ledge regrab punish without overcommitting.
 
-## Advantage framing
+## Quick Tips
 
-Ledgetrapping is one way to spend [advantage](/guides/improve-advantage-state) efficiently—do not burn your stage control for a single hard read every time.
+- Your positioning matters more than button speed.
+- Count their last three ledge options before hard reads.
+- Corner pressure wins long sets.
 
-## Defender’s perspective
-
-When you are on the ledge, [teching](/guides/how-to-tech) and getup mixups matter—but the attacker’s framework here tells you what they are trying to fish for.
+## Related Links
+- [How to keep advantage](/guides/how-to-keep-advantage)
+- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
+- [Escaping the corner](/guides/escaping-the-corner)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

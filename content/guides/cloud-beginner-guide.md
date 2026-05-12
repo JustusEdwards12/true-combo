@@ -1,41 +1,50 @@
 ---
 title: "Cloud: Beginner Guide for Smash Ultimate"
-description: "Spacing, limit tempo, and honest notes for learning Cloud in Ultimate without feeding whiff punishes."
+description: "A practical Cloud coaching guide focused on sword spacing, limit discipline, and real match adaptation."
 slug: "cloud-beginner-guide"
-date: "2026-05-05"
-updated: "2026-05-12"
+date: "2026-05-12"
 category: "Character"
 tags: ["cloud", "sword"]
-character: "Cloud"
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "how-to-tech", "beginner-edgeguarding", "improve-advantage-state"]
+relatedGuides: ["how-to-space-safely", "burst-range-explained", "how-to-keep-advantage", "cloud-vs-joker-matchup-tips"]
 ---
 
-Cloud is a **mid-range control** character: disjointed normals, strong reward when opponents respect your space, and a **Limit** swing that can flip tempo when timed deliberately.
+## Intro
 
-## Gameplan snapshot
+Cloud is strongest when you make opponents swing into your disjoint. Keep your spacing honest, convert corner pressure, and spend Limit for clear value.
 
-Bait shields with safe pokes, call out habits with grab or cross-up aerials, and spend Limit when a route is **real**—not when you panic.
+## Practical Examples
 
-## Key moves to lab first
+- Wall with back air near center, then dash in only after shield hesitation.
+- Use Limit threat to freeze jumps and collect ledge position.
+- Against rushdown, step back half a character length and punish whiffed burst options.
 
-- **Short hop fast-fall aerials** — Stabilize your wall at a fixed range on a dummy.
-- **Cross-up nair / bair angles** — Learn drift so you do not land in front of shield every time.
-- **Up-B out of shield (situational)** — Character-dependent commit; lab end lag honestly.
+## Common Mistakes
 
-## Advantage
+- Burning Limit in neutral panic with no route.
+- Landing in front of shield after every aerial.
+- Going too deep offstage and exposing Cloud recovery.
 
-Cloud shines when he earns [advantage](/guides/improve-advantage-state): ledge cycles, platform routes, and mid-range resets that force jumps.
+## Focus First
 
-## Edgeguard notes
+Build a two-range gameplan: preferred walling range and emergency scramble range. Drill entries and exits for both.
 
-You do not always need deep commits—sometimes stage control and [edgeguard layers](/guides/beginner-edgeguarding) close stocks.
+## In-Match Adjustments
 
-## Common mistakes
+- If opponent parries your aerial timing, delay landing windows.
+- If they anti-air jumps, hold ground and force burst commitments.
+- If recovery is being sniped, mix low snap timing and drift.
 
-- Spending Limit to escape neutral without a payoff.
-- Predictable recovery lines once habits are scouted.
+## Quick Tips
 
-## Related reading
+- Cloud thrives on patience and range control.
+- Limit is a tempo resource, not just damage.
+- Take stage before chasing edgeguards.
 
-Concepts: [neutral](/guides/what-is-neutral). Defense: [teching](/guides/how-to-tech). Character page: [Cloud](/characters/cloud).
+## Related Links
+- [Cloud character page](/characters/cloud)
+- [Cloud vs Joker matchup tips](/guides/cloud-vs-joker-matchup-tips)
+- [How to space safely](/guides/how-to-space-safely)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

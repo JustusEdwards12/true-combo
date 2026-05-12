@@ -1,37 +1,50 @@
 ---
 title: "How to Tech Reliably in Smash Ultimate"
-description: "Ground techs, mixups, and the defensive habits that stop free follow-ups—without guessing every time."
+description: "Build practical tech timing, avoid lockout panic, and survive disadvantage situations that decide real sets."
 slug: "how-to-tech"
-date: "2026-05-02"
-updated: "2026-05-10"
+date: "2026-05-12"
 category: "Fundamentals"
-tags: ["defense", "knockdown", "habits"]
+tags: ["defense", "disadvantage", "execution"]
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "how-to-short-hop", "best-oos-options", "beginner-ledgetrapping"]
+relatedGuides: ["landing-safely", "how-to-avoid-panic-options", "defensive-habits-beginners-have", "escaping-the-corner"]
 ---
 
-**Teching** is pressing shield right before you touch the floor (or certain walls) to flip out of knockdown instead of eating standard follow-ups. It will not fix bad neutral—but it removes a huge amount of “free” damage at every level.
+## Intro
 
-## Timing you can internalize
+Teching removes free follow-ups and forces opponents to make real reads. The goal is not random mashing; it is controlled timing with intentional follow-up choices.
 
-Watch your tumble. Tech on **floor contact**, not when you think you are “close.” Early inputs create lockout; late inputs get you caught by end lag.
+## Practical Examples
 
-## Mixups that matter (keep the menu small)
+- Practice battlefield side-platform techs by launching yourself with fixed knockback and reacting on impact.
+- After tech in place, hold shield once to scout whether your opponent overcommits.
+- Against ledge pressure, mix missed tech awareness with safer recovery routing.
 
-- **Neutral tech** — Default when you do not have a read.
-- **Roll tech** — Useful when opponents autopilot one coverage angle; punishable if spammed.
-- **In-place vs away** — Choose based on stage position, percent, and remaining jumps/airdodge.
+## Common Mistakes
 
-> Warning: If you always tech roll toward center vs a player who runs up-grabs, you are donating openings. Let data from sets decide your mix.
+- Pressing shield too early and entering lockout.
+- Always tech rolling in, which gets farmed by dash grab.
+- Teching correctly but selecting panic options immediately after.
 
-## Link tech skill to the rest of your game
+## Focus First
 
-Neutral collapses into scrambles—[understanding neutral](/guides/what-is-neutral) tells you *when* you should be willing to burn resources to avoid knockdown in the first place.
+Run 50 tech reps at one knockback setting, then 50 at a different timing. Only count a rep if you also choose a calm follow-up option.
 
-Movement fundamentals like [short hops](/guides/how-to-short-hop) reduce how often you are tumbling toward the corner.
+## In-Match Adjustments
 
-For defensive offense, read [out-of-shield options](/guides/best-oos-options)—teching gets you upright; OOS gets you turns.
+- If opponents hard-cover roll techs, add tech in place and delayed getup.
+- If you miss wall techs, angle recovery lower and prep input earlier.
+- If panic airdodge follows every tech, pause your stick for a beat before acting.
 
-## Ledgetrapping context
+## Quick Tips
 
-If you are teching because you keep returning to the ledge on disadvantage, also study [beginner ledgetrapping](/guides/beginner-ledgetrapping) from the attacker’s perspective—you will recognize what they are fishing for.
+- Tech skill matters most when combined with corner awareness.
+- Do not commit to one tech direction all set.
+- Track missed-tech patterns by stage side in your notes.
+
+## Related Links
+- [Landing safely](/guides/landing-safely)
+- [Defensive habits beginners have](/guides/defensive-habits-beginners-have)
+- [Escaping the corner](/guides/escaping-the-corner)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

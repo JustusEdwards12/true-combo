@@ -1,53 +1,50 @@
 ---
 title: "Best Beginner Characters in Smash Ultimate"
-description: "How to pick a learning main: execution load, honest feedback, and five strong on-ramps—without tier list theater."
+description: "Choose a learning main with realistic goals, practical strengths, and habits that transfer to tournament play."
 slug: "best-beginner-characters"
-date: "2026-05-07"
+date: "2026-05-12"
 category: "Roster"
 tags: ["roster", "fundamentals", "learning"]
 difficulty: "Beginner"
-relatedGuides: ["how-to-short-hop", "what-is-neutral", "common-beginner-mistakes", "mario-beginner-guide"]
+relatedGuides: ["what-beginners-should-practice-first", "building-better-habits", "best-training-mode-drills", "common-beginner-mistakes"]
 ---
 
-“Best for beginners” is not the same as “easiest to win online.” You want a character who **teaches readable lessons** when you mess up—spacing, commitment, and neutral pacing.
+## Intro
 
-## What to optimize for (learning mains)
+A strong beginner pick should teach spacing, punish discipline, and recovery planning. Pick a character that gives clear feedback when you overextend.
 
-- **Stable reward** — You can convert a hit into damage without secret tech.
-- **Clear weaknesses** — You notice when you are outranged or when your recovery is linear.
-- **Honest neutral tools** — You practice footsies, not gimmick loops.
+## Practical Examples
 
-> Tip: Pick one character for at least 30–50 hours before swapping. Otherwise you never feel your own habits.
+- Mario teaches close-range confirms and advantage flow without requiring niche tech.
+- Cloud teaches spacing discipline and corner pressure through disjoint control.
+- Samus teaches stage control and conditioning through projectile timing.
 
-## Five strong on-ramps (and what they teach)
+## Common Mistakes
 
-### Mario
+- Choosing only by tier lists while ignoring your current execution level.
+- Character-hopping weekly so no habit correction ever sticks.
+- Blaming the character for losses caused by spacing and panic options.
 
-All-rounder aerials and simple confirms. Teaches **spacing** and **advantage conversion** without hiding execution flaws. Deep dive: [Mario beginner guide](/guides/mario-beginner-guide).
+## Focus First
 
-### Cloud
+Commit to one primary and one backup for a month. Build a weekly checklist around neutral losses, disadvantage escapes, and closing stocks.
 
-Mid-range control and disciplined limit usage. Teaches **respect** and **commit management**. Guide: [Cloud beginner guide](/guides/cloud-beginner-guide).
+## In-Match Adjustments
 
-### Kirby
+- If your neutral is collapsing, pick characters with clearer burst threats.
+- If you cannot finish stocks, prioritize characters with reliable ledgetraps.
+- If execution stress is high, simplify to lower-maintenance confirms first.
 
-Floaty jump and strong low-execution edgeguards at lower levels. Teaches **offstage patience** and **ledge timing**—with a ceiling that forces growth later.
+## Quick Tips
 
-### Samus
+- Ask if your character helps you practice fundamentals this week.
+- Use bracket pressure to test habits, not swap mains mid-set.
+- Track your most common stock-losing situation for each character.
 
-Charge shot and zair change how opponents approach. Teaches **projectile conditioning** and **stage control**.
-
-### Joker
-
-Strong neutral toolkit with a high-skill ceiling via Arsene timing. Teaches **footsies** and **advantage snowballing** if you commit to fundamentals first. Overview: [Joker character page](/characters/joker).
-
-## What to avoid early (for most players)
-
-- Mains that require constant precision just to access their gameplan (you can graduate into them).
-- Characters whose online success hides bad habits you cannot keep offline.
-
-## Next reads
-
-Pair roster choice with mechanics: [short hops](/guides/how-to-short-hop) and [neutral language](/guides/what-is-neutral).
-
-If you feel “stuck,” audit [common beginner mistakes](/guides/common-beginner-mistakes).
+## Related Links
+- [What beginners should practice first](/guides/what-beginners-should-practice-first)
+- [Best training mode drills](/guides/best-training-mode-drills)
+- [Building better habits](/guides/building-better-habits)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

@@ -1,50 +1,50 @@
 ---
 title: "How to Short Hop Consistently in Smash Ultimate"
-description: "Build a reliable short hop: timing windows, macro habits, and how it upgrades your neutral and advantage."
+description: "A coaching-style short hop plan with drills, pressure use-cases, and realistic fixes for full-hop autopilot."
 slug: "how-to-short-hop"
-date: "2026-05-01"
-updated: "2026-05-10"
+date: "2026-05-12"
 category: "Fundamentals"
 tags: ["movement", "execution", "neutral"]
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "best-beginner-characters", "common-beginner-mistakes"]
+relatedGuides: ["what-is-neutral", "how-to-fast-fall-consistently", "best-training-mode-drills", "how-to-stop-autopiloting"]
 ---
 
-A **short hop** keeps your aerials fast and your commitment smaller than a full jump. In Ultimate, consistency here is one of the highest ROI drills you can run—especially if you plan to compete offline where execution checks are unforgiving.
+## Intro
 
-## Why short hops matter
+Short hop consistency is less about hand speed and more about rhythm. Competitive players use short hops to threaten space while staying ready to shield, whiff punish, or reset center.
 
-- **Neutral probes** — You can threaten an aerial without floating in a long jump arc.
-- **Safer pressure** — Many characters’ best “pokes” are rising or falling aerials from a low jump.
-- **Combo bridges** — A lot of early-percent routes assume you can short hop into a move on command.
+## Practical Examples
 
-## Two practical acquisition paths
+- Mario short-hop back air at max range, then drift out to avoid a panic grab.
+- Cloud short-hop empty land into dash back to bait a jump, then anti-air the swing.
+- Run a 2-minute drill: alternate empty short hop, short-hop aerial, and short-hop fast-fall aerial.
 
-### Quick tap (universal)
+## Common Mistakes
 
-Tap jump or your jump button and release quickly. The window is strict, but it is the baseline most players learn first. If you miss, you usually get a full hop—treat that as feedback, not failure.
+- Treating short hop as an input test instead of a spacing tool.
+- Only jumping forward, which makes your timing readable by stock two.
+- Autopiloting aerial every short hop instead of mixing empty landings.
 
-### Attack-cancel routes (character-specific)
+## Focus First
 
-Some characters stabilize low aerials by jumping immediately out of certain grounded attacks. Lab your main’s community notes, but **do not** skip the plain short hop—attack cancels are supplements, not replacements.
+Pick one spacing marker on stage and repeat 30 clean short-hop reps from that marker. If the rep drifts too far in, reset immediately. Quality beats volume.
 
-## A training mode loop that transfers
+## In-Match Adjustments
 
-1. Stand at a fixed spacing from a CPU or dummy.
-2. Alternate **empty short hops** and **single aerial** short hops.
-3. Add one defensive layer: after landing, reset to neutral instead of rolling on autopilot.
+- If anti-aired repeatedly, switch to empty short hop into shield or dash back.
+- If your aerial keeps hitting shield, delay timing and land farther outside grab range.
+- If your hands tense up, simplify to empty short hops for one game to reset rhythm.
 
-> Tip: Film 30 seconds of attempts. Count full hops by mistake. Your goal is downward trend over sessions, not perfection in one grind.
+## Quick Tips
 
-## Link this to neutral and roster choice
+- Use short hop to ask questions, not force openings.
+- Record your inputs in training mode and count accidental full hops.
+- Pair short hop practice with fast-fall control for real matches.
 
-Short hops are how you **ask questions** without spending all your air resources. Pair the mechanic with a clear neutral read: [what neutral is in Ultimate](/guides/what-is-neutral).
-
-If you are still choosing a main, biased toward simple execution, read [best beginner characters](/guides/best-beginner-characters)—several reward clean hops early.
-
-## Common failure modes
-
-- Jumping during panic scramble (fix with [tech habits](/guides/how-to-tech) and calmer drift).
-- Always approaching the same aerial—mix in [out-of-shield answers](/guides/best-oos-options) and grounded threats so opponents cannot hard-read your jump.
-
-For a wider habit audit, see [common beginner mistakes](/guides/common-beginner-mistakes).
+## Related Links
+- [Fast-fall consistency](/guides/how-to-fast-fall-consistently)
+- [Best training mode drills](/guides/best-training-mode-drills)
+- [How to stop autopiloting](/guides/how-to-stop-autopiloting)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

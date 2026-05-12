@@ -1,37 +1,50 @@
 ---
 title: "Best Out-of-Shield Options Explained (Smash Ultimate)"
-description: "How OOS works, how to pick 2–3 reliable answers per character, and when shield is the wrong tool."
+description: "Learn practical out-of-shield decision trees without fake frame data, plus matchup-based shield discipline."
 slug: "best-oos-options"
-date: "2026-05-08"
+date: "2026-05-12"
 category: "Fundamentals"
-tags: ["defense", "shield", "frame-data"]
+tags: ["defense", "shield", "punish"]
 difficulty: "Beginner"
-relatedGuides: ["how-to-tech", "what-is-neutral", "improve-advantage-state"]
+relatedGuides: ["how-to-improve-shield-pressure", "defensive-habits-beginners-have", "how-to-avoid-panic-options", "how-to-space-safely"]
 ---
 
-**Out-of-shield (OOS)** means attacking after blocking—usually with moves that rise above your shield quickly enough to punish a sloppy approach.
+## Intro
 
-## The idea in one sentence
+Out-of-shield is about recognizing when pressure is actually unsafe and responding with your highest-confidence option. Good OOS play starts before you block.
 
-If an opponent’s move is **unsafe on shield**, your fastest reasonable OOS can become a **turn**—sometimes a full punish, sometimes just relief.
+## Practical Examples
 
-## How to choose your small OOS menu
+- Against late aerial pressure, jump OOS with a quick aerial only when drift leaves them in range.
+- Versus cross-up pressure, reset with roll or jump sparingly and reclaim center.
+- When opponents over-grab your shield, mix spot-dodge timing and preemptive movement.
 
-1. **Grab** — When they sit on your shield expecting you to release into nothing.
-2. **Fast aerial OOS** — When their spacing is loose and jump is available.
-3. **Up-B / special OOS** — Character-dependent; lab carefully for end lag.
+## Common Mistakes
 
-> Note: “Best OOS” is not universal—it is **character + matchup + spacing** dependent.
+- Trying to punish every shield touch even when spacing is safe.
+- Overusing grab OOS and getting called out by drift-back aerials.
+- Staying in shield too long instead of moving earlier.
 
-## Examples of decision rules
+## Focus First
 
-- vs repeated safe aerials: stop shielding everything; change your preemptive [neutral](/guides/what-is-neutral) tool.
-- vs grab spam after pressure: mix jump, roll (sparingly), and aggressive escape—not more shield.
+Build a three-option OOS menu for your main: safest aerial, grab punish, and reset option. Test each against your common local matchups.
 
-## Link to advantage
+## In-Match Adjustments
 
-Winning OOS is often how you **flip** a blocked interaction into your turn. Read [improving advantage state](/guides/improve-advantage-state) so you do not waste the opening.
+- If pressure is safe, stop forcing OOS and contest earlier in neutral.
+- If opponents mash on shield, increase shield discipline and punish timing.
+- If grabbed repeatedly, incorporate movement escapes before shielding.
 
-## Defense chain
+## Quick Tips
 
-Pair OOS study with [teching](/guides/how-to-tech)—different phase of defense, same principle: fewer autopilot options, more intentional answers.
+- Great defense mixes shield, movement, and spacing.
+- Choose consistency over theoretical max punish.
+- Use training mode to recreate one pressure sequence at a time.
+
+## Related Links
+- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
+- [How to space safely](/guides/how-to-space-safely)
+- [Defensive habits beginners have](/guides/defensive-habits-beginners-have)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

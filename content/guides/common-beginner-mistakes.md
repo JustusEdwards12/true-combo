@@ -1,36 +1,50 @@
 ---
 title: "Common Beginner Mistakes in Smash Ultimate"
-description: "The habits that keep players stuck in pools: autopilot movement, shield reliance, jump patterns, and review blind spots."
+description: "A realistic coaching checklist for neutral leaks, defensive panic, and autopilot habits that lose sets."
 slug: "common-beginner-mistakes"
-date: "2026-05-06"
+date: "2026-05-12"
 category: "Fundamentals"
-tags: ["habits", "review", "mindset"]
+tags: ["habits", "mindset", "improvement"]
 difficulty: "Beginner"
-relatedGuides: ["what-is-neutral", "how-to-short-hop", "how-to-tech", "best-oos-options"]
+relatedGuides: ["building-better-habits", "how-to-stop-autopiloting", "why-beginners-lose-neutral", "defensive-habits-beginners-have"]
 ---
 
-Most improvement in Ultimate is not secret tech—it is removing **predictable leaks** that better players bank for free.
+## Intro
 
-## Movement mistakes
+Most plateaus come from repeat mistakes, not missing secret tech. The fastest way forward is naming one bad habit and replacing it with one reliable default.
 
-- **Full-hop autopilot** — Approaches become readable. Fix: [short hop drills](/guides/how-to-short-hop) + grounded mix.
-- **Rolling on rhythm** — Players who roll on hitstun end patterns get called out. Fix: alternate tech / hold / jump by situation.
+## Practical Examples
 
-## Defensive mistakes
+- You lose two stocks to panic jump from corner in one game.
+- You force unsafe approach after taking small lead instead of holding center.
+- You miss punishes because you attack before confirming spacing.
 
-- **Shielding everything** — You get grabbed or crossed up. Fix: learn a small [OOS menu](/guides/best-oos-options) and preemptive neutral tools.
-- **Panic air dodge** — Burns resources early. Fix: plan one escape route per scenario in disadvantage.
+## Common Mistakes
 
-## Neutral mistakes
+- Full-hop autopilot in every neutral exchange.
+- Shielding too long and giving up stage.
+- Fishing kill options instead of building advantage first.
 
-- **Chasing without intent** — You run behind opponents hoping. Fix: [neutral framing](/guides/what-is-neutral) + one primary callout per interaction.
+## Focus First
 
-## Review mistakes
+Use a one-page session log with three columns: neutral loss, defensive loss, stock closeout loss. Write one correction for each column.
 
-- **Only watching highlights** — You learn fiction. Fix: log three lost neutral exchanges per game and name the habit.
+## In-Match Adjustments
 
-> Tip: Pick one category (movement/defense/neutral) per week. Narrow focus beats 20 “tips” you never apply.
+- If you panic at high percent, pre-plan two low-risk options before stock starts.
+- If you overroll, remove roll from your next game unless cornered.
+- If you miss punishes, wait one beat and strike after visual confirm.
 
-## Character choice friction
+## Quick Tips
 
-If execution feels impossible, revisit [beginner-friendly characters](/guides/best-beginner-characters)—sometimes the lesson is hidden behind the wrong main *for this month*.
+- One fixed habit beats ten temporary tips.
+- Review losses before wins.
+- Consistency under pressure matters more than combo clips.
+
+## Related Links
+- [Building better habits](/guides/building-better-habits)
+- [How to stop autopiloting](/guides/how-to-stop-autopiloting)
+- [Defensive habits beginners have](/guides/defensive-habits-beginners-have)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

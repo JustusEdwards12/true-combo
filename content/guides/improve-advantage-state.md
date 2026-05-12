@@ -1,43 +1,50 @@
 ---
 title: "How to Improve Your Advantage State in Smash Ultimate"
-description: "Turn winning neutral into damage and stocks: oki thinking, ledge cycles, and the habits that waste advantage."
+description: "Practical advantage coaching: keep corner control, force defensive habits, and close stocks without overextending."
 slug: "improve-advantage-state"
-date: "2026-05-04"
-updated: "2026-05-11"
+date: "2026-05-12"
 category: "Concepts"
-tags: ["advantage", "oki", "pressure"]
+tags: ["advantage", "pressure", "conversion"]
 difficulty: "Intermediate"
-relatedGuides: ["what-is-neutral", "beginner-edgeguarding", "beginner-ledgetrapping", "best-oos-options"]
+relatedGuides: ["how-to-keep-advantage", "juggling-basics", "beginner-ledgetrapping", "understanding-stage-control"]
 ---
 
-**Advantage** means you have forced a defensive situation you can plan around—corner, platform trap, ledge, or a tech chase window. Improvement here is less about “more aggression” and more about **fewer wasted turns**.
+## Intro
 
-## The advantage checklist
+Strong advantage is structured pressure: you keep center, cover likely exits, and cash out when the opponent runs out of room.
 
-- **Take stage** — Center control multiplies threat range.
-- **Choose a coverage angle** — Not every option at once; one primary callout.
-- **Have a reset plan** — If they escape clean, do not panic-chase.
+## Practical Examples
 
-## Common leaks (and fixes)
+- After up throw, shark platform landing before swinging at air dodge.
+- At ledge, stand where normal getup and jump share a punish window.
+- On hit at mid-percent, push to corner rather than forcing a low-value combo extension.
 
-### Overchasing off a single hit
+## Common Mistakes
 
-You convert 15% and then lose neutral because you ran into their escape aerial. Fix: **layer** pressure—threat first, commit second.
+- Overchasing deep and giving up center for one read.
+- Using the same ledgetrap timing every stock.
+- Ignoring reset opportunities when pressure sequence breaks.
 
-### Autopilot ledge pressure
+## Focus First
 
-You stand at roll distance every time. Fix: vary timing and use [ledgetrapping](/guides/beginner-ledgetrapping) reads from their past ledge options.
+Pick one advantage lane to train this week: juggle, ledgetrap, or corner pressure. Track how often that lane leads to at least 40% or a stock.
 
-### Ignoring kill windows
+## In-Match Adjustments
 
-You stack damage forever without closing. Fix: identify 1–2 **confirm routes** at kill percent for your character and rehearse them.
+- If opponents jump from corner, pre-position for anti-air.
+- If they shield in fear, add grab and delayed timing traps.
+- If they mash reversal, bait once and punish hard.
 
-> Note: Advantage is matchup-shaped. vs floaties, your edgeguard plan differs—see [edgeguarding basics](/guides/beginner-edgeguarding).
+## Quick Tips
 
-## Link back to neutral
+- Stage control is your currency in advantage.
+- Pressure with intent, not speed.
+- Know when to reset and keep your lead.
 
-Advantage starts when neutral ends—refresh [neutral fundamentals](/guides/what-is-neutral) if your openings are rare.
-
-## Defense flip
-
-When advantage turns into scramble, your [OOS defaults](/guides/best-oos-options) and [tech habits](/guides/how-to-tech) decide whether you survive.
+## Related Links
+- [How to keep advantage](/guides/how-to-keep-advantage)
+- [Juggling basics](/guides/juggling-basics)
+- [Understanding stage control](/guides/understanding-stage-control)
+- [Neutral game glossary](/glossary/neutral-game)
+- [Directional influence glossary](/glossary/directional-influence)
+- [Teching guide](/guides/how-to-tech)

@@ -1,0 +1,33 @@
+---
+description: TrueCombo guide writing quality and research standard
+alwaysApply: true
+---
+
+# TrueCombo Guide Quality Standard
+
+Apply this standard to all guide, character, and matchup content updates.
+
+## Core workflow
+- Research first using reliable public Smash sources (SmashWiki, tournament/meta discussion, educational competitive content).
+- Synthesize into original coaching guidance. Never copy phrasing or structure from source material.
+- Prioritize practical in-game value over generic SEO prose.
+
+## Writing requirements
+- Keep a coaching tone: concise, grounded, beginner-accessible, competitively realistic.
+- Use actionable sections: what to focus first, common beginner errors, adaptation checks, and practical tips.
+- Include realistic scenarios: neutral interactions, burst range checks, whiff punish windows, ledge/pressure sequences, advantage/disadvantage decisions, DI/escape habits.
+- Explain risk/reward and likely player habits (panic jump, shield hold, roll from ledge, etc.) with matchup-aware context.
+
+## Quality guardrails
+- Do not hallucinate frame data, statistics, or fake “pro analysis”.
+- Do not write motivational filler or vague “just improve” advice.
+- Do not keyword stuff; keep terminology natural and context-driven.
+- Preserve semantic structure and metadata quality while keeping readability high.
+
+## Internal linking and architecture
+- Cross-link mechanics ↔ characters ↔ matchups ↔ glossary when contextually useful.
+- Reinforce topical clusters (neutral, advantage, disadvantage, ledgetrapping, edgeguarding, adaptation, conditioning).
+
+## Source handling
+- Sources are for factual grounding only; output must remain original.
+- If uncertain about a claim, omit or phrase conservatively rather than inventing specifics.
