@@ -90,7 +90,7 @@ export default async function GuidePage({ params }: Props) {
         datePublished={data.date}
         dateModified={updated}
       />
-      <BreadcrumbJsonLd items={breadcrumbs} />
+      <BreadcrumbJsonLd items={breadcrumbs} currentPath={`/guides/${slug}`} />
       <FAQJsonLd items={faqItems} />
       <ArticleShell breadcrumbs={breadcrumbs} toc={toc}>
         <header className="mt-6 border-b border-zinc-800/80 pb-8">

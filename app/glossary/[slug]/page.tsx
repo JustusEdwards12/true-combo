@@ -59,7 +59,7 @@ export default async function GlossaryTermPage({ params }: Props) {
         datePublished={data.date}
         dateModified={data.updated ?? data.date}
       />
-      <BreadcrumbJsonLd items={breadcrumbs} />
+      <BreadcrumbJsonLd items={breadcrumbs} currentPath={`/glossary/${slug}`} />
       <ArticleShell breadcrumbs={breadcrumbs} toc={toc} tocLabel="Term sections">
         <header className="mt-6 border-b border-zinc-800/80 pb-8">
           <div className="flex flex-wrap items-center gap-2">

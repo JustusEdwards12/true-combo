@@ -73,7 +73,7 @@ export default async function MatchupPage({ params }: Props) {
         datePublished={data.date}
         dateModified={updated}
       />
-      <BreadcrumbJsonLd items={breadcrumbs} />
+      <BreadcrumbJsonLd items={breadcrumbs} currentPath={`/matchups/${matchup}`} />
       <ArticleShell breadcrumbs={breadcrumbs} toc={toc} tocLabel="Matchup sections">
         <header className="mt-6 border-b border-zinc-800/80 pb-8">
           <div className="flex flex-wrap items-center gap-2">

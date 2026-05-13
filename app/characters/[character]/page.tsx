@@ -69,7 +69,7 @@ export default async function CharacterPage({ params }: Props) {
         datePublished={data.date}
         dateModified={updated}
       />
-      <BreadcrumbJsonLd items={breadcrumbs} />
+      <BreadcrumbJsonLd items={breadcrumbs} currentPath={`/characters/${character}`} />
       <ArticleShell
         breadcrumbs={breadcrumbs}
         toc={toc}
