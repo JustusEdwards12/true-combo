@@ -6,6 +6,10 @@ date: "2026-05-12"
 category: "Character"
 tags: ["mario", "all-rounder"]
 difficulty: "Beginner"
+keyTakeaways:
+  - "Work on a practical mario roadmap focused on spacing, burst threat, conversion discipline, and matchup adaptation."
+  - "Cut out dash-in aerial from too far away, losing to disjoints. Wait for clearer openings instead of forcing a swing."
+  - "Use drill 1: entry spacing (6 minutes) for focused reps, then test it in real matches right away."
 relatedGuides: ["how-to-whiff-punish", "how-to-keep-advantage", "landing-safely", "mario-vs-samus-matchup-basics"]
 ---
 

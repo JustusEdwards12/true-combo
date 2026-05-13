@@ -6,6 +6,10 @@ date: "2026-05-12"
 category: "Matchup"
 tags: ["cloud", "joker", "matchup"]
 difficulty: "Intermediate"
+keyTakeaways:
+  - "Focus on a practical cloud vs joker guide covering spacing warfare, arsene tempo shifts, and adaptation between games."
+  - "Avoid cloud overswinging after one blocked aerial. Pick safer options until your timing is consistent."
+  - "Practice drill 1: cloud anti-entry spacing (7 minutes) in short sets and track one improvement after each session."
 relatedGuides: ["cloud-beginner-guide", "how-to-space-safely", "burst-range-explained", "how-to-read-opponents"]
 ---
 
@@ -14,7 +18,7 @@ Cloud vs Joker is a tempo matchup. Cloud wants to keep the game at sword range w
 ## What To Focus On First
 
 ### 1) Spacing discipline
-Cloud must avoid giving Joker free scramble entries. Joker must avoid jumping into pre-positioned anti-air lanes.
+Cloud must avoid giving Joker free scramble entries. Joker must avoid jumping into pre-positioned space above you where jumps happen.
 
 ### 2) Resource and tempo awareness
 Arsene changes risk/reward. During Arsene, Cloud should simplify and protect stage; Joker should push advantage without overextending.

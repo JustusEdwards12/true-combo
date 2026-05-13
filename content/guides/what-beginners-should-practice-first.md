@@ -6,6 +6,10 @@ date: "2026-05-12"
 category: "Fundamentals"
 tags: ["training", "beginners", "improvement"]
 difficulty: "Beginner"
+keyTakeaways:
+  - "Work on a practical training roadmap for new players: what to practice first, how to structure sessions, and how to adapt from real matches."
+  - "Cut out practicing ten skills per session and retaining none. Wait for clearer openings instead of forcing a swing."
+  - "Use block a - execution warmup (6 minutes) for focused reps, then test it in real matches right away."
 relatedGuides: ["best-training-mode-drills", "best-beginner-characters", "building-better-habits", "why-beginners-lose-neutral"]
 ---
 

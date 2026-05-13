@@ -6,6 +6,10 @@ date: "2026-05-12"
 category: "Fundamentals"
 tags: ["habits", "mindset", "improvement"]
 difficulty: "Beginner"
+keyTakeaways:
+  - "Work on a coaching-first breakdown of the beginner habits that lose stocks, and how to replace them with stable match-ready decisions."
+  - "Cut out **autopilot jump from corner:** you get pinned at ledge, then instantly jump even when the opponent is already waiting at jump height. Wait for clearer openings instead of forcing a swing."
+  - "Use 1) corner survival drill (5 minutes) for focused reps, then test it in real matches right away."
 relatedGuides: ["building-better-habits", "how-to-stop-autopiloting", "why-beginners-lose-neutral", "defensive-habits-beginners-have"]
 ---
 

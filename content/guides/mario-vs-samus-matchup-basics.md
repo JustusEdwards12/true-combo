@@ -6,6 +6,10 @@ date: "2026-05-12"
 category: "Matchup"
 tags: ["mario", "samus", "matchup"]
 difficulty: "Beginner"
+keyTakeaways:
+  - "Center your practice on a realistic mario vs samus gameplan focused on anti-projectile pacing, burst-range discipline, and ledge conversion."
+  - "If you catch yourself full-hop approach from outside your real threat zone, reset your spacing first and play the safer option."
+  - "Keep drill 1: anti-zoner entry routes (7 minutes) simple: short reps, clear goal, quick review after each set."
 relatedGuides: ["how-to-fight-zoners", "how-to-space-safely", "mario-beginner-guide", "dealing-with-projectile-spam"]
 ---
 
@@ -80,7 +84,7 @@ Read one habit early, punish it twice, then expect a counter-adjustment.
 - Record anti-air and retreat options.
 - Punish only confirmed whiffs.
 
-### Drill 3: Corner closeout sequence (7 minutes)
+### Drill 3: Corner stock-closing sequence (7 minutes)
 - Start Samus at ledge.
 - Practice covering jump + neutral getup while maintaining center.
 

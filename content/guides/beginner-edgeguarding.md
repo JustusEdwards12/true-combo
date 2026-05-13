@@ -6,6 +6,10 @@ date: "2026-05-12"
 category: "Fundamentals"
 tags: ["edgeguarding", "advantage", "offstage"]
 difficulty: "Beginner"
+keyTakeaways:
+  - "Focus on a beginner-friendly edgeguarding guide with risk/reward logic, recovery-type adaptation, and practical offstage decision-making."
+  - "Avoid committing before confirming resource usage. Pick safer options until your timing is consistent."
+  - "Practice drill 1: resource callout reps (7 minutes) in short sets and track one improvement after each session."
 relatedGuides: ["common-recovery-habits", "how-to-recover-better", "beginner-ledgetrapping", "how-to-keep-advantage"]
 ---
 
