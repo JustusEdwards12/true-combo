@@ -3,7 +3,7 @@ title: "Understanding Stage Control in Smash Ultimate"
 description: "Win more neutral and advantage exchanges by valuing center stage and corner pressure."
 slug: "understanding-stage-control"
 date: "2026-05-12"
-category: "Concepts"
+category: "Neutral"
 tags: ["stage-control", "neutral", "advantage"]
 difficulty: "Beginner"
 keyTakeaways:

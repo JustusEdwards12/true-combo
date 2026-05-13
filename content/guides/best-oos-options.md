@@ -3,7 +3,7 @@ title: "Best Out-of-Shield Options Explained (Smash Ultimate)"
 description: "Learn practical out-of-shield decision trees without fake frame data, plus matchup-based shield discipline."
 slug: "best-oos-options"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Defense"
 tags: ["defense", "shield", "punish"]
 difficulty: "Beginner"
 keyTakeaways:

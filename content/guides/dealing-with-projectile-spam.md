@@ -3,7 +3,7 @@ title: "Dealing with Projectile Spam"
 description: "Handle repetitive projectile pressure with practical movement, timing, and adaptation."
 slug: "dealing-with-projectile-spam"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Matchup"
 tags: ["projectiles", "defense", "neutral"]
 difficulty: "Beginner"
 keyTakeaways:

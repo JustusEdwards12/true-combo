@@ -3,7 +3,7 @@ title: "How to Improve Your Advantage State in Smash Ultimate"
 description: "Practical advantage coaching: keep corner control, force defensive habits, and close stocks without overextending."
 slug: "improve-advantage-state"
 date: "2026-05-12"
-category: "Concepts"
+category: "Advantage"
 tags: ["advantage", "pressure", "conversion"]
 difficulty: "Intermediate"
 keyTakeaways:

@@ -51,12 +51,24 @@ function GuideGrid({
 
 export default function GuidesPage() {
   const sorted = sortByDateDesc(getAllGuides());
-  const fundamentals = sorted.filter((g) => g.data.category === "Fundamentals");
-  const concepts = sorted.filter((g) => g.data.category === "Concepts");
-  const characterGuides = sorted.filter(
-    (g) =>
-      g.data.category === "Character" || g.data.category === "Roster",
-  );
+  const byCategory = {
+    neutral: sorted.filter((g) => g.data.category === "Neutral"),
+    advantage: sorted.filter((g) => g.data.category === "Advantage"),
+    defenseDisadvantage: sorted.filter(
+      (g) => g.data.category === "Defense" || g.data.category === "Disadvantage",
+    ),
+    movement: sorted.filter((g) => g.data.category === "Movement"),
+    trainingMindset: sorted.filter(
+      (g) =>
+        g.data.category === "Training" ||
+        g.data.category === "Mindset" ||
+        g.data.category === "Systems",
+    ),
+    matchup: sorted.filter((g) => g.data.category === "Matchup"),
+    characterRoster: sorted.filter(
+      (g) => g.data.category === "Character" || g.data.category === "Roster",
+    ),
+  };
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
@@ -73,7 +85,7 @@ export default function GuidesPage() {
       <p className="mt-6 max-w-2xl text-sm leading-relaxed text-zinc-500">
         Build your path with{" "}
         <a href="#beginner" className="text-cyan-400 hover:underline">
-          mechanics guides
+          neutral and fundamentals
         </a>
         , then connect it to{" "}
         <a href="#characters" className="text-cyan-400 hover:underline">
@@ -88,18 +100,50 @@ export default function GuidesPage() {
 
       <section className="mt-16" id="beginner">
         <SectionHeading
-          title="Beginner mechanics guides"
-          subtitle="Movement, defense, and execution fundamentals that scale from first locals to consistent bracket sets."
+          title="Neutral and positioning"
+          subtitle="Spacing, stage control, and whiff-punish fundamentals that shape every interaction."
         />
-        <GuideGrid guides={fundamentals} />
+        <GuideGrid guides={byCategory.neutral} />
       </section>
 
       <section className="mt-20" id="concepts">
         <SectionHeading
-          title="Competitive Smash concepts"
-          subtitle="How neutral is won, how advantage converts to stocks, and how to review VODs with intent."
+          title="Advantage and pressure"
+          subtitle="Ledge traps, juggling, and pressure flow that turn openings into stocks."
         />
-        <GuideGrid guides={concepts} />
+        <GuideGrid guides={byCategory.advantage} />
+      </section>
+
+      <section className="mt-20">
+        <SectionHeading
+          title="Defense and disadvantage"
+          subtitle="Shield responses, recovery choices, and corner escapes to survive pressure and reset neutral."
+        />
+        <GuideGrid guides={byCategory.defenseDisadvantage} />
+      </section>
+
+      <section className="mt-20">
+        <SectionHeading
+          title="Movement and execution"
+          subtitle="Short hops, fast falls, and execution consistency that make your options reliable under pressure."
+        />
+        <GuideGrid guides={byCategory.movement} />
+      </section>
+
+      <section className="mt-20">
+        <SectionHeading
+          title="Training, mindset, and systems"
+          subtitle="Practice structure, adaptation habits, and rank-system context for long-term improvement."
+        />
+        <GuideGrid guides={byCategory.trainingMindset} />
+      </section>
+
+      <section className="mt-20">
+        <SectionHeading
+          title="Matchup preparation"
+          subtitle="Counterplay plans and matchup-specific priorities you can bring straight into set play."
+        />
+        <GuideGrid guides={byCategory.matchup} />
       </section>
 
       <section className="mt-20" id="characters">
@@ -107,7 +151,7 @@ export default function GuidesPage() {
           title="Smash Ultimate character guides"
           subtitle="Starter routes, strengths, weaknesses, and matchup habits for each fighter's gameplan."
         />
-        <GuideGrid guides={characterGuides} />
+        <GuideGrid guides={byCategory.characterRoster} />
       </section>
     </div>
   );

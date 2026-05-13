@@ -3,7 +3,7 @@ title: "How to Read Opponents"
 description: "Build real in-set reads using patterns, position habits, and adaptation checkpoints."
 slug: "how-to-read-opponents"
 date: "2026-05-12"
-category: "Concepts"
+category: "Mindset"
 tags: ["adaptation", "reads", "mindgames"]
 difficulty: "Intermediate"
 keyTakeaways:

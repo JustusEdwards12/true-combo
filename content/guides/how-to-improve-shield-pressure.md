@@ -3,7 +3,7 @@ title: "How to Improve Shield Pressure"
 description: "Apply safer pressure strings, threaten grabs, and avoid giving free reversals."
 slug: "how-to-improve-shield-pressure"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Advantage"
 tags: ["pressure", "shield", "offense"]
 difficulty: "Intermediate"
 keyTakeaways:

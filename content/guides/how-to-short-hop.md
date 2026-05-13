@@ -3,7 +3,7 @@ title: "How to Short Hop Consistently in Smash Ultimate"
 description: "A coaching-style short hop plan with drills, pressure use-cases, and realistic fixes for full-hop autopilot."
 slug: "how-to-short-hop"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Movement"
 tags: ["movement", "execution", "neutral"]
 difficulty: "Beginner"
 keyTakeaways:

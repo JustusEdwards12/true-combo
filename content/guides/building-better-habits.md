@@ -3,7 +3,7 @@ title: "Building Better Habits in Smash Ultimate"
 description: "Create sustainable routines for decision-making, adaptation, and consistent tournament execution."
 slug: "building-better-habits"
 date: "2026-05-12"
-category: "Concepts"
+category: "Mindset"
 tags: ["habits", "improvement", "mindset"]
 difficulty: "Beginner"
 keyTakeaways:

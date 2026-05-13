@@ -3,7 +3,7 @@ title: "Burst Range Explained"
 description: "Understand burst range so you can position for punishes and stop losing to sudden approaches."
 slug: "burst-range-explained"
 date: "2026-05-12"
-category: "Concepts"
+category: "Neutral"
 tags: ["neutral", "spacing", "burst"]
 difficulty: "Beginner"
 keyTakeaways:

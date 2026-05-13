@@ -3,7 +3,7 @@ title: "How to Keep Advantage"
 description: "Sustain pressure after winning neutral and stop giving away momentum with overextensions."
 slug: "how-to-keep-advantage"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Advantage"
 tags: ["advantage", "pressure", "conversion"]
 difficulty: "Beginner"
 keyTakeaways:

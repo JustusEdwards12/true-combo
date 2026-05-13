@@ -3,7 +3,7 @@ title: "How GSP Works in Smash Ultimate (Practical Guide)"
 description: "Use GSP as a feedback tool without letting online habits damage your bracket fundamentals."
 slug: "how-gsp-works"
 date: "2026-05-12"
-category: "Concepts"
+category: "Systems"
 tags: ["online", "mindset", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:

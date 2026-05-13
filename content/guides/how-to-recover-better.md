@@ -3,7 +3,7 @@ title: "How to Recover Better in Smash Ultimate"
 description: "Improve survival with route variation, resource tracking, and anti-edgeguard habits."
 slug: "how-to-recover-better"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Disadvantage"
 tags: ["recovery", "survival", "disadvantage"]
 difficulty: "Beginner"
 keyTakeaways:

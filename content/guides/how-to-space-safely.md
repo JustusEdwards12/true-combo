@@ -3,7 +3,7 @@ title: "How to Space Safely"
 description: "Use practical spacing checkpoints to stay threatening without feeding punishes."
 slug: "how-to-space-safely"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Neutral"
 tags: ["spacing", "neutral", "safety"]
 difficulty: "Beginner"
 keyTakeaways:

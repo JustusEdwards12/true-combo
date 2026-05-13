@@ -3,7 +3,7 @@ title: "Conditioning in Smash Ultimate"
 description: "Use repeat pressure patterns to create reactions, then punish those reactions on purpose."
 slug: "conditioning-in-smash-ultimate"
 date: "2026-05-12"
-category: "Concepts"
+category: "Mindset"
 tags: ["conditioning", "adaptation", "pressure"]
 difficulty: "Intermediate"
 keyTakeaways:

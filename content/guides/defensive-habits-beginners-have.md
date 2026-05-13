@@ -3,7 +3,7 @@ title: "Defensive Habits Beginners Have"
 description: "Recognize common defensive autopilot and replace it with stable tournament habits."
 slug: "defensive-habits-beginners-have"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Defense"
 tags: ["defense", "habits", "mindset"]
 difficulty: "Beginner"
 keyTakeaways:

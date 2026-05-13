@@ -3,7 +3,7 @@ title: "How to Avoid Panic Options"
 description: "Play calmer under pressure by pre-planning escapes and reducing predictable panic habits."
 slug: "how-to-avoid-panic-options"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Mindset"
 tags: ["mindset", "defense", "composure"]
 difficulty: "Beginner"
 keyTakeaways:

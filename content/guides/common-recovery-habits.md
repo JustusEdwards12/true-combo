@@ -3,7 +3,7 @@ title: "Common Recovery Habits (And How to Punish Them)"
 description: "Identify repeated recovery patterns and convert offstage pressure more reliably."
 slug: "common-recovery-habits"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Disadvantage"
 tags: ["recovery", "edgeguarding", "adaptation"]
 difficulty: "Intermediate"
 keyTakeaways:

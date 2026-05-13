@@ -3,7 +3,7 @@ title: "How to Fast Fall Consistently in Smash Ultimate"
 description: "Control landing timing so your pressure and combos become harder to predict."
 slug: "how-to-fast-fall-consistently"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Movement"
 tags: ["movement", "execution", "landing"]
 difficulty: "Beginner"
 keyTakeaways:

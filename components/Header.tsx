@@ -1,8 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { Sora } from "next/font/google";
 import { usePathname } from "next/navigation";
 import { ComboMark } from "@/components/brand/ComboMark";
+
+const sora = Sora({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+});
 
 const nav = [
   { href: "/guides", label: "Guides" },
@@ -42,27 +48,10 @@ function NavLink({ href, children }: { href: string; children: string }) {
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-zinc-800/60 bg-zinc-950/75 shadow-[0_1px_0_0_rgba(255,255,255,0.03)_inset] backdrop-blur-xl backdrop-saturate-150">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-4 sm:px-6">
-        <Link
-          href="/"
-          className="group flex min-w-0 items-center gap-3 text-zinc-100"
-        >
-          <ComboMark
-            className="h-9 w-9 shrink-0 text-cyan-400/85 transition-all duration-300 group-hover:scale-[1.03] group-hover:text-cyan-300"
-            aria-hidden
-          />
-          <div className="flex min-w-0 flex-col leading-none">
-            <span className="font-mono text-[9px] font-medium uppercase tracking-[0.28em] text-zinc-600 transition-colors duration-300 group-hover:text-zinc-500">
-              Smash Ultimate
-            </span>
-            <span className="mt-1.5 text-[15px] font-semibold tracking-[0.04em] text-zinc-50 transition-colors duration-300 group-hover:text-white sm:text-base">
-              TrueCombo
-            </span>
-          </div>
-        </Link>
+    <header className="sticky top-0 z-50 border-b border-zinc-800/60 bg-zinc-950/78 shadow-[0_1px_0_0_rgba(255,255,255,0.03)_inset] backdrop-blur-xl backdrop-saturate-150">
+      <div className="relative mx-auto flex h-14 max-w-6xl items-center px-4 sm:h-[58px] sm:px-6">
         <nav
-          className="flex shrink-0 items-center gap-0.5 sm:gap-1"
+          className="ml-auto flex min-w-0 items-center justify-end gap-0.5 pl-[156px] sm:gap-1 sm:pl-[176px]"
           aria-label="Main navigation"
         >
           {nav.map((item) => (
@@ -71,6 +60,31 @@ export function Header() {
             </NavLink>
           ))}
         </nav>
+        <Link
+          href="/"
+          className="group absolute left-4 top-1/2 flex -translate-y-1/2 items-center rounded-xl border border-zinc-700/70 bg-zinc-950/70 px-3 py-1.5 shadow-[0_10px_24px_-14px_rgba(0,0,0,0.75),inset_0_1px_0_0_rgba(255,255,255,0.045)] transition-[border-color,box-shadow,background-color,transform] duration-300 hover:border-cyan-400/35 hover:bg-zinc-900/70 hover:shadow-[0_12px_28px_-14px_rgba(34,211,238,0.25),inset_0_1px_0_0_rgba(255,255,255,0.06)] motion-safe:hover:-translate-y-[calc(50%+2px)] sm:left-6"
+        >
+          <div className="relative mr-2.5">
+            <span
+              className="pointer-events-none absolute inset-0 rounded-full bg-cyan-400/35 blur-md transition-opacity duration-300 group-hover:opacity-100 opacity-70"
+              aria-hidden
+            />
+            <ComboMark
+              className="relative h-7 w-7 shrink-0 text-cyan-300/95 transition-all duration-300 group-hover:text-cyan-200"
+              aria-hidden
+            />
+          </div>
+          <div className="flex min-w-0 flex-col leading-none">
+            <span
+              className={`${sora.className} text-[16px] font-extrabold tracking-[0.02em] text-zinc-50 transition-colors duration-300 group-hover:text-white sm:text-[17px]`}
+            >
+              TrueCombo
+            </span>
+            <span className="mt-1 font-mono text-[8px] font-medium uppercase tracking-[0.28em] text-zinc-500/85 transition-colors duration-300 group-hover:text-zinc-400/90">
+              SMASH ULTIMATE
+            </span>
+          </div>
+        </Link>
       </div>
     </header>
   );

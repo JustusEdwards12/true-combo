@@ -3,7 +3,7 @@ title: "Landing Safely in Smash Ultimate"
 description: "Land with intention using drift mixups, resource discipline, and anti-juggle awareness."
 slug: "landing-safely"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Disadvantage"
 tags: ["landing", "disadvantage", "movement"]
 difficulty: "Beginner"
 keyTakeaways:

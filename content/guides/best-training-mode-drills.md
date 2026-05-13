@@ -3,7 +3,7 @@ title: "Best Training Mode Drills for Smash Ultimate"
 description: "High-value drills for movement, punish timing, ledge play, and adaptation practice."
 slug: "best-training-mode-drills"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Training"
 tags: ["training", "drills", "practice"]
 difficulty: "Beginner"
 keyTakeaways:

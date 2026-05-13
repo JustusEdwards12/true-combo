@@ -3,7 +3,7 @@ title: "Understanding Smash Ultimate DI"
 description: "Learn practical directional influence choices and avoid panic DI that loses stocks early."
 slug: "understanding-smash-ultimate-di"
 date: "2026-05-12"
-category: "Concepts"
+category: "Disadvantage"
 tags: ["di", "survival", "defense"]
 difficulty: "Beginner"
 keyTakeaways:

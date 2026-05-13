@@ -3,7 +3,7 @@ title: "What Is Neutral in Smash Ultimate?"
 description: "Practical neutral coaching: identify first commitments, control burst range, and stop losing neutral to predictable options."
 slug: "what-is-neutral"
 date: "2026-05-12"
-category: "Concepts"
+category: "Neutral"
 tags: ["neutral", "decision-making", "review"]
 difficulty: "Beginner"
 keyTakeaways:

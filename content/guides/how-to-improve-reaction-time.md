@@ -3,7 +3,7 @@ title: "How to Improve Reaction Time for Smash"
 description: "Train practical reaction speed for burst options, ledge situations, and landing traps."
 slug: "how-to-improve-reaction-time"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Training"
 tags: ["reactions", "training", "consistency"]
 difficulty: "Beginner"
 keyTakeaways:

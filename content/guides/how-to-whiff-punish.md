@@ -3,7 +3,7 @@ title: "How to Whiff Punish"
 description: "Turn opponent misses into guaranteed momentum with spacing discipline and patient reactions."
 slug: "how-to-whiff-punish"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Neutral"
 tags: ["punish", "neutral", "timing"]
 difficulty: "Intermediate"
 keyTakeaways:

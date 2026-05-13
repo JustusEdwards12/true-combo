@@ -3,7 +3,7 @@ title: "What Beginners Should Practice First"
 description: "A practical training roadmap for new players: what to practice first, how to structure sessions, and how to adapt from real matches."
 slug: "what-beginners-should-practice-first"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Training"
 tags: ["training", "beginners", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:

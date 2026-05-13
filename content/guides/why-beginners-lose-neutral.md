@@ -3,7 +3,7 @@ title: "Why Beginners Lose Neutral"
 description: "Understand the repeat mistakes that lose neutral and how to replace them with practical gameplans."
 slug: "why-beginners-lose-neutral"
 date: "2026-05-12"
-category: "Concepts"
+category: "Neutral"
 tags: ["neutral", "beginners", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:

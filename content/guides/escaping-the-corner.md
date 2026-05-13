@@ -3,7 +3,7 @@ title: "Escaping the Corner"
 description: "Survive corner pressure with calm routes, resource planning, and matchup-aware timing."
 slug: "escaping-the-corner"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Disadvantage"
 tags: ["disadvantage", "corner", "defense"]
 difficulty: "Beginner"
 keyTakeaways:

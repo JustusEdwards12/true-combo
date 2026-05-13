@@ -3,7 +3,7 @@ title: "How to Tech Reliably in Smash Ultimate"
 description: "Build practical tech timing, avoid lockout panic, and survive disadvantage situations that decide real sets."
 slug: "how-to-tech"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Defense"
 tags: ["defense", "disadvantage", "execution"]
 difficulty: "Beginner"
 keyTakeaways:

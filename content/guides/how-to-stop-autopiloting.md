@@ -3,7 +3,7 @@ title: "How to Stop Autopiloting in Smash Ultimate"
 description: "Break repetitive patterns and make active decisions during neutral, advantage, and defense."
 slug: "how-to-stop-autopiloting"
 date: "2026-05-12"
-category: "Concepts"
+category: "Mindset"
 tags: ["mindset", "adaptation", "habits"]
 difficulty: "Beginner"
 keyTakeaways:

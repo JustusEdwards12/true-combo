@@ -3,7 +3,7 @@ title: "Beginner Edgeguarding Guide for Smash Ultimate"
 description: "A beginner-friendly edgeguarding guide with risk/reward logic, recovery-type adaptation, and practical offstage decision-making."
 slug: "beginner-edgeguarding"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Advantage"
 tags: ["edgeguarding", "advantage", "offstage"]
 difficulty: "Beginner"
 keyTakeaways:

@@ -3,7 +3,7 @@ title: "Juggling Basics in Smash Ultimate"
 description: "Keep opponents above you with practical anti-air routes and stable conversion habits."
 slug: "juggling-basics"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Advantage"
 tags: ["juggling", "advantage", "anti-air"]
 difficulty: "Beginner"
 keyTakeaways:

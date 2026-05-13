@@ -3,7 +3,7 @@ title: "Common Beginner Mistakes in Smash Ultimate"
 description: "A coaching-first breakdown of the beginner habits that lose stocks, and how to replace them with stable match-ready decisions."
 slug: "common-beginner-mistakes"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Mindset"
 tags: ["habits", "mindset", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:

@@ -3,7 +3,7 @@ title: "Beginner Ledgetrapping Guide for Smash Ultimate"
 description: "A practical ledgetrapping guide covering spacing discipline, option coverage, adaptation logic, and stock-closing consistency."
 slug: "beginner-ledgetrapping"
 date: "2026-05-12"
-category: "Fundamentals"
+category: "Advantage"
 tags: ["ledge", "advantage", "pressure"]
 difficulty: "Beginner"
 keyTakeaways:
