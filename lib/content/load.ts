@@ -70,6 +70,13 @@ export function getAllGlossaryTerms(): ParsedDoc<GlossaryFrontmatter>[] {
   );
 }
 
+export function getGlossaryTermBySlug(
+  slug: string,
+): ParsedDoc<GlossaryFrontmatter> | null {
+  const terms = getAllGlossaryTerms();
+  return terms.find((t) => t.data.slug === slug) ?? null;
+}
+
 export function sortByDateDesc<T extends { date: string }>(
   docs: ParsedDoc<T>[],
 ): ParsedDoc<T>[] {

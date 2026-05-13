@@ -1,6 +1,11 @@
 import ReactMarkdown from "react-markdown";
 import type { ReactNode } from "react";
 import remarkGfm from "remark-gfm";
+import { ComparisonPanel } from "@/components/guide-media/ComparisonPanel";
+import { DrillCard } from "@/components/guide-media/DrillCard";
+import { GuideGif } from "@/components/guide-media/GuideGif";
+import { GuideImage } from "@/components/guide-media/GuideImage";
+import { TipCard } from "@/components/guide-media/TipCard";
 import { plainTextFromNode } from "@/lib/plain-text";
 import { slugifyHeading } from "@/lib/slugify";
 import type { TocEntry } from "@/lib/toc";
@@ -31,6 +36,110 @@ function calloutClass(kind: "tip" | "note" | "warn"): string {
     default:
       return "";
   }
+}
+
+type ParsedDirective =
+  | { type: "image"; src: string; alt: string; caption?: string }
+  | { type: "gif"; src: string; alt?: string; caption?: string }
+  | {
+      type: "comparison";
+      title: string;
+      leftLabel: string;
+      leftSrc: string;
+      rightLabel: string;
+      rightSrc: string;
+      caption?: string;
+    }
+  | {
+      type: "drill";
+      title: string;
+      objective: string;
+      setup: string;
+      reps: string;
+      successCheck: string;
+    }
+  | { type: "tip-card"; tone: "tip" | "warning" | "mistake"; title: string; body: string };
+
+function parseParts(raw: string): string[] {
+  return raw
+    .split("|")
+    .map((p) => p.trim())
+    .filter(Boolean);
+}
+
+function parseDirective(raw: string): ParsedDirective | null {
+  const text = raw.trim();
+  const image = text.match(/^guide-image:\s*(.+)$/i);
+  if (image) {
+    const [src = "", alt = "Guide image", caption = ""] = parseParts(image[1]);
+    if (!src) return null;
+    return { type: "image", src, alt, caption: caption || undefined };
+  }
+
+  const gif = text.match(/^guide-(gif|video):\s*(.+)$/i);
+  if (gif) {
+    const [src = "", alt = "Guide clip", caption = ""] = parseParts(gif[2]);
+    if (!src) return null;
+    return { type: "gif", src, alt, caption: caption || undefined };
+  }
+
+  const compare = text.match(/^comparison:\s*(.+)$/i);
+  if (compare) {
+    const parts = parseParts(compare[1]);
+    if (parts.length < 5) return null;
+    const [title, leftLabel, leftSrc, rightLabel, rightSrc, caption = ""] = parts;
+    if (!title || !leftLabel || !leftSrc || !rightLabel || !rightSrc) return null;
+    return {
+      type: "comparison",
+      title,
+      leftLabel,
+      leftSrc,
+      rightLabel,
+      rightSrc,
+      caption: caption || undefined,
+    };
+  }
+
+  const drill = text.match(/^drill-card:\s*(.+)$/i);
+  if (drill) {
+    const parts = parseParts(drill[1]);
+    if (parts.length < 5) return null;
+    const [title, objective, setup, reps, successCheck] = parts;
+    return {
+      type: "drill",
+      title,
+      objective,
+      setup,
+      reps,
+      successCheck,
+    };
+  }
+
+  const tipCard = text.match(/^tip-card:\s*(.+)$/i);
+  if (tipCard) {
+    const parts = parseParts(tipCard[1]);
+    if (parts.length < 2) return null;
+    const maybeTone = parts[0].toLowerCase();
+    if (maybeTone === "tip" || maybeTone === "warning" || maybeTone === "mistake") {
+      const [, title, ...bodyParts] = parts;
+      if (!title) return null;
+      return {
+        type: "tip-card",
+        tone: maybeTone,
+        title,
+        body: bodyParts.join(" | ") || title,
+      };
+    }
+    const [title, ...bodyParts] = parts;
+    return {
+      type: "tip-card",
+      tone: "tip",
+      title,
+      body: bodyParts.join(" | ") || title,
+    };
+  }
+
+  return null;
 }
 
 export function MarkdownContent({ content, className, toc }: MarkdownContentProps) {
@@ -147,6 +256,58 @@ export function MarkdownContent({ content, className, toc }: MarkdownContentProp
           ),
           blockquote: ({ children, ...props }) => {
             const raw = plainTextFromNode(children);
+            const directive = parseDirective(raw);
+            if (directive) {
+              if (directive.type === "image") {
+                return (
+                  <GuideImage
+                    src={directive.src}
+                    alt={directive.alt}
+                    caption={directive.caption}
+                  />
+                );
+              }
+              if (directive.type === "gif") {
+                return (
+                  <GuideGif
+                    src={directive.src}
+                    alt={directive.alt}
+                    caption={directive.caption}
+                  />
+                );
+              }
+              if (directive.type === "comparison") {
+                return (
+                  <ComparisonPanel
+                    title={directive.title}
+                    leftLabel={directive.leftLabel}
+                    leftSrc={directive.leftSrc}
+                    rightLabel={directive.rightLabel}
+                    rightSrc={directive.rightSrc}
+                    caption={directive.caption}
+                  />
+                );
+              }
+              if (directive.type === "drill") {
+                return (
+                  <DrillCard
+                    title={directive.title}
+                    objective={directive.objective}
+                    setup={directive.setup}
+                    reps={directive.reps}
+                    successCheck={directive.successCheck}
+                  />
+                );
+              }
+              return (
+                <TipCard
+                  tone={directive.tone}
+                  title={directive.title}
+                  body={directive.body}
+                />
+              );
+            }
+
             const kind = calloutKind(raw);
             if (kind) {
               return (
