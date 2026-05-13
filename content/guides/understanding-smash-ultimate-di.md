@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["di", "survival", "defense"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Use directional influence to reduce combo consistency and survive longer."
-  - "Holding one di direction by habit is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on di scenario reps (8 minutes) daily so this habit shows up under pressure."
+  - "Directional influence changes survival and combo escape outcomes when inputs match launch angle."
+  - "Learn when to DI out, in, or up based on common kill confirms and juggle starters."
+  - "Pair DI knowledge with position awareness so you choose survival routes that keep stage options open."
 relatedGuides: ["how-to-tech", "landing-safely", "how-to-recover-better", "defensive-habits-beginners-have"]
 ---
 

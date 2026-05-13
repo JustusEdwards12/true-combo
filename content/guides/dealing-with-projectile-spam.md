@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["projectiles", "defense", "neutral"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Convert frustration matchups into structured anti-zoner decision-making."
-  - "Avoid jumping over every projectile on instinct. Pick safer options until your timing is consistent."
-  - "Practice walk-shield lane drill (8 minutes) in short sets and track one improvement after each session."
+  - "Beat projectile-heavy play by taking space in stages instead of rushing through every projectile."
+  - "Use shield, movement mixups, and platform routes to close distance without giving up tempo."
+  - "Punish predictable projectile rhythms once you force the zoner into defensive movement."
 relatedGuides: ["how-to-fight-zoners", "burst-range-explained", "how-to-improve-reaction-time", "understanding-stage-control"]
 ---
 

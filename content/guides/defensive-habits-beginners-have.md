@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["defense", "habits", "mindset"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Replace panic defense with predictable, low-risk escape structures."
-  - "Cut out roll-spamming from corner. Wait for clearer openings instead of forcing a swing."
-  - "Use corner escape rotation (8 minutes) for focused reps, then test it in real matches right away."
+  - "Common defensive habits include over-shielding, panic rolls, and jumping from pressure at the same timing."
+  - "Defend with purpose by choosing responses that keep stage position and reduce punish risk."
+  - "Break bad habits by reviewing when you panic, then pre-selecting safer answers for that trigger."
 relatedGuides: ["how-to-avoid-panic-options", "best-oos-options", "escaping-the-corner", "how-to-tech"]
 ---
 

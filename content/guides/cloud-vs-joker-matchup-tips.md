@@ -7,9 +7,9 @@ category: "Matchup"
 tags: ["cloud", "joker", "matchup"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Focus on a practical cloud vs joker guide covering spacing warfare, arsene tempo shifts, and adaptation between games."
-  - "Avoid cloud overswinging after one blocked aerial. Pick safer options until your timing is consistent."
-  - "Practice drill 1: cloud anti-entry spacing (7 minutes) in short sets and track one improvement after each session."
+  - "Deny Joker space to farm safely by contesting his movement lanes before he starts pressure."
+  - "Adjust neutral and punish routes when Arsene is active instead of forcing standard exchanges."
+  - "Push Joker to ledge with safe pressure, then rotate traps to cover jump and rebel escape habits."
 relatedGuides: ["cloud-beginner-guide", "how-to-space-safely", "burst-range-explained", "how-to-read-opponents"]
 ---
 

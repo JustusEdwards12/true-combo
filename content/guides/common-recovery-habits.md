@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["recovery", "edgeguarding", "adaptation"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Build varied recovery routes with better risk management and resource use."
-  - "If you catch yourself recovering at the same height every stock, reset your spacing first and play the safer option."
-  - "Keep route rotation drill (8 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Most recoveries become punishable when players repeat the same timing and route to ledge."
+  - "Scout jump, air dodge, and directional habits before committing to edgeguard or ledgetrap calls."
+  - "Vary recovery tempo and angle to reduce predictable interceptions in high-pressure stocks."
 relatedGuides: ["beginner-edgeguarding", "how-to-recover-better", "how-to-read-opponents", "landing-safely"]
 ---
 

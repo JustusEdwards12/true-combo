@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["advantage", "pressure", "conversion"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Work on link punishes into controlled pressure cycles and stock closes."
-  - "Cut out choosing max extension every opening. Wait for clearer openings instead of forcing a swing."
-  - "Use advantage tree drill (8 minutes) for focused reps, then test it in real matches right away."
+  - "Advantage improves when each hit funnels into positional pressure instead of isolated damage."
+  - "Design simple flowcharts for juggle, ledge, and corner states to reduce dropped momentum."
+  - "Adapt pressure sequencing once opponents show repeated escape preferences."
 relatedGuides: ["how-to-keep-advantage", "juggling-basics", "beginner-ledgetrapping", "understanding-stage-control"]
 ---
 

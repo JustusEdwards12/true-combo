@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["advantage", "pressure", "conversion"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Connect juggle, corner, and ledge decisions into stable advantage loops."
-  - "Cut out overextending for early kill. Wait for clearer openings instead of forcing a swing."
-  - "Use advantage loop drill (8 minutes) for focused reps, then test it in real matches right away."
+  - "Keep advantage by prioritizing positioning and option coverage over immediate maximum damage."
+  - "Force repeated disadvantage guesses at ledge and juggle states instead of overcommitting mid-stage."
+  - "When pressure breaks, reset to strong stage control rather than gambling on one extra hit."
 relatedGuides: ["juggling-basics", "beginner-ledgetrapping", "understanding-stage-control", "improve-advantage-state"]
 ---
 

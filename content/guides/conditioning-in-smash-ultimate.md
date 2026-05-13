@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["conditioning", "adaptation", "pressure"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Use repeated safe patterns to create deliberate counter-hits."
-  - "Conditioning without noticing if opponent is actually adapting is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on condition-confirm drill (8 minutes) daily so this habit shows up under pressure."
+  - "Conditioning works by presenting one answer repeatedly, then punishing the adaptation it creates."
+  - "Build conditioning through safe interactions so failed reads do not cost stage or stock control."
+  - "Confirm patterns over multiple exchanges before committing to a decisive hard callout."
 relatedGuides: ["how-to-read-opponents", "how-to-improve-shield-pressure", "how-to-keep-advantage", "how-to-fight-zoners"]
 ---
 

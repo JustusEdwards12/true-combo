@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["neutral", "spacing", "burst"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Center your practice on recognize and play around burst range to force whiffs and safer neutral wins."
-  - "If you catch yourself standing inside opponent threat range without a plan, reset your spacing first and play the safer option."
-  - "Keep burst marker drill (8 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Burst range is the space an opponent can threaten quickly from their current movement options."
+  - "Hold positions just outside burst range to bait commitments and punish whiffs safely."
+  - "Re-evaluate burst range after dashes, platforms, and character-specific burst tools."
 relatedGuides: ["how-to-space-safely", "how-to-whiff-punish", "why-beginners-lose-neutral", "how-to-read-opponents"]
 ---
 

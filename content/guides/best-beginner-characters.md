@@ -7,9 +7,9 @@ category: "Roster"
 tags: ["roster", "fundamentals", "learning"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Center your practice on pick a main and backup that teach neutral, recovery discipline, and ledge play."
-  - "If you catch yourself choosing only by combo clips and ignoring comfort under pressure, reset your spacing first and play the safer option."
-  - "Keep main-selection scorecard (10 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Pick characters that reward spacing, recovery discipline, and simple confirms over execution gimmicks."
+  - "Use one main plus one backup to learn matchup adaptation without resetting your fundamentals."
+  - "Judge character progress by neutral consistency and survivability, not highlight combo potential."
 relatedGuides: ["what-beginners-should-practice-first", "building-better-habits", "best-training-mode-drills", "common-beginner-mistakes"]
 ---
 

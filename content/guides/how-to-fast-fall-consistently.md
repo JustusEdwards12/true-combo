@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["movement", "execution", "landing"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Use fast-fall intentionally for spacing, landing safety, and combo timing."
-  - "Cut out fast-falling every jump automatically. Wait for clearer openings instead of forcing a swing."
-  - "Use timing ladder drill (8 minutes) for focused reps, then test it in real matches right away."
+  - "Fast falling improves timing control for pressure, landing mixups, and combo extensions."
+  - "Focus on input rhythm and visual timing so fast falls are deliberate instead of accidental."
+  - "Integrate fast fall timing into neutral and advantage scenarios, not movement reps alone."
 relatedGuides: ["how-to-short-hop", "landing-safely", "best-training-mode-drills", "how-to-stop-autopiloting"]
 ---
 

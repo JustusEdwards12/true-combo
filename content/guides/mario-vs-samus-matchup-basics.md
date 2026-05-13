@@ -7,9 +7,9 @@ category: "Matchup"
 tags: ["mario", "samus", "matchup"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Center your practice on a realistic mario vs samus gameplan focused on anti-projectile pacing, burst-range discipline, and ledge conversion."
-  - "If you catch yourself full-hop approach from outside your real threat zone, reset your spacing first and play the safer option."
-  - "Keep drill 1: anti-zoner entry routes (7 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Close distance on Samus in layers so charge shot and missile patterns lose control value."
+  - "Respect anti-air and out-of-shield threats when pressuring her defensive space."
+  - "Once you win close range, maintain pressure so Samus cannot reset to zoning distance."
 relatedGuides: ["how-to-fight-zoners", "how-to-space-safely", "mario-beginner-guide", "dealing-with-projectile-spam"]
 ---
 

@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["mindset", "defense", "composure"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Replace panic triggers with pre-planned, low-risk responses."
-  - "Avoid reacting emotionally instead of by position. Pick safer options until your timing is consistent."
-  - "Practice trigger-response card (6 minutes) in short sets and track one improvement after each session."
+  - "Panic options appear when pressure triggers automatic defensive or aggressive guesses."
+  - "Slow key moments with pre-planned defaults so you choose lower-risk responses under stress."
+  - "Train percent- and position-based decision rules to reduce random reversals and stock losses."
 relatedGuides: ["defensive-habits-beginners-have", "landing-safely", "escaping-the-corner", "how-to-stop-autopiloting"]
 ---
 

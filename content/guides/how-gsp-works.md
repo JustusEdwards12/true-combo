@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["online", "mindset", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Connect ranking fluctuations to decision quality and long-term progression habits."
-  - "Treating short-term gsp drops as evidence training failed is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on rank-neutral routine (10 minutes) daily so this habit shows up under pressure."
+  - "GSP reflects relative ranking movement, not a direct skill tier or guaranteed matchup quality."
+  - "Short streaks can swing GSP quickly, so evaluate progress by decision quality over single sessions."
+  - "Use GSP as trend feedback while focusing improvement plans on neutral, defense, and adaptation."
 relatedGuides: ["how-to-stop-autopiloting", "building-better-habits", "why-beginners-lose-neutral", "what-beginners-should-practice-first"]
 ---
 

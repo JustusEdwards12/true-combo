@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["habits", "improvement", "mindset"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Work on create a weekly correction loop from replay notes to in-match adaptation."
-  - "Cut out trying to fix five habits at once. Wait for clearer openings instead of forcing a swing."
-  - "Use habit replacement card (5 minutes) for focused reps, then test it in real matches right away."
+  - "Replace autopilot actions with repeatable defaults for neutral, disadvantage, and ledge situations."
+  - "Track one recurring mistake at a time so adjustments are measurable across sets."
+  - "Anchor habits to simple cues like percent, stage position, and opponent rhythm."
 relatedGuides: ["how-to-stop-autopiloting", "common-beginner-mistakes", "best-training-mode-drills", "what-beginners-should-practice-first"]
 ---
 

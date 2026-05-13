@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["movement", "execution", "neutral"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Connect short hop consistency to spacing control and safer approach layers."
-  - "Avoid short hopping with no spacing purpose. Pick safer options until your timing is consistent."
-  - "Practice empty vs aerial ratio drill (8 minutes) in short sets and track one improvement after each session."
+  - "Short hops create faster aerial pressure and better spacing control in neutral."
+  - "Build consistency with clean jump timing before layering aerial or fast-fall inputs."
+  - "Apply short hops in matchup contexts so movement practice becomes usable under pressure."
 relatedGuides: ["what-is-neutral", "how-to-fast-fall-consistently", "best-training-mode-drills", "how-to-stop-autopiloting"]
 ---
 

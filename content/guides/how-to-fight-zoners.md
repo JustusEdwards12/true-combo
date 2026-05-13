@@ -7,9 +7,9 @@ category: "Matchup"
 tags: ["zoners", "matchup", "neutral"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Center your practice on a practical anti-zoner guide with entry patterns, spacing checks, adaptation logic, and matchup-realistic corner conversion."
-  - "If you catch yourself treating every projectile as something to 'beat' immediately, reset your spacing first and play the safer option."
-  - "Keep drill 1: walk-shield advancement (6 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Approach zoners by contesting space patiently rather than forcing full-screen commitments."
+  - "Use movement feints and shield discipline to make projectile patterns punishable."
+  - "Once in range, keep pressure tight so the zoner cannot reset to their preferred distance."
 relatedGuides: ["dealing-with-projectile-spam", "understanding-stage-control", "how-to-space-safely", "conditioning-in-smash-ultimate"]
 ---
 

@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["neutral", "decision-making", "review"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Build reliable neutral wins through positioning, timing, and adaptation."
-  - "If you catch yourself approaching without a reason, reset your spacing first and play the safer option."
-  - "Keep neutral focus rounds (8 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Neutral is the phase where both players fight for the first clean advantage without forced pressure."
+  - "Win neutral through spacing, tempo control, and option scouting instead of constant commitments."
+  - "Small neutral wins matter most when converted into stage control and repeatable follow-up pressure."
 relatedGuides: ["burst-range-explained", "how-to-whiff-punish", "why-beginners-lose-neutral", "understanding-stage-control"]
 ---
 

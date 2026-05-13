@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["juggling", "advantage", "anti-air"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Convert anti-air openings into sustained advantage without overcommitting."
-  - "If you catch yourself jumping too high and losing stage control, reset your spacing first and play the safer option."
-  - "Keep landing lane drill (8 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Juggling is strongest when you hold center and deny landing space before swinging again."
+  - "Track air dodge timing and drift habits to choose anti-air coverage with less risk."
+  - "Reset under the opponent after each juggle hit so pressure stays continuous."
 relatedGuides: ["how-to-keep-advantage", "landing-safely", "understanding-stage-control", "improve-advantage-state"]
 ---
 

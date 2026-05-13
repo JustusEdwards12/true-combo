@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["adaptation", "reads", "mindgames"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Build a repeatable read process: observe, test, confirm, punish, re-check."
-  - "If you catch yourself calling hard reads with no data, reset your spacing first and play the safer option."
-  - "Keep one-habit notebook drill (6 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Reliable reads come from pattern tracking, not one-off guesses after a single interaction."
+  - "Log habits by context, such as ledge, corner, and shield pressure situations."
+  - "Use low-risk tests first, then escalate into hard punishes once the habit is verified."
 relatedGuides: ["conditioning-in-smash-ultimate", "how-to-whiff-punish", "how-to-avoid-panic-options", "building-better-habits"]
 ---
 

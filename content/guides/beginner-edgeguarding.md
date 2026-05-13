@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["edgeguarding", "advantage", "offstage"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Focus on a beginner-friendly edgeguarding guide with risk/reward logic, recovery-type adaptation, and practical offstage decision-making."
-  - "Avoid committing before confirming resource usage. Pick safer options until your timing is consistent."
-  - "Practice drill 1: resource callout reps (7 minutes) in short sets and track one improvement after each session."
+  - "Force recoveries early by threatening ledge before your opponent commits to a path."
+  - "Track double jump, air dodge, and special recovery resources before choosing a hard punish."
+  - "Favor stage-preserving edgeguards first, then overextend only when the stock is confirmed."
 relatedGuides: ["common-recovery-habits", "how-to-recover-better", "beginner-ledgetrapping", "how-to-keep-advantage"]
 ---
 

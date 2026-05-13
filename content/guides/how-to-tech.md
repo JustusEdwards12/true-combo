@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["defense", "disadvantage", "execution"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Build reliable reaction and habit-mix around tech in place, roll, and missed-tech defense."
-  - "Always teching the same direction is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on tech direction reps (8 minutes) daily so this habit shows up under pressure."
+  - "Teching consistently prevents early stocks from missed wall and stage impact reactions."
+  - "Improve tech timing by practicing common knockback scenarios at realistic percents."
+  - "Add tech roll mixups after consistency so opponents cannot cover every follow-up easily."
 relatedGuides: ["landing-safely", "how-to-avoid-panic-options", "defensive-habits-beginners-have", "escaping-the-corner"]
 ---
 

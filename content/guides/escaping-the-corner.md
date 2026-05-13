@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["disadvantage", "corner", "defense"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Use timing, spacing, and option rotation to reset center safely."
-  - "If you catch yourself choosing one escape route repeatedly, reset your spacing first and play the safer option."
-  - "Keep corner map drill (8 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Escaping corner pressure starts with preserving composure and refusing desperate immediate options."
+  - "Use timing changes, jumps, and grounded movement to retake center without giving free punishes."
+  - "Rotate escape choices so your opponent cannot lock into one corner trap pattern."
 relatedGuides: ["landing-safely", "how-to-avoid-panic-options", "understanding-stage-control", "defensive-habits-beginners-have"]
 ---
 

@@ -7,9 +7,9 @@ category: "Matchup"
 tags: ["kirby", "matchup", "fundamentals"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Win with disciplined entry, punish timing, and compact advantage routes."
-  - "Forcing approach from outside kirby threat range is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on kirby entry routes (8 minutes) daily so this habit shows up under pressure."
+  - "Fight Kirby by respecting his close-range burst and avoiding predictable landings near him."
+  - "Keep spacing disciplined so you can punish dash-in and crouch-based bait attempts."
+  - "Force Kirby to recover from disadvantageous angles where his options are easier to cover."
 relatedGuides: ["best-beginner-characters", "landing-safely", "common-recovery-habits", "understanding-stage-control"]
 ---
 

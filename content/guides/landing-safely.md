@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["landing", "disadvantage", "movement"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Turn bad airborne states into neutral resets instead of panic losses."
-  - "Avoid landing with attack every time. Pick safer options until your timing is consistent."
-  - "Practice landing timing ladder (8 minutes) in short sets and track one improvement after each session."
+  - "Safe landing comes from mixing drift, timing, and defensive options before touching ground."
+  - "Avoid repeating the same landing button, air dodge timing, or directional escape route."
+  - "Land toward positions that recover center stage instead of cornering yourself."
 relatedGuides: ["juggling-basics", "how-to-fast-fall-consistently", "how-to-avoid-panic-options", "escaping-the-corner"]
 ---
 

@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["defense", "shield", "punish"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Build a practical oos hierarchy so panic mash is replaced with intentional responses."
-  - "Trying to punish every move oos instead of checking spacing first is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on oos reaction lane drill (8 minutes) daily so this habit shows up under pressure."
+  - "Choose out-of-shield options by frame speed and range instead of forcing the biggest punish every time."
+  - "Reset position when punish is not guaranteed so you keep stage control and avoid reversals."
+  - "Treat shield drop, jump, and immediate punish as a decision tree based on spacing and safety."
 relatedGuides: ["how-to-improve-shield-pressure", "defensive-habits-beginners-have", "how-to-avoid-panic-options", "how-to-space-safely"]
 ---
 

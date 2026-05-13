@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["pressure", "shield", "offense"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Build pressure sequences that convert shield respect into position or damage."
-  - "Avoid pressuring too close every time. Pick safer options until your timing is consistent."
-  - "Practice spacing-first pressure reps (8 minutes) in short sets and track one improvement after each session."
+  - "Good shield pressure forces defensive mistakes while keeping your own risk controlled."
+  - "Space pressure tools so you remain safe from out-of-shield punishes on block."
+  - "Vary timing and follow-ups to stop opponents from escaping with one repeated answer."
 relatedGuides: ["best-oos-options", "how-to-space-safely", "how-to-keep-advantage", "conditioning-in-smash-ultimate"]
 ---
 

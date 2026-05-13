@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["spacing", "neutral", "safety"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Win neutral by controlling distance, timing, and retreat paths."
-  - "Cut out swinging from outside effective range. Wait for clearer openings instead of forcing a swing."
-  - "Use threat ring drill (8 minutes) for focused reps, then test it in real matches right away."
+  - "Safe spacing keeps your hitboxes threatening while minimizing punishable whiffs."
+  - "Track opponent burst options and anchor your positioning just outside immediate threat range."
+  - "Use movement resets after pressure so you keep stage and avoid overextended trades."
 relatedGuides: ["burst-range-explained", "how-to-whiff-punish", "how-to-improve-shield-pressure", "what-is-neutral"]
 ---
 

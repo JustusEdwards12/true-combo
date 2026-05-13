@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["mindset", "adaptation", "habits"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Center your practice on install pause points and adaptation checks during games."
-  - "If you catch yourself repeating the same opening every stock, reset your spacing first and play the safer option."
-  - "Keep pause cue drill (6 minutes) simple: short reps, clear goal, quick review after each set."
+  - "Autopilot starts when you repeat familiar options without checking opponent adaptation."
+  - "Interrupt autopilot with simple between-stock checks on spacing, tempo, and habits."
+  - "Pre-plan branching options so your decisions stay intentional in long sets."
 relatedGuides: ["building-better-habits", "common-beginner-mistakes", "how-to-read-opponents", "how-to-avoid-panic-options"]
 ---
 

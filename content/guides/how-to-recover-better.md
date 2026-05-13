@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["recovery", "survival", "disadvantage"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Survive longer by reducing predictable recovery habits and panic commitments."
-  - "Using same route every stock is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on route variety block (8 minutes) daily so this habit shows up under pressure."
+  - "Strong recovery blends route variation, timing changes, and resource discipline."
+  - "Avoid burning jump or air dodge too early unless you are specifically covering an edgeguard threat."
+  - "Recover to stage positions that reset neutral safely when ledge is heavily threatened."
 relatedGuides: ["common-recovery-habits", "beginner-edgeguarding", "landing-safely", "how-to-tech"]
 ---
 

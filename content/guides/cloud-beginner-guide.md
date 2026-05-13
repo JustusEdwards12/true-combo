@@ -7,9 +7,9 @@ category: "Character"
 tags: ["cloud", "sword"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Keep your plan around a coaching-focused cloud guide covering spacing discipline, limit decisions, anti-rushdown defense, and set-to-set adaptation."
-  - "Drifting too far in on aerials and landing punishable is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on drill 1: walling rhythm (6 minutes) daily so this habit shows up under pressure."
+  - "Use Cloud’s range and speed to win neutral with safe aerial spacing and center control."
+  - "Convert hits into ledge pressure rather than overextending for low-percent damage greed."
+  - "Manage recovery routes and Limit usage so advantage does not turn into avoidable reversals."
 relatedGuides: ["how-to-space-safely", "burst-range-explained", "how-to-keep-advantage", "cloud-vs-joker-matchup-tips"]
 ---
 

@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["training", "drills", "practice"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Replace random lab time with drills tied to losses from recent sets."
-  - "Avoid grinding execution with no decision-making layer. Pick safer options until your timing is consistent."
-  - "Practice 20-minute fundamentals block in short sets and track one improvement after each session."
+  - "Prioritize drills that solve real match losses instead of practicing mechanics without context."
+  - "Use short, focused blocks for movement, punish timing, and defensive reactions under light pressure."
+  - "Review one session outcome each day so your practice loop stays tied to competitive results."
 relatedGuides: ["what-beginners-should-practice-first", "how-to-improve-reaction-time", "how-to-fast-fall-consistently", "how-to-whiff-punish"]
 ---
 

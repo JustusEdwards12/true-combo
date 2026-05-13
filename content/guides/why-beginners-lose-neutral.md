@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["neutral", "beginners", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Improve neutral stability through spacing discipline and habit awareness."
-  - "Jumping in from full screen is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on neutral reset drill (8 minutes) daily so this habit shows up under pressure."
+  - "Beginners lose neutral by overcommitting in unsafe ranges and repeating predictable timings."
+  - "Neutral consistency improves when you value information gathering before pressing an opening."
+  - "Build safer defaults so failed guesses do not immediately cost stage or stock control."
 relatedGuides: ["what-is-neutral", "burst-range-explained", "how-to-whiff-punish", "how-to-space-safely"]
 ---
 

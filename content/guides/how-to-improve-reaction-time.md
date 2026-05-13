@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["reactions", "training", "consistency"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Keep your plan around shift from raw-speed obsession to reaction-ready setup and habit reads."
-  - "Training random visual drills with no match transfer is costing stocks. Slow down, keep control, and choose the lower-risk answer."
-  - "Spend a few minutes on two-option reaction drill (8 minutes) daily so this habit shows up under pressure."
+  - "Reaction time improves most when you reduce decision overload with clear anticipation cues."
+  - "Practice reacting to common options from specific ranges instead of generic random stimuli."
+  - "Combine reaction practice with matchup context so faster responses translate to tournament play."
 relatedGuides: ["best-training-mode-drills", "burst-range-explained", "landing-safely", "how-to-stop-autopiloting"]
 ---
 

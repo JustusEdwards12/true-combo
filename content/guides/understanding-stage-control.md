@@ -7,9 +7,9 @@ category: "Concepts"
 tags: ["stage-control", "neutral", "advantage"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Treat stage position as a win condition, not a side effect."
-  - "Avoid trading center for low-value hits. Pick safer options until your timing is consistent."
-  - "Practice center hold drill (8 minutes) in short sets and track one improvement after each session."
+  - "Stage control determines who has safer options and better punish conversions at each moment."
+  - "Prioritize center stage to limit opponent escapes and strengthen your pressure coverage."
+  - "Treat stage concessions as temporary choices, then retake space with low-risk movement."
 relatedGuides: ["escaping-the-corner", "how-to-keep-advantage", "what-is-neutral", "why-beginners-lose-neutral"]
 ---
 

@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["punish", "neutral", "timing"]
 difficulty: "Intermediate"
 keyTakeaways:
-  - "Build a consistent whiff-punish game that wins neutral without overcommitting."
-  - "Avoid swinging before attack fully whiffs. Pick safer options until your timing is consistent."
-  - "Practice whiff recognition reps (8 minutes) in short sets and track one improvement after each session."
+  - "Whiff punishing works by baiting unsafe swings and striking during recovery frames."
+  - "Control spacing so your threat range reaches while their option cannot safely connect."
+  - "Prioritize guaranteed punishes that preserve advantage over risky max-damage attempts."
 relatedGuides: ["burst-range-explained", "how-to-space-safely", "how-to-read-opponents", "why-beginners-lose-neutral"]
 ---
 

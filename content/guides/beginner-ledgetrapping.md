@@ -7,9 +7,9 @@ category: "Fundamentals"
 tags: ["ledge", "advantage", "pressure"]
 difficulty: "Beginner"
 keyTakeaways:
-  - "Work on a practical ledgetrapping guide covering spacing discipline, option coverage, adaptation logic, and stock-closing consistency."
-  - "Cut out standing too close and losing to getup attack. Wait for clearer openings instead of forcing a swing."
-  - "Use drill 1: spacing marks (6 minutes) for focused reps, then test it in real matches right away."
+  - "Stand at a range that covers neutral getup and jump without losing to getup attack."
+  - "Build your trap around reactions first, then add hard reads after habits are confirmed."
+  - "Keep stage control between attempts so repeated ledge situations keep working in your favor."
 relatedGuides: ["how-to-improve-shield-pressure", "how-to-keep-advantage", "escaping-the-corner", "common-recovery-habits"]
 ---
 
