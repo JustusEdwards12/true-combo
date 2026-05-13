@@ -16,22 +16,78 @@ import { stripFrontmatter } from "@/lib/toc";
 export function extractFirstBulletPoints(markdown: string, max = 4): string[] {
   const body = stripFrontmatter(markdown);
   const lines = body.split("\n");
-  const points: string[] = [];
-  let inBulletBlock = false;
+  type Candidate = { heading: string; bullets: string[] };
+  const candidates: Candidate[] = [];
+
+  let currentHeading = "";
+  let currentBullets: string[] = [];
+
+  const flushCandidate = () => {
+    if (currentBullets.length > 0) {
+      candidates.push({ heading: currentHeading, bullets: [...currentBullets] });
+    }
+    currentBullets = [];
+  };
 
   for (const line of lines) {
-    const bullet = line.match(/^\s*-\s+(.+)$/);
-    if (bullet) {
-      inBulletBlock = true;
-      points.push(bullet[1].trim());
-      if (points.length >= max) break;
+    const h2 = line.match(/^##\s+(.+)$/);
+    const h3 = line.match(/^###\s+(.+)$/);
+    if (h2 || h3) {
+      flushCandidate();
+      currentHeading = (h2?.[1] ?? h3?.[1] ?? "").trim();
       continue;
     }
 
-    if (inBulletBlock && line.trim() === "") break;
-  }
+    const bullet = line.match(/^\s*-\s+(.+)$/);
+    if (bullet) {
+      currentBullets.push(bullet[1].trim());
+      continue;
+    }
 
-  return points;
+    if (currentBullets.length > 0 && line.trim() === "") {
+      flushCandidate();
+    }
+  }
+  flushCandidate();
+
+  const headingScore = (heading: string) => {
+    const h = heading.toLowerCase();
+    if (!h) return 0;
+
+    if (h.includes("key takeaway")) return 100;
+    if (h.includes("what to focus on first")) return 90;
+    if (h.includes("focus first")) return 85;
+    if (h.includes("core game plan") || h.includes("game plan")) return 80;
+    if (h.includes("adaptation")) return 70;
+    if (h.includes("practical") || h.includes("training focus")) return 60;
+
+    if (
+      h.includes("common beginner mistakes") ||
+      h.includes("common mistakes") ||
+      h.includes("beginners get wrong") ||
+      h.includes("panic")
+    ) {
+      return -100;
+    }
+
+    return 10;
+  };
+
+  const cleaned = candidates
+    .map((c) => ({
+      ...c,
+      score: headingScore(c.heading),
+      bullets: c.bullets
+        .map((b) => b.replace(/\s+/g, " ").trim())
+        .filter((b) => b.length > 0),
+    }))
+    .filter((c) => c.bullets.length > 0)
+    .sort((a, b) => b.score - a.score);
+
+  const best = cleaned.find((c) => c.score > 0);
+  if (!best) return [];
+
+  return best.bullets.slice(0, max);
 }
 
 export function extractFaqFromMarkdown(markdown: string): FaqItem[] {

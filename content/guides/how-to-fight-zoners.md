@@ -84,12 +84,6 @@ Build your anti-zoner plan around whichever two habits appear most.
 - Start with zoner at ledge.
 - Practice covering jump + neutral getup while keeping center.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Anti-zoner sequence: walk-shield entry into corner conversion."
-- **Diagram placeholder:** "Three anti-zoner phases: entry, hold, closeout."
-- **Screenshot placeholder:** "Replay markers for failed vs successful entries."
-
 ## Practical Linkouts
 
 If this matchup still feels chaotic, review [dealing with projectile spam](/guides/dealing-with-projectile-spam) for composure habits and pair with [understanding stage control](/guides/understanding-stage-control) so your entries create lasting advantage instead of one-off hits.

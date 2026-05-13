@@ -100,12 +100,6 @@ If you can identify two of these in one game, you can usually call them out in g
 - Record CPU behavior.
 - Practice patience into punish, not immediate swing.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two-game adaptation example from panic rolls to roll punish."
-- **Diagram placeholder:** "Beginner priority pyramid: survive -> neutral -> convert."
-- **Screenshot placeholder:** "Simple replay log sheet with one correction per set."
-
 ## Build A Stable Week Plan
 
 Use this weekly loop:

@@ -71,12 +71,6 @@ Review stock losses and classify each as DI choice or follow-up panic error.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `understanding-smash-ultimate-di` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [directional influence glossary](/glossary/directional-influence), [sdi glossary](/glossary/sdi), [how to tech](/guides/how-to-tech), [disadvantage state](/glossary/disadvantage-state). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

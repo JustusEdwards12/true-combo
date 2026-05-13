@@ -71,12 +71,6 @@ Identify one repeat move and punish second or third use.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-whiff-punish` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [whiff punishing glossary](/glossary/whiff-punishing), [burst range explained](/guides/burst-range-explained), [how to read opponents](/guides/how-to-read-opponents), [neutral wins](/glossary/neutral-wins). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

@@ -71,12 +71,6 @@ Play mini-sets focused only on knockdown survival decisions.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-tech` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [tech-chasing glossary](/glossary/tech-chasing), [directional influence glossary](/glossary/directional-influence), [disadvantage state](/glossary/disadvantage-state), [common beginner mistakes](/guides/common-beginner-mistakes). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

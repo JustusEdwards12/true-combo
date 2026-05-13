@@ -100,12 +100,6 @@ When you can predict panic, your game slows down and your win condition becomes 
 - Take stock only after pushing to ledge.
 - Goal: train "position first, kill second."
 
-## Media Placeholders
-
-- **Clip placeholder:** "Three examples of panic jump punishes from corner."
-- **Diagram placeholder:** "Safe vs unsafe approach lanes at mid-range."
-- **Screenshot placeholder:** "Replay note template with neutral/disadvantage/closeout tags."
-
 ## Build Your Weekly Correction Loop
 
 After each set, write:

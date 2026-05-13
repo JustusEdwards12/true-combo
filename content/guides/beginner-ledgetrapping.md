@@ -84,12 +84,6 @@ Recognizing panic options turns ledge from guesswork into repeatable pressure.
 - Start both players at high percent with opponent at ledge.
 - Goal: close stock without losing center.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Three stocks closed through anti-jump ledgetrap adaptation."
-- **Diagram placeholder:** "Ledge option coverage zones and spacing markers."
-- **Screenshot placeholder:** "Replay labels: jump habit, roll habit, stall timing."
-
 ## Next Link In The Chain
 
 Pair this with [beginner edgeguarding](/guides/beginner-edgeguarding) to decide when to stay onstage vs go offstage, and use [common recovery habits](/guides/common-recovery-habits) to predict ledge timing more accurately.

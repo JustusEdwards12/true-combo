@@ -71,12 +71,6 @@ Start in juggle disadvantage and survive 20 seconds with no panic repeats.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `landing-safely` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [disadvantage state](/glossary/disadvantage-state), [juggling basics](/guides/juggling-basics), [how to avoid panic options](/guides/how-to-avoid-panic-options), [anti-airing glossary](/glossary/anti-airing). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

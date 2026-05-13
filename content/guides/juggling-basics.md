@@ -71,12 +71,6 @@ Start from anti-air and end with ledge trap without losing center.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `juggling-basics` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [juggling glossary](/glossary/juggling), [anti-airing glossary](/glossary/anti-airing), [beginner ledgetrapping](/guides/beginner-ledgetrapping), [how to keep advantage](/guides/how-to-keep-advantage). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

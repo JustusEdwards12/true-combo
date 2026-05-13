@@ -71,12 +71,6 @@ Record OOS jump, mash, and hold; practice unique answer for each.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-improve-shield-pressure` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [shield pressure glossary](/glossary/shield-pressure), [best OOS options](/guides/best-oos-options), [frame traps](/glossary/frame-traps), [conditioning in smash ultimate](/guides/conditioning-in-smash-ultimate). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

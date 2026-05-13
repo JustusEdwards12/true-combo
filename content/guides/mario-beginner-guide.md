@@ -82,12 +82,6 @@ Call one habit early, then structure your advantage around it.
 - Practice covering jump and neutral getup first.
 - Goal: stocks closed with position, not desperation.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Mario anti-airing repeated ledge jumps."
-- **Diagram placeholder:** "Mario neutral entry layers: ground feint, fireball check, burst punish."
-- **Screenshot placeholder:** "Replay note showing dropped extension vs safe reset decision."
-
 ## Related Practice Routes
 
 Pair this with [how to keep advantage](/guides/how-to-keep-advantage) if you win neutral but lose stocks, and review [mario vs samus matchup basics](/guides/mario-vs-samus-matchup-basics) for anti-zoner pacing.

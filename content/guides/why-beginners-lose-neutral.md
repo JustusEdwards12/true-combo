@@ -71,12 +71,6 @@ Tag each neutral loss by spacing, timing, or habit mistake.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `why-beginners-lose-neutral` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [what is neutral](/guides/what-is-neutral), [common beginner mistakes](/guides/common-beginner-mistakes), [burst range glossary](/glossary/burst-range), [how to stop autopiloting](/guides/how-to-stop-autopiloting). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

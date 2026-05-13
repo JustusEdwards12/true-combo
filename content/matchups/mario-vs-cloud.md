@@ -66,12 +66,6 @@ Practical positioning checkpoints:
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two-game adaptation sequence for mario-vs-cloud setplay."
-- **Diagram placeholder:** "Preferred spacing zones, threat lanes, and punish branches for this matchup."
-- **Screenshot placeholder:** "Replay note card with habit read and correction."
-
 ## Related Study Links
 
 - [Mario beginner guide guide](/guides/mario-beginner-guide)

@@ -71,12 +71,6 @@ After each blocked move, choose punish only if in range; otherwise dash to cente
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `best-oos-options` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [shield pressure glossary](/glossary/shield-pressure), [how to improve shield pressure](/guides/how-to-improve-shield-pressure), [frame traps](/glossary/frame-traps), [escaping the corner](/guides/escaping-the-corner). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

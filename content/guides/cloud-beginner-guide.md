@@ -84,12 +84,6 @@ Cloud punishes these best by holding position and reacting, not pre-committing.
 - Rehearse three states: neutral spend, corner escape, stock closeout.
 - Goal: one deliberate plan per Limit use.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Cloud punishing three repeated rushdown entries at burst range."
-- **Diagram placeholder:** "Cloud threat map: wall zone vs scramble zone."
-- **Screenshot placeholder:** "Limit usage review checklist after ranked set."
-
 ## Related Routes
 
 Use [cloud vs joker matchup tips](/guides/cloud-vs-joker-matchup-tips) for high-tempo sword vs mobility situations, and pair this with [how to space safely](/guides/how-to-space-safely) when your neutral loses from overextension.

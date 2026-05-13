@@ -88,12 +88,6 @@ Habit reads matter more than one-time guesses in this matchup.
 - Rehearse one low-risk gameplan for Arsene active and inactive states.
 - Goal: stable decisions under tempo swing.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Cloud adapting aerial timing after repeated parries."
-- **Diagram placeholder:** "Cloud wall zone vs Joker entry lanes."
-- **Screenshot placeholder:** "Set notes tracking Arsene phase decisions."
-
 ## Follow-Up Study
 
 Use [cloud beginner guide](/guides/cloud-beginner-guide) for baseline Cloud structure and [how to read opponents](/guides/how-to-read-opponents) to sharpen adaptation in longer sets where both players change tempo repeatedly.

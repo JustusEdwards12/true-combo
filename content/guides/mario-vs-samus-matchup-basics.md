@@ -84,12 +84,6 @@ Read one habit early, punish it twice, then expect a counter-adjustment.
 - Start Samus at ledge.
 - Practice covering jump + neutral getup while maintaining center.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Mario entering against charge shot without overcommitting."
-- **Diagram placeholder:** "Safe entry lanes vs Samus projectile control zones."
-- **Screenshot placeholder:** "Replay tags: failed jump-in vs successful grounded entry."
-
 ## Contextual Follow-Up
 
 Pair this with [how to fight zoners](/guides/how-to-fight-zoners) if neutral entry is the main issue, and check [mario beginner guide](/guides/mario-beginner-guide) for conversion routes once you get inside.

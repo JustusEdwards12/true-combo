@@ -71,12 +71,6 @@ Pick one repeat loss condition and run 30 targeted reps before moving on.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `best-training-mode-drills` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [building better habits](/guides/building-better-habits), [what beginners should practice first](/guides/what-beginners-should-practice-first), [mental stack](/glossary/mental-stack), [matchup adaptation between games](/matchups/matchup-adaptation-between-games). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.

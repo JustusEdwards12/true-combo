@@ -71,12 +71,6 @@ After recovery, practice safe ledge exits instead of instant getup attacks.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
 
-## Media Placeholders
-
-- **Clip placeholder:** "Two examples of correct vs incorrect decisions for `how-to-recover-better` situations."
-- **Diagram placeholder:** "Position map showing safe zones, threat zones, and adaptation branches."
-- **Screenshot placeholder:** "Replay annotation with one habit read and one correction applied in next game."
-
 ## Contextual Follow-Up
 
 Continue with [common recovery habits](/guides/common-recovery-habits), [disadvantage state](/glossary/disadvantage-state), [edgeguarding glossary](/glossary/edgeguarding), [edgeguarding vs different recoveries](/matchups/edgeguarding-vs-different-recoveries). These links reinforce the same concepts from different angles so your gameplan holds up across matchups.
