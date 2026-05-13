@@ -8,6 +8,16 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: projectRoot,
   },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "truecombo.net" }],
+        destination: "https://www.truecombo.net/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

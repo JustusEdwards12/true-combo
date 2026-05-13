@@ -16,9 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = getSiteUrl().replace(/\/$/, "");
+const metadataBase = new URL("https://www.truecombo.net");
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`${siteUrl}/`),
+  metadataBase,
   title: {
     default: `${SITE_NAME} | Smash Ultimate Guides and Matchup Strategy`,
     template: `%s | ${SITE_NAME}`,
