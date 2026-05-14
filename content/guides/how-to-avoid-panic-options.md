@@ -1,5 +1,5 @@
 ---
-title: "How to Avoid Panic Options"
+title: "How to Avoid Panic Options in Smash Ultimate"
 description: "Play calmer under pressure by pre-planning escapes and reducing predictable panic habits."
 slug: "how-to-avoid-panic-options"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Start at kill percent and survive 20 seconds without panic option repeats.
 Track panic option usage by stock and reduce count each session.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [panic options glossary](/glossary/panic-options), [defensive habits beginners have](/guides/defensive-habits-beginners-have), [disadvantage state](/glossary/disadvantage-state), [how to stop autopiloting](/guides/how-to-stop-autopiloting). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -1,16 +1,21 @@
 import { CharacterCard } from "@/components/CharacterCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import {
+  buildCharacterGuideDisplayTitle,
+  getCharacterNameFromTitle,
+} from "@/lib/character-title";
 import { getAllCharacters, sortByDateDesc } from "@/lib/content/load";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Smash Ultimate Character Guides",
+  title: "Smash Ultimate Character Guides and Gameplans",
   description:
-    "Smash Ultimate character guides with gameplans, key moves, beginner priorities, and matchup-focused improvement checklists.",
+    "Smash Ultimate character guides with matchup-aware gameplans, key moves, frame-data priorities, and beginner-friendly checklists for steady improvement.",
   path: "/characters",
   keywords: [
     "Smash Ultimate character guides",
-    "Smash Ultimate character gameplans",
+    "Smash Ultimate character gameplan",
+    "Smash Ultimate frame data guide",
     "best beginner Smash Ultimate characters",
   ],
 });
@@ -35,7 +40,9 @@ export default function CharactersPage() {
         {chars.map(({ data }) => (
           <CharacterCard
             key={data.slug}
-            name={data.title}
+            name={buildCharacterGuideDisplayTitle(
+              getCharacterNameFromTitle(data.title),
+            )}
             description={data.description}
             slug={data.slug}
           />

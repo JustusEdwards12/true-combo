@@ -1,10 +1,10 @@
 ---
-title: "How to Keep Advantage"
+title: "How to Keep Advantage State in Smash Ultimate"
 description: "Sustain pressure after winning neutral and stop giving away momentum with overextensions."
 slug: "how-to-keep-advantage"
 date: "2026-05-12"
 category: "Advantage"
-tags: ["advantage", "pressure", "conversion"]
+tags: ["advantage state", "pressure", "conversion"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Keep advantage by prioritizing positioning and option coverage over immediate maximum damage."
@@ -74,7 +74,3 @@ End combo early by design and hold stage to train discipline.
 Punish only repeated defensive options, not first-time guesses.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [advantage state glossary](/glossary/advantage-state), [improve advantage state](/guides/improve-advantage-state), [beginner ledgetrapping](/guides/beginner-ledgetrapping), [edgeguarding vs different recoveries](/matchups/edgeguarding-vs-different-recoveries). These links teach the same ideas from different angles so your plan holds up across matchups.

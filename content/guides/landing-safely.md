@@ -1,10 +1,10 @@
 ---
-title: "Landing Safely in Smash Ultimate"
+title: "How to Land Safely in Smash Ultimate"
 description: "Land with intention using drift mixups, resource discipline, and anti-juggle awareness."
 slug: "landing-safely"
 date: "2026-05-12"
 category: "Disadvantage"
-tags: ["landing", "disadvantage", "movement"]
+tags: ["landing", "disadvantage state", "movement"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Safe landing comes from mixing drift, timing, and defensive options before touching ground."
@@ -74,7 +74,3 @@ Pick three drift paths and avoid repeating the same one twice.
 Start in juggle disadvantage and survive 20 seconds with no panic repeats.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [disadvantage state](/glossary/disadvantage-state), [juggling basics](/guides/juggling-basics), [how to avoid panic options](/guides/how-to-avoid-panic-options), [anti-airing glossary](/glossary/anti-airing). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -1,5 +1,5 @@
 ---
-title: "How to Space Safely"
+title: "How to Space Safely in Smash Ultimate"
 description: "Use practical spacing checkpoints to stay threatening without feeding punishes."
 slug: "how-to-space-safely"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Punish only when opponent attack fully misses.
 Play for center control and safe contact points over damage race.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [burst range explained](/guides/burst-range-explained), [whiff punishing glossary](/glossary/whiff-punishing), [stage control glossary](/glossary/stage-control), [swordie matchup fundamentals](/matchups/swordie-matchup-fundamentals). These links teach the same ideas from different angles so your plan holds up across matchups.

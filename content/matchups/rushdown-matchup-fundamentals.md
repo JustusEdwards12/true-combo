@@ -1,5 +1,5 @@
 ---
-title: "Rushdown Matchup Fundamentals"
+title: "Rushdown Matchup Fundamentals (Smash Ultimate)"
 description: "Universal gameplan for handling rushdown pressure through spacing checks, defensive discipline, and tempo breaks."
 slug: "rushdown-matchup-fundamentals"
 date: "2026-05-12"
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Snake vs rushdown](/matchups/snake-vs-rushdown)
-- [Samus vs rushdown](/matchups/samus-vs-rushdown)
-- [Escaping the corner guide](/guides/escaping-the-corner)
-- [Burst range glossary](/glossary/burst-range)
 
 ## Defensive Tempo Rule
 

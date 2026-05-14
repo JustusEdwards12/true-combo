@@ -1,5 +1,5 @@
 ---
-title: "Zoner Matchup Fundamentals"
+title: "Zoner Matchup Fundamentals (Smash Ultimate)"
 description: "Universal anti-zoner fundamentals: entry discipline, projectile pacing reads, and corner conversion principles."
 slug: "zoner-matchup-fundamentals"
 date: "2026-05-12"
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Anti projectile counterplay](/matchups/anti-projectile-counterplay)
-- [Dealing with projectile spam guide](/guides/dealing-with-projectile-spam)
-- [How to fight zoners guide](/guides/how-to-fight-zoners)
-- [Stage control glossary](/glossary/stage-control)
 
 ## Emotional Pace Management
 

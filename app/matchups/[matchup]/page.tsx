@@ -1,18 +1,14 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { ArticleShell } from "@/components/article/ArticleShell";
-import { ProgressionLinks } from "@/components/article/ProgressionLinks";
+import { RelatedContentPanel } from "@/components/article/RelatedContentPanel";
 import { ArticleJsonLd } from "@/components/ArticleJsonLd";
 import { MarkdownContent } from "@/components/MarkdownContent";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
-import { getAllMatchups, getMatchupBySlug } from "@/lib/content/load";
+import { getMatchupBySlug, getAllMatchups } from "@/lib/content/load";
 import { formatContentDate } from "@/lib/format";
-import {
-  buildMatchupConceptLinks,
-  buildMatchupNextLinks,
-} from "@/lib/guide-structure";
+import { scoreMatchupRelatedContent } from "@/lib/related-content";
 import { readingTimeFromMarkdown } from "@/lib/read-time";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, optimizeMetaDescription } from "@/lib/seo";
 import { extractTocFromMarkdown } from "@/lib/toc";
 
 type Props = { params: Promise<{ matchup: string }> };
@@ -27,18 +23,33 @@ export async function generateMetadata({ params }: Props) {
   const { matchup } = await params;
   const doc = getMatchupBySlug(matchup);
   if (!doc) return {};
-  const title = /smash ultimate/i.test(doc.data.title)
-    ? doc.data.title
-    : `${doc.data.title} (Smash Ultimate Matchup Guide)`;
+  const baseTitle = doc.data.title.trim();
+  const withGuideWord = /(matchup guide|fundamentals|guide)/i.test(baseTitle)
+    ? baseTitle
+    : `${baseTitle} Matchup Guide`;
+  const title = /smash ultimate/i.test(withGuideWord)
+    ? withGuideWord
+    : `${withGuideWord} (Smash Ultimate)`;
+  const description = /smash ultimate/i.test(doc.data.description)
+    ? doc.data.description
+    : `${doc.data.description} Practical Smash Ultimate matchup guide.`;
+  const metaDescription = optimizeMetaDescription(description, {
+    fallbackSentence:
+      "Learn practical Smash Ultimate matchup counterplay, neutral priorities, and set adaptation for this matchup.",
+  });
+  const keywordSet = new Set<string>([
+    "Smash Ultimate matchup guide",
+    "Smash Ultimate counterplay",
+    "Smash Ultimate neutral strategy",
+  ]);
+  for (const tag of doc.data.tags ?? []) {
+    keywordSet.add(`Smash Ultimate ${tag} matchup`);
+  }
   return buildMetadata({
     title,
-    description: doc.data.description,
+    description: metaDescription,
     path: `/matchups/${matchup}`,
-    keywords: [
-      "Smash Ultimate matchup guide",
-      "Smash Ultimate matchup strategy",
-      "competitive Smash adaptation",
-    ],
+    keywords: Array.from(keywordSet).slice(0, 8),
     type: "article",
     publishedTime: doc.data.date,
   });
@@ -58,11 +69,8 @@ export default async function MatchupPage({ params }: Props) {
   const toc = extractTocFromMarkdown(content);
   const readMins = readingTimeFromMarkdown(content);
   const updated = data.updated ?? data.date;
-  const nextLinks = buildMatchupNextLinks(doc);
-  const conceptLinks = buildMatchupConceptLinks(doc).map((c) => ({
-    ...c,
-    label: "Concept",
-  }));
+  const { matchups: connectedMatchups, fighters: characterLinks } =
+    scoreMatchupRelatedContent(matchup, 6, 5);
 
   return (
     <>
@@ -81,7 +89,7 @@ export default async function MatchupPage({ params }: Props) {
               Matchup strategy
             </span>
             <span className="font-mono text-[10px] tabular-nums text-zinc-600">
-              ~{readMins} min read
+              {readMins} min read
             </span>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl sm:leading-tight">
@@ -97,38 +105,18 @@ export default async function MatchupPage({ params }: Props) {
           </div>
         </header>
         <MarkdownContent content={content} className="mt-10 max-w-3xl" toc={toc} />
-        <ProgressionLinks
-          title="Next Matchup Reads"
-          subtitle="Progress through adjacent matchup archetypes to improve adaptation between sets."
-          links={nextLinks}
+        <RelatedContentPanel
+          title="Connected Matchups"
+          subtitle="Expand your set prep with adjacent matchup reads and relevant fighter pages."
+          chipClassName="px-3.5 border-zinc-600/85 bg-zinc-900/55 text-zinc-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]"
+          groupLabelClassName="mb-1.5 text-zinc-400"
+          groupsWrapClassName="mt-4 space-y-3"
+          linksWrapClassName="flex flex-wrap gap-x-2 gap-y-2"
+          groups={[
+            { title: "More Matchup Guides", links: connectedMatchups },
+            { title: "Related Fighters", links: characterLinks },
+          ]}
         />
-        <ProgressionLinks
-          title="Related Concepts"
-          subtitle="Reinforce key terminology and decision models that appear in this matchup."
-          links={conceptLinks}
-        />
-        <aside className="mt-12 rounded-xl border border-zinc-800/80 bg-zinc-900/30 p-6 text-sm text-zinc-400">
-          <p className="font-medium text-zinc-300">Build the full gameplan</p>
-          <p className="mt-2 leading-relaxed">
-            Pair matchup study with{" "}
-            <Link href="/guides/what-is-neutral" className="text-cyan-400 hover:underline">
-              neutral planning
-            </Link>
-            ,{" "}
-            <Link href="/guides/how-to-tech" className="text-cyan-400 hover:underline">
-              defensive habits
-            </Link>
-            ,{" "}
-            <Link href="/characters" className="text-cyan-400 hover:underline">
-              character guides
-            </Link>
-            , and{" "}
-            <Link href="/glossary" className="text-cyan-400 hover:underline">
-              matchup glossary terms
-            </Link>
-            .
-          </p>
-        </aside>
       </ArticleShell>
     </>
   );

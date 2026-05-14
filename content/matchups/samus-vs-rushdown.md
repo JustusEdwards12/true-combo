@@ -1,5 +1,5 @@
 ---
-title: "Samus vs Rushdown"
+title: "Samus vs Rushdown Matchup Guide (Smash Ultimate)"
 description: "Samus vs rushdown blueprint for controlling pace, surviving scramble pressure, and converting corner traps."
 slug: "samus-vs-rushdown"
 date: "2026-05-12"
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Rushdown matchup fundamentals](/matchups/rushdown-matchup-fundamentals)
-- [Anti projectile counterplay](/matchups/anti-projectile-counterplay)
-- [How to recover better guide](/guides/how-to-recover-better)
-- [Stage control glossary](/glossary/stage-control)
 
 ## Recovery and Ledge Context
 

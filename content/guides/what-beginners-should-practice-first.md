@@ -1,10 +1,10 @@
 ---
-title: "What Beginners Should Practice First"
+title: "How to Build a Beginner Practice Plan in Smash Ultimate"
 description: "A practical training roadmap for new players: what to practice first, how to structure sessions, and how to adapt from real matches."
-slug: "what-beginners-should-practice-first"
+slug: "beginner-practice-routine"
 date: "2026-05-12"
 category: "Training"
-tags: ["training", "beginners", "improvement"]
+tags: ["training", "beginner", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Beginners improve fastest by prioritizing movement, spacing, and defense before advanced combos."

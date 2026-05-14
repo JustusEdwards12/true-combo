@@ -1,10 +1,10 @@
 ---
-title: "Understanding Smash Ultimate DI"
+title: "How DI Works in Smash Ultimate"
 description: "Learn practical directional influence choices and avoid panic DI that loses stocks early."
 slug: "understanding-smash-ultimate-di"
 date: "2026-05-12"
 category: "Disadvantage"
-tags: ["di", "survival", "defense"]
+tags: ["directional influence", "survival", "defense"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Directional influence changes survival and combo escape outcomes when inputs match launch angle."
@@ -74,7 +74,3 @@ Practice DI changes that force different follow-up timing.
 Review stock losses and classify each as DI choice or follow-up panic error.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [directional influence glossary](/glossary/directional-influence), [sdi glossary](/glossary/sdi), [how to tech](/guides/how-to-tech), [disadvantage state](/glossary/disadvantage-state). These links teach the same ideas from different angles so your plan holds up across matchups.

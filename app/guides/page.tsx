@@ -7,15 +7,16 @@ import { readingTimeFromMarkdown } from "@/lib/read-time";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Smash Ultimate Guides",
+  title: "Smash Ultimate Guides for Beginners and Competitive Play",
   description:
-    "Smash Ultimate guides for beginner mechanics, competitive concepts, character improvement, and matchup-ready habits.",
+    "Smash Ultimate guides for beginner fundamentals, neutral, advantage state, disadvantage state, movement, and matchup-ready improvement for real sets.",
   path: "/guides",
   keywords: [
     "Smash Ultimate guides",
-    "Smash Ultimate beginner mechanics",
+    "Smash Ultimate beginner guide",
+    "Smash Ultimate fundamentals",
     "Smash Ultimate neutral guide",
-    "competitive Smash Ultimate tips",
+    "how to get better at Smash Ultimate",
   ],
 });
 

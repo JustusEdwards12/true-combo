@@ -1,5 +1,5 @@
 ---
-title: "Tilt attack"
+title: "Tilt Attack"
 description: "A tilt is a directional attack input with a light (non-smash) stick motion."
 slug: "tilt-attack"
 date: "2026-05-01"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Tilt attack** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to space safely](/guides/how-to-space-safely)
-- [Best oos options](/guides/best-oos-options)
-- [Neutral game glossary](/glossary/neutral-game)

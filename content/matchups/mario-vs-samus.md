@@ -1,5 +1,5 @@
 ---
-title: "Mario vs Samus"
+title: "Mario vs Samus Matchup Guide (Smash Ultimate)"
 description: "Matchup roadmap for Mario vs Samus with anti-projectile pacing, corner sequencing, and adaptation between games."
 slug: "mario-vs-samus"
 date: "2026-05-12"
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Mario vs samus matchup basics guide](/guides/mario-vs-samus-matchup-basics)
-- [Anti projectile counterplay](/matchups/anti-projectile-counterplay)
-- [How to fight zoners guide](/guides/how-to-fight-zoners)
-- [Stage control glossary](/glossary/stage-control)
 
 ## Pressure-to-Close Flow
 

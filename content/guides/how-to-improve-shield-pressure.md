@@ -1,5 +1,5 @@
 ---
-title: "How to Improve Shield Pressure"
+title: "How to Improve Shield Pressure in Smash Ultimate"
 description: "Apply safer pressure strings, threaten grabs, and avoid giving free reversals."
 slug: "how-to-improve-shield-pressure"
 date: "2026-05-12"
@@ -10,7 +10,7 @@ keyTakeaways:
   - "Good shield pressure forces defensive mistakes while keeping your own risk controlled."
   - "Space pressure tools so you remain safe from out-of-shield punishes on block."
   - "Vary timing and follow-ups to stop opponents from escaping with one repeated answer."
-relatedGuides: ["best-oos-options", "how-to-space-safely", "how-to-keep-advantage", "conditioning-in-smash-ultimate"]
+relatedGuides: ["out-of-shield-options", "how-to-space-safely", "how-to-keep-advantage", "conditioning-in-smash-ultimate"]
 ---
 
 Applying safer, smarter pressure that forces decisions without giving free punishes is usually where many sets are decided. This guide gives practical choices you can repeat in real matches: spot patterns early, pick safer options under pressure, and turn small wins into steady control instead of risky guesses. The objective is simple: build pressure sequences that convert shield respect into position or damage.
@@ -74,7 +74,3 @@ Cycle early, delayed, and reset timings in equal reps.
 Record OOS jump, mash, and hold; practice unique answer for each.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [shield pressure glossary](/glossary/shield-pressure), [best OOS options](/guides/best-oos-options), [frame traps](/glossary/frame-traps), [conditioning in smash ultimate](/guides/conditioning-in-smash-ultimate). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -1,10 +1,10 @@
 ---
-title: "How to Whiff Punish"
+title: "How to Whiff Punish in Smash Ultimate"
 description: "Turn opponent misses into guaranteed momentum with spacing discipline and patient reactions."
 slug: "how-to-whiff-punish"
 date: "2026-05-12"
 category: "Neutral"
-tags: ["punish", "neutral", "timing"]
+tags: ["whiff punish", "neutral", "timing"]
 difficulty: "Intermediate"
 keyTakeaways:
   - "Whiff punishing works by baiting unsafe swings and striking during recovery frames."
@@ -74,7 +74,3 @@ Maintain punishable spacing ring for 30-second intervals.
 Identify one repeat move and punish second or third use.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [whiff punishing glossary](/glossary/whiff-punishing), [burst range explained](/guides/burst-range-explained), [how to read opponents](/guides/how-to-read-opponents), [neutral wins](/glossary/neutral-wins). These links teach the same ideas from different angles so your plan holds up across matchups.

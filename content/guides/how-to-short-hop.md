@@ -74,7 +74,3 @@ Practice landing short hops at three exact spacings.
 Use short hop only when it supports a clear neutral or pressure goal.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to fast fall consistently](/guides/how-to-fast-fall-consistently), [how to space safely](/guides/how-to-space-safely), [anti-airing glossary](/glossary/anti-airing), [what is neutral](/guides/what-is-neutral). These links teach the same ideas from different angles so your plan holds up across matchups.

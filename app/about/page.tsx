@@ -5,7 +5,7 @@ import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata = buildMetadata({
   title: "About TrueCombo - Smash Ultimate Learning Platform",
-  description: `What ${SITE_NAME} is: competitive Smash Ultimate learning, written for clarity and speed.`,
+  description: `${SITE_NAME} is a competitive Smash Ultimate learning platform with practical guides, matchup strategy, and glossary-backed coaching built for faster improvement.`,
   path: "/about",
   keywords: [
     "Smash Ultimate learning platform",

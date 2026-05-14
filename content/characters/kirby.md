@@ -50,7 +50,7 @@ Start with **up air** ladders at mid percents on training weights you see often 
 
 ## Out of shield options
 
-Kirby’s answers vary by spacing—build a small menu using [OOS basics](/guides/best-oos-options).
+Kirby’s answers vary by spacing—build a small menu using [OOS basics](/guides/out-of-shield-options).
 
 ## Kill confirms
 
@@ -60,7 +60,3 @@ Edgeguards and **dash attack** punishes show up often—lab your kill move end l
 
 - Jumping away on every disadvantage scenario.
 - Fishing inhale in neutral without a read.
-
-## Related guides
-
-Movement: [short hops](/guides/how-to-short-hop). Roster ideas: [beginner characters](/guides/best-beginner-characters).

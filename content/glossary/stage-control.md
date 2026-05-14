@@ -1,5 +1,5 @@
 ---
-title: "Stage control"
+title: "Stage Control"
 description: "Owning center and positional leverage so your options stay stronger than your opponent's."
 slug: "stage-control"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Stage control** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Understanding stage control](/guides/understanding-stage-control)
-- [Escaping the corner](/guides/escaping-the-corner)
-- [Neutral game glossary](/glossary/neutral-game)

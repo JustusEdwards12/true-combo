@@ -1,5 +1,5 @@
 ---
-title: "Best Beginner Characters in Smash Ultimate"
+title: "How to Pick a Beginner Character in Smash Ultimate"
 description: "Choose a learning main with realistic goals, practical strengths, and habits that transfer to tournament play."
 slug: "best-beginner-characters"
 date: "2026-05-12"
@@ -10,7 +10,7 @@ keyTakeaways:
   - "Pick characters that reward spacing, recovery discipline, and simple confirms over execution gimmicks."
   - "Use one main plus one backup to learn matchup adaptation without resetting your fundamentals."
   - "Judge character progress by neutral consistency and survivability, not highlight combo potential."
-relatedGuides: ["what-beginners-should-practice-first", "building-better-habits", "best-training-mode-drills", "common-beginner-mistakes"]
+relatedGuides: ["beginner-practice-routine", "building-better-habits", "best-training-mode-drills", "common-beginner-mistakes"]
 ---
 
 Choosing a character that supports learning fundamentals instead of hiding decision errors is usually where many sets are decided. This guide gives practical choices you can repeat in real matches: spot patterns early, pick safer options under pressure, and turn small wins into steady control instead of risky guesses. The objective is simple: pick a main and backup that teach neutral, recovery discipline, and ledge play.
@@ -74,7 +74,3 @@ For each candidate, practice one ledgetrap close and one grounded kill confirm r
 Start each stock at high percent and test which character keeps decision quality under stress.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [what beginners should practice first](/guides/what-beginners-should-practice-first), [common beginner mistakes](/guides/common-beginner-mistakes), [neutral wins](/glossary/neutral-wins), [matchup adaptation between games](/matchups/matchup-adaptation-between-games). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -1,5 +1,5 @@
 ---
-title: "Kirby vs Swordies"
+title: "Kirby vs Swordies Matchup Guide (Smash Ultimate)"
 description: "How Kirby can navigate disjoint pressure from sword characters using movement discipline and punish timing."
 slug: "kirby-vs-swordies"
 date: "2026-05-12"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Swordie matchup fundamentals](/matchups/swordie-matchup-fundamentals)
-- [Kirby matchup fundamentals guide](/guides/kirby-matchup-fundamentals)
-- [Burst range glossary](/glossary/burst-range)
-- [Panic options glossary](/glossary/panic-options)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

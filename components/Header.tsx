@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Sora } from "next/font/google";
 import { usePathname } from "next/navigation";
@@ -12,7 +13,6 @@ const sora = Sora({
 
 const nav = [
   { href: "/guides", label: "Guides" },
-  { href: "/guides#beginner", label: "Mechanics" },
   { href: "/characters", label: "Characters" },
   { href: "/matchups", label: "Matchups" },
   { href: "/glossary", label: "Glossary" },
@@ -20,11 +20,31 @@ const nav = [
 
 function NavLink({ href, children }: { href: string; children: string }) {
   const pathname = usePathname();
+  const [hash, setHash] = useState("");
   const hrefPath = href.split("#")[0] || "/";
+  const hrefHash = href.includes("#") ? `#${href.split("#")[1]}` : "";
+
+  useEffect(() => {
+    const syncHash = () => setHash(window.location.hash || "");
+    syncHash();
+    window.addEventListener("hashchange", syncHash);
+    return () => window.removeEventListener("hashchange", syncHash);
+  }, []);
+
+  const hasSectionNavForPath = nav.some(
+    (item) => item.href.startsWith(`${hrefPath}#`),
+  );
+  const sectionActive =
+    hrefHash.length > 0 && pathname === hrefPath && hash === hrefHash;
   const active =
-    hrefPath === "/"
+    sectionActive ||
+    (hrefPath === "/"
       ? pathname === "/"
-      : pathname === hrefPath || pathname.startsWith(`${hrefPath}/`);
+      : hrefHash.length > 0
+        ? false
+        : pathname.startsWith(`${hrefPath}/`) ||
+          (pathname === hrefPath &&
+            !(hasSectionNavForPath && hash.length > 0)));
 
   return (
     <Link

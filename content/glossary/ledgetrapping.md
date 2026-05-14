@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Ledgetrapping** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Beginner ledgetrapping](/guides/beginner-ledgetrapping)
-- [Ledgetrap adaptation](/matchups/ledgetrap-adaptation-guide)
-- [Stage control glossary](/glossary/stage-control)

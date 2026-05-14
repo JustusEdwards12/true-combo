@@ -1,5 +1,5 @@
 ---
-title: "Shield poking"
+title: "Shield Poking"
 description: "Hitting parts of an opponent not fully protected by shield size or angle."
 slug: "shield-poking"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Shield poking** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
-- [Best oos options](/guides/best-oos-options)
-- [Shield pressure glossary](/glossary/shield-pressure)

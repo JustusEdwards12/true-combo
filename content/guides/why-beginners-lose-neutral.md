@@ -1,10 +1,10 @@
 ---
-title: "Why Beginners Lose Neutral"
+title: "Why Beginners Lose Neutral in Smash Ultimate"
 description: "Understand the repeat mistakes that lose neutral and how to replace them with practical gameplans."
 slug: "why-beginners-lose-neutral"
 date: "2026-05-12"
 category: "Neutral"
-tags: ["neutral", "beginners", "improvement"]
+tags: ["neutral", "beginner", "improvement"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Beginners lose neutral by overcommitting in unsafe ranges and repeating predictable timings."
@@ -74,7 +74,3 @@ Rotate grounded entry, empty movement, and delayed aerial timing.
 Tag each neutral loss by spacing, timing, or habit mistake.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [what is neutral](/guides/what-is-neutral), [common beginner mistakes](/guides/common-beginner-mistakes), [burst range glossary](/glossary/burst-range), [how to stop autopiloting](/guides/how-to-stop-autopiloting). These links teach the same ideas from different angles so your plan holds up across matchups.

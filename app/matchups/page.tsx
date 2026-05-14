@@ -5,12 +5,13 @@ import { readingTimeFromMarkdown } from "@/lib/read-time";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Smash Ultimate Matchup Strategy",
+  title: "Smash Ultimate Matchup Guides and Counterplay",
   description:
-    "Smash Ultimate matchup strategy guides with gameplans, neutral patterns, punish routes, and adaptation notes for competitive sets.",
+    "Smash Ultimate matchup guides with counterplay plans, neutral priorities, punish routes, and between-game adaptation notes for competitive tournament sets.",
   path: "/matchups",
   keywords: [
-    "Smash Ultimate matchup strategy",
+    "Smash Ultimate matchup guide",
+    "Smash Ultimate counterplay",
     "Smash Ultimate matchup guides",
     "Smash Ultimate neutral and punish game",
   ],

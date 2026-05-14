@@ -1,5 +1,5 @@
 ---
-title: "Directional influence (DI)"
+title: "Directional Influence (DI)"
 description: "How DI changes knockback direction, survival routes, and combo escape outcomes in real matches."
 slug: "directional-influence"
 date: "2026-05-01"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Directional influence (DI)** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Understanding smash ultimate di](/guides/understanding-smash-ultimate-di)
-- [Sdi glossary](/glossary/sdi)
-- [How to tech](/guides/how-to-tech)

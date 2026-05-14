@@ -20,6 +20,48 @@ type BuildMetadataOptions = {
   noIndex?: boolean;
 };
 
+type MetaDescriptionOptions = {
+  minLength?: number;
+  maxLength?: number;
+  fallbackSentence?: string;
+};
+
+export function optimizeMetaDescription(
+  description: string,
+  {
+    minLength = 140,
+    maxLength = 160,
+    fallbackSentence,
+  }: MetaDescriptionOptions = {},
+): string {
+  const normalized = description.replace(/\s+/g, " ").trim();
+  let text = normalized;
+
+  if (!text && fallbackSentence) {
+    text = fallbackSentence.trim();
+  }
+
+  if (fallbackSentence && text.length < minLength) {
+    const suffix = fallbackSentence.trim();
+    if (!text.toLowerCase().includes(suffix.toLowerCase())) {
+      const separator = text.endsWith(".") || text.length === 0 ? " " : ". ";
+      text = `${text}${separator}${suffix}`.replace(/\s+/g, " ").trim();
+    }
+  }
+
+  if (text.length > maxLength) {
+    const hardCut = text.slice(0, maxLength - 1).trimEnd();
+    const softCutIndex = hardCut.lastIndexOf(" ");
+    const safeCut =
+      softCutIndex > Math.floor(maxLength * 0.6)
+        ? hardCut.slice(0, softCutIndex).trimEnd()
+        : hardCut;
+    text = `${safeCut}.`;
+  }
+
+  return text;
+}
+
 export function buildPageTitle(title: string): string {
   if (title === SITE_NAME) return SITE_NAME;
   return `${title} | ${SITE_NAME}`;

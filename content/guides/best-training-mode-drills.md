@@ -1,5 +1,5 @@
 ---
-title: "Best Training Mode Drills for Smash Ultimate"
+title: "How to Practice in Training Mode in Smash Ultimate"
 description: "High-value drills for movement, punish timing, ledge play, and adaptation practice."
 slug: "best-training-mode-drills"
 date: "2026-05-12"
@@ -10,7 +10,7 @@ keyTakeaways:
   - "Prioritize drills that solve real match losses instead of practicing mechanics without context."
   - "Use short, focused blocks for movement, punish timing, and defensive reactions under light pressure."
   - "Review one session outcome each day so your practice loop stays tied to competitive results."
-relatedGuides: ["what-beginners-should-practice-first", "how-to-improve-reaction-time", "how-to-fast-fall-consistently", "how-to-whiff-punish"]
+relatedGuides: ["beginner-practice-routine", "how-to-improve-reaction-time", "how-to-fast-fall-consistently", "how-to-whiff-punish"]
 ---
 
 Building repeatable training blocks that transfer directly into real matches is usually where many sets are decided. This guide gives practical choices you can repeat in real matches: spot patterns early, pick safer options under pressure, and turn small wins into steady control instead of risky guesses. The objective is simple: replace random lab time with drills tied to losses from recent sets.
@@ -74,7 +74,3 @@ Perform routes with a visible timer to simulate pacing stress.
 Pick one repeat loss condition and run 30 targeted reps before moving on.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [building better habits](/guides/building-better-habits), [what beginners should practice first](/guides/what-beginners-should-practice-first), [mental stack](/glossary/mental-stack), [matchup adaptation between games](/matchups/matchup-adaptation-between-games). These links teach the same ideas from different angles so your plan holds up across matchups.

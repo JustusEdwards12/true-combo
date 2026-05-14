@@ -1,5 +1,5 @@
 ---
-title: "Neutral wins"
+title: "Neutral Wins"
 description: "Successful neutral interactions that create real advantage rather than risky or temporary hits."
 slug: "neutral-wins"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Neutral wins** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [What is neutral](/guides/what-is-neutral)
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Stage control glossary](/glossary/stage-control)

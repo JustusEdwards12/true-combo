@@ -1,5 +1,5 @@
 ---
-title: "Heavyweights vs Zoners"
+title: "Heavyweights vs Zoners Matchup Guide (Smash Ultimate)"
 description: "A matchup blueprint for heavy characters against zoning gameplans, emphasizing patience, armor timing, and corner conversion."
 slug: "heavyweights-vs-zoners"
 date: "2026-05-12"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Anti projectile counterplay](/matchups/anti-projectile-counterplay)
-- [Zoner matchup fundamentals](/matchups/zoner-matchup-fundamentals)
-- [Understanding stage control guide](/guides/understanding-stage-control)
-- [Stage control glossary](/glossary/stage-control)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

@@ -74,7 +74,3 @@ Practice fast-fall only when drift path is protected.
 Run your main confirm routes with and without fast-fall to learn decision points.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to short hop](/guides/how-to-short-hop), [landing safely](/guides/landing-safely), [anti-airing glossary](/glossary/anti-airing), [juggling basics](/guides/juggling-basics). These links teach the same ideas from different angles so your plan holds up across matchups.

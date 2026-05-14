@@ -1,7 +1,7 @@
 ---
-title: "Cloud vs Joker Matchup Tips"
+title: "Cloud vs Joker Matchup Guide (Smash Ultimate)"
 description: "A practical Cloud vs Joker guide covering spacing warfare, Arsene tempo shifts, and adaptation between games."
-slug: "cloud-vs-joker-matchup-tips"
+slug: "cloud-vs-joker-matchup-guide"
 date: "2026-05-12"
 category: "Matchup"
 tags: ["cloud", "joker", "matchup"]
@@ -91,15 +91,3 @@ Habit reads matter more than one-time guesses in this matchup.
 ### Drill 3: Arsene phase plan (6 minutes)
 - Rehearse one low-risk gameplan for Arsene active and inactive states.
 - Goal: stable decisions under tempo swing.
-
-## Follow-Up Study
-
-Use [cloud beginner guide](/guides/cloud-beginner-guide) for baseline Cloud structure and [how to read opponents](/guides/how-to-read-opponents) to sharpen adaptation in longer sets where both players change tempo repeatedly.
-
-## Related Links
-- [Cloud character page](/characters/cloud)
-- [Joker character page](/characters/joker)
-- [How to read opponents](/guides/how-to-read-opponents)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)

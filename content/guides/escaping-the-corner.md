@@ -1,10 +1,10 @@
 ---
-title: "Escaping the Corner"
+title: "How to Escape the Corner in Smash Ultimate"
 description: "Survive corner pressure with calm routes, resource planning, and matchup-aware timing."
 slug: "escaping-the-corner"
 date: "2026-05-12"
 category: "Disadvantage"
-tags: ["disadvantage", "corner", "defense"]
+tags: ["disadvantage state", "corner", "defense"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Escaping corner pressure starts with preserving composure and refusing desperate immediate options."
@@ -74,7 +74,3 @@ Practice delayed jump, late roll, and grounded reset in varied order.
 After escaping, hold center for three seconds before attacking.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [defensive habits beginners have](/guides/defensive-habits-beginners-have), [stage control glossary](/glossary/stage-control), [ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide), [rushdown matchup fundamentals](/matchups/rushdown-matchup-fundamentals). These links teach the same ideas from different angles so your plan holds up across matchups.

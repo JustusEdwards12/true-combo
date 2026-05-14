@@ -8,7 +8,7 @@ category: "Fighter"
 tags: ["mario", "all-rounder"]
 character: "Mario"
 difficulty: "Beginner-friendly"
-relatedGuides: ["mario-beginner-guide", "how-to-short-hop", "best-oos-options", "improve-advantage-state"]
+relatedGuides: ["mario-beginner-guide", "how-to-short-hop", "out-of-shield-options", "improve-advantage-state"]
 ---
 
 ## Character overview
@@ -55,7 +55,7 @@ Mario is the textbook **fundamentals** pick: approachable execution, honest disa
 
 ## Out of shield options
 
-Build a small menu (grab, aerial OOS, situational specials) and test it vs common safe moves. Framework: [OOS guide](/guides/best-oos-options).
+Build a small menu (grab, aerial OOS, situational specials) and test it vs common safe moves. Framework: [OOS guide](/guides/out-of-shield-options).
 
 ## Kill confirms
 

@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { ArticleShell } from "@/components/article/ArticleShell";
 import { FAQSection } from "@/components/article/FAQSection";
 import { KeyTakeawayBox } from "@/components/article/KeyTakeawayBox";
@@ -7,20 +6,18 @@ import { ProgressionLinks } from "@/components/article/ProgressionLinks";
 import { ArticleJsonLd } from "@/components/ArticleJsonLd";
 import { GuidePrevNext } from "@/components/GuidePrevNext";
 import { MarkdownContent } from "@/components/MarkdownContent";
-import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { FAQJsonLd } from "@/components/seo/FAQJsonLd";
 import { getAllGuides, getGuideBySlug } from "@/lib/content/load";
 import { formatContentDate } from "@/lib/format";
 import { getAdjacentGuides } from "@/lib/guide-adjacent";
 import {
-  buildGuideConceptLinks,
   buildGuideProgressionLinks,
   extractFaqFromMarkdown,
   extractFirstBulletPoints,
 } from "@/lib/guide-structure";
 import { readingTimeFromMarkdown } from "@/lib/read-time";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, optimizeMetaDescription } from "@/lib/seo";
 import { extractTocFromMarkdown } from "@/lib/toc";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -36,18 +33,33 @@ export async function generateMetadata({ params }: Props) {
   const doc = getGuideBySlug(slug);
   if (!doc) return {};
   const modified = doc.data.updated ?? doc.data.date;
-  const title = /smash ultimate/i.test(doc.data.title)
-    ? doc.data.title
-    : `${doc.data.title} (Smash Ultimate Guide)`;
+  const baseTitle = doc.data.title.trim();
+  const title = /smash ultimate/i.test(baseTitle)
+    ? baseTitle
+    : `${baseTitle} in Smash Ultimate`;
+  const description = /smash ultimate/i.test(doc.data.description)
+    ? doc.data.description
+    : `${doc.data.description} Practical Smash Ultimate guide.`;
+  const metaDescription = optimizeMetaDescription(description, {
+    fallbackSentence:
+      "Learn practical Smash Ultimate fundamentals for neutral, advantage state, and matchup-ready decision-making.",
+  });
+  const keywordSet = new Set<string>([
+    "Smash Ultimate guide",
+    "Smash Ultimate beginner guide",
+    "Smash Ultimate fundamentals",
+  ]);
+  if (doc.data.category) {
+    keywordSet.add(`Smash Ultimate ${doc.data.category.toLowerCase()} guide`);
+  }
+  for (const tag of doc.data.tags ?? []) {
+    keywordSet.add(`Smash Ultimate ${tag}`);
+  }
   return buildMetadata({
     title,
-    description: doc.data.description,
+    description: metaDescription,
     path: `/guides/${slug}`,
-    keywords: [
-      "Smash Ultimate guide",
-      "Smash Ultimate beginner improvement",
-      "competitive Smash mechanics",
-    ],
+    keywords: Array.from(keywordSet).slice(0, 8),
     type: "article",
     publishedTime: doc.data.date,
     modifiedTime: modified,
@@ -76,10 +88,6 @@ export default async function GuidePage({ params }: Props) {
   const faqItems =
     data.faqs && data.faqs.length > 0 ? data.faqs : extractFaqFromMarkdown(content);
   const progressionLinks = buildGuideProgressionLinks(slug);
-  const conceptLinks = buildGuideConceptLinks(doc).map((c) => ({
-    ...c,
-    label: "Concept",
-  }));
 
   return (
     <>
@@ -106,7 +114,7 @@ export default async function GuidePage({ params }: Props) {
               </span>
             ) : null}
             <span className="font-mono text-[10px] tabular-nums text-zinc-600">
-              ~{readMins} min read
+              {readMins} min read
             </span>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl sm:leading-tight">
@@ -143,46 +151,12 @@ export default async function GuidePage({ params }: Props) {
 
         <MarkdownContent content={content} className="prose-guide mt-10 max-w-3xl" toc={toc} />
 
+        <FAQSection items={faqItems} />
         <ProgressionLinks
-          title="Recommended Next Guides"
-          subtitle="Follow the progression path to build mechanics, decision-making, and matchup consistency in order."
+          title="Continue Learning"
+          subtitle="A curated next-step path to build fundamentals, then layer in higher-value concepts for match-ready improvement."
           links={progressionLinks}
         />
-        <ProgressionLinks
-          title="Related Concepts"
-          subtitle="Use these glossary concepts to sharpen decision quality while practicing this lesson."
-          links={conceptLinks}
-        />
-
-        <FAQSection items={faqItems} />
-
-        <aside className="mt-10 rounded-xl border border-zinc-800/80 bg-zinc-900/30 p-6 text-sm text-zinc-400">
-          <p className="font-medium text-zinc-300">
-            Continue your Smash Ultimate improvement path
-          </p>
-          <p className="mt-2 leading-relaxed">
-            Pair this guide with{" "}
-            <Link href="/guides#beginner" className="text-cyan-400 hover:underline">
-              beginner mechanics guides
-            </Link>
-            ,{" "}
-            <Link href="/characters" className="text-cyan-400 hover:underline">
-              character guides
-            </Link>
-            ,{" "}
-            <Link href="/matchups" className="text-cyan-400 hover:underline">
-              matchup strategy
-            </Link>
-            , and{" "}
-            <Link href="/glossary" className="text-cyan-400 hover:underline">
-              glossary terms
-            </Link>
-            .
-          </p>
-        </aside>
-        {data.relatedGuides && data.relatedGuides.length > 0 ? (
-          <RelatedGuides slugs={data.relatedGuides} />
-        ) : null}
         <GuidePrevNext prev={prev} next={next} />
       </ArticleShell>
     </>

@@ -1,5 +1,5 @@
 ---
-title: "Conditioning in Smash Ultimate"
+title: "What Is Conditioning in Smash Ultimate?"
 description: "Use repeat pressure patterns to create reactions, then punish those reactions on purpose."
 slug: "conditioning-in-smash-ultimate"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Practice forcing jump with spacing then anti-airing landing.
 After successful punish, return to neutral and rebuild expectation cycle.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [conditioning glossary](/glossary/conditioning), [bait and punish](/glossary/bait-and-punish), [how to read opponents](/guides/how-to-read-opponents), [ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -1,5 +1,5 @@
 ---
-title: "Whiff punishing"
+title: "Whiff Punishing"
 description: "Punishing missed attacks by controlling spacing and timing around opponent commitments."
 slug: "whiff-punishing"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Whiff punishing** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to whiff punish](/guides/how-to-whiff-punish)
-- [Burst range explained](/guides/burst-range-explained)
-- [Bait and punish glossary](/glossary/bait-and-punish)

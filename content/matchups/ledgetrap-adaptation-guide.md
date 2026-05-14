@@ -1,5 +1,5 @@
 ---
-title: "Ledgetrap Adaptation Guide"
+title: "Ledgetrap Adaptation Guide (Smash Ultimate)"
 description: "A set-focused guide for adapting ledgetrap coverage based on opponent habits, panic options, and timing shifts."
 slug: "ledgetrap-adaptation-guide"
 date: "2026-05-12"
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Beginner ledgetrapping guide](/guides/beginner-ledgetrapping)
-- [Matchup adaptation between games](/matchups/matchup-adaptation-between-games)
-- [Ledgetrapping glossary](/glossary/ledgetrapping)
-- [Stage control glossary](/glossary/stage-control)
 
 ## Set-to-Set Tracking Shortcut
 

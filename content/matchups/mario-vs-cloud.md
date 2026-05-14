@@ -1,5 +1,5 @@
 ---
-title: "Mario vs Cloud (Smash Ultimate)"
+title: "Mario vs Cloud Matchup Guide (Smash Ultimate)"
 description: "A practical Mario vs Cloud guide focused on range negotiation, corner flow, and adaptation against sword pressure."
 slug: "mario-vs-cloud"
 date: "2026-05-06"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Mario beginner guide guide](/guides/mario-beginner-guide)
-- [Cloud beginner guide guide](/guides/cloud-beginner-guide)
-- [Swordie matchup fundamentals](/matchups/swordie-matchup-fundamentals)
-- [Burst range glossary](/glossary/burst-range)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

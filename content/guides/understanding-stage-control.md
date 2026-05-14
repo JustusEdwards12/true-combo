@@ -1,10 +1,10 @@
 ---
-title: "Understanding Stage Control in Smash Ultimate"
+title: "How Stage Control Works in Smash Ultimate"
 description: "Win more neutral and advantage exchanges by valuing center stage and corner pressure."
 slug: "understanding-stage-control"
 date: "2026-05-12"
 category: "Neutral"
-tags: ["stage-control", "neutral", "advantage"]
+tags: ["stage control", "neutral", "advantage state"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Stage control determines who has safer options and better punish conversions at each moment."
@@ -74,7 +74,3 @@ After any neutral win, route pressure toward ledge before additional damage.
 Practice escaping corner and holding center for three beats.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [stage control glossary](/glossary/stage-control), [how to keep advantage](/guides/how-to-keep-advantage), [escaping the corner](/guides/escaping-the-corner), [ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide). These links teach the same ideas from different angles so your plan holds up across matchups.

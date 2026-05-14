@@ -1,5 +1,5 @@
 ---
-title: "Disadvantage state"
+title: "Disadvantage State"
 description: "The phase where your options are limited and survival decisions become priority."
 slug: "disadvantage-state"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Disadvantage state** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Landing safely](/guides/landing-safely)
-- [How to recover better](/guides/how-to-recover-better)
-- [Panic options glossary](/glossary/panic-options)

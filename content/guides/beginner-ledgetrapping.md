@@ -1,10 +1,10 @@
 ---
-title: "Beginner Ledgetrapping Guide for Smash Ultimate"
+title: "How to Ledgetrap in Smash Ultimate (Beginner Guide)"
 description: "A practical ledgetrapping guide covering spacing discipline, option coverage, adaptation logic, and stock-closing consistency."
 slug: "beginner-ledgetrapping"
 date: "2026-05-12"
 category: "Advantage"
-tags: ["ledge", "advantage", "pressure"]
+tags: ["ledgetrapping", "advantage state", "pressure"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Stand at a range that covers neutral getup and jump without losing to getup attack."
@@ -91,11 +91,3 @@ Recognizing panic options turns ledge from guesswork into repeatable pressure.
 ## Next Link In The Chain
 
 Pair this with [beginner edgeguarding](/guides/beginner-edgeguarding) to decide when to stay onstage vs go offstage, and use [common recovery habits](/guides/common-recovery-habits) to predict ledge timing more accurately.
-
-## Related Links
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
-- [Escaping the corner](/guides/escaping-the-corner)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)

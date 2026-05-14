@@ -4,7 +4,7 @@ description: "Practical advantage coaching: keep corner control, force defensive
 slug: "improve-advantage-state"
 date: "2026-05-12"
 category: "Advantage"
-tags: ["advantage", "pressure", "conversion"]
+tags: ["advantage state", "pressure", "conversion"]
 difficulty: "Intermediate"
 keyTakeaways:
   - "Advantage improves when each hit funnels into positional pressure instead of isolated damage."
@@ -74,7 +74,3 @@ Record jump/roll habits and punish only repeated ones.
 Track how many neutral wins are needed per stock and reduce waste.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [advantage state glossary](/glossary/advantage-state), [how to keep advantage](/guides/how-to-keep-advantage), [ledgetrapping glossary](/glossary/ledgetrapping), [edgeguarding vs different recoveries](/matchups/edgeguarding-vs-different-recoveries). These links teach the same ideas from different angles so your plan holds up across matchups.

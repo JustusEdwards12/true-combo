@@ -1,7 +1,7 @@
 ---
-title: "Mario vs Samus Matchup Basics"
+title: "Mario vs Samus Matchup Guide (Smash Ultimate)"
 description: "A realistic Mario vs Samus gameplan focused on anti-projectile pacing, burst-range discipline, and ledge conversion."
-slug: "mario-vs-samus-matchup-basics"
+slug: "mario-vs-samus-matchup-guide"
 date: "2026-05-12"
 category: "Matchup"
 tags: ["mario", "samus", "matchup"]
@@ -87,15 +87,3 @@ Read one habit early, punish it twice, then expect a counter-adjustment.
 ### Drill 3: Corner stock-closing sequence (7 minutes)
 - Start Samus at ledge.
 - Practice covering jump + neutral getup while maintaining center.
-
-## Contextual Follow-Up
-
-Pair this with [how to fight zoners](/guides/how-to-fight-zoners) if neutral entry is the main issue, and check [mario beginner guide](/guides/mario-beginner-guide) for conversion routes once you get inside.
-
-## Related Links
-- [Mario character page](/characters/mario)
-- [Samus character page](/characters/samus)
-- [How to fight zoners](/guides/how-to-fight-zoners)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)

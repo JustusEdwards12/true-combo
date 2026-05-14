@@ -1,5 +1,5 @@
 ---
-title: "Swordie Matchup Fundamentals"
+title: "Swordie Matchup Fundamentals (Smash Ultimate)"
 description: "Universal fundamentals for fighting sword characters: spacing respect, anti-air timing, and corner adaptation."
 slug: "swordie-matchup-fundamentals"
 date: "2026-05-12"
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Kirby vs swordies](/matchups/kirby-vs-swordies)
-- [How to space safely guide](/guides/how-to-space-safely)
-- [Whiff punishing glossary](/glossary/whiff-punishing)
-- [Burst range glossary](/glossary/burst-range)
 
 ## Ledge Pressure Reminder
 

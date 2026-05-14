@@ -1,5 +1,5 @@
 ---
-title: "Panic options"
+title: "Panic Options"
 description: "Predictable defensive choices players use under pressure, often leading to repeated punishes."
 slug: "panic-options"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Panic options** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to avoid panic options](/guides/how-to-avoid-panic-options)
-- [Defensive habits beginners have](/guides/defensive-habits-beginners-have)
-- [Disadvantage state glossary](/glossary/disadvantage-state)

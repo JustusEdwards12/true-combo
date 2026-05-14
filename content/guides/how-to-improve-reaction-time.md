@@ -1,10 +1,10 @@
 ---
-title: "How to Improve Reaction Time for Smash"
+title: "How to Improve Reaction Time in Smash Ultimate"
 description: "Train practical reaction speed for burst options, ledge situations, and landing traps."
 slug: "how-to-improve-reaction-time"
 date: "2026-05-12"
 category: "Training"
-tags: ["reactions", "training", "consistency"]
+tags: ["reaction time", "training", "consistency"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Reaction time improves most when you reduce decision overload with clear anticipation cues."
@@ -74,7 +74,3 @@ Practice identifying startup cues before punish attempt.
 Play short sets where reaction goal is one scenario only.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to read opponents](/guides/how-to-read-opponents), [burst range explained](/guides/burst-range-explained), [mental stack](/glossary/mental-stack), [ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide). These links teach the same ideas from different angles so your plan holds up across matchups.

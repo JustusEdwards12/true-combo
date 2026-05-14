@@ -1,5 +1,5 @@
 ---
-title: "Advantage state"
+title: "Advantage State"
 description: "The phase where your opponent is constrained and you can extend pressure, damage, or positioning."
 slug: "advantage-state"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Advantage state** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Improve advantage state](/guides/improve-advantage-state)
-- [Disadvantage state glossary](/glossary/disadvantage-state)

@@ -1,16 +1,19 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { ArticleShell } from "@/components/article/ArticleShell";
-import { ProgressionLinks } from "@/components/article/ProgressionLinks";
+import { RelatedContentPanel } from "@/components/article/RelatedContentPanel";
 import { ArticleJsonLd } from "@/components/ArticleJsonLd";
 import { MarkdownContent } from "@/components/MarkdownContent";
-import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { getAllCharacters, getCharacterBySlug } from "@/lib/content/load";
+import {
+  buildCharacterGuideDisplayTitle,
+  buildCharacterGuideSeoTitle,
+  getCharacterNameFromTitle,
+} from "@/lib/character-title";
 import { formatContentDate } from "@/lib/format";
-import { buildCharacterRoadmapLinks } from "@/lib/guide-structure";
+import { scoreCharacterRelatedContent } from "@/lib/related-content";
 import { readingTimeFromMarkdown } from "@/lib/read-time";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, optimizeMetaDescription } from "@/lib/seo";
 import { extractTocFromMarkdown } from "@/lib/toc";
 
 type Props = { params: Promise<{ character: string }> };
@@ -26,18 +29,29 @@ export async function generateMetadata({ params }: Props) {
   const doc = getCharacterBySlug(character);
   if (!doc) return {};
   const modified = doc.data.updated ?? doc.data.date;
-  const title = /smash ultimate/i.test(doc.data.title)
-    ? doc.data.title
-    : `${doc.data.title} Character Guide for Smash Ultimate`;
+  const characterName = getCharacterNameFromTitle(doc.data.title);
+  const title = buildCharacterGuideSeoTitle(characterName);
+  const description = /smash ultimate/i.test(doc.data.description)
+    ? doc.data.description
+    : `${doc.data.description} Practical Smash Ultimate character guide.`;
+  const metaDescription = optimizeMetaDescription(description, {
+    fallbackSentence:
+      "Learn practical Smash Ultimate character gameplans, key moves, and matchup habits you can apply in tournament sets.",
+  });
+  const keywordSet = new Set<string>([
+    "Smash Ultimate character guide",
+    "Smash Ultimate frame data priorities",
+    "Smash Ultimate matchup tips",
+  ]);
+  keywordSet.add(`${doc.data.title} Smash Ultimate guide`);
+  for (const tag of doc.data.tags ?? []) {
+    keywordSet.add(`Smash Ultimate ${tag}`);
+  }
   return buildMetadata({
     title,
-    description: doc.data.description,
+    description: metaDescription,
     path: `/characters/${character}`,
-    keywords: [
-      "Smash Ultimate character guide",
-      `${doc.data.title} Smash Ultimate guide`,
-      "Smash Ultimate beginner improvement",
-    ],
+    keywords: Array.from(keywordSet).slice(0, 8),
     type: "article",
     publishedTime: doc.data.date,
     modifiedTime: modified,
@@ -58,7 +72,10 @@ export default async function CharacterPage({ params }: Props) {
   const toc = extractTocFromMarkdown(content);
   const readMins = readingTimeFromMarkdown(content);
   const updated = data.updated ?? data.date;
-  const roadmapLinks = buildCharacterRoadmapLinks(doc);
+  const characterName = getCharacterNameFromTitle(data.title);
+  const displayTitle = buildCharacterGuideDisplayTitle(characterName);
+  const { guides: relatedGuides, fighters: relatedFighters } =
+    scoreCharacterRelatedContent(character, 5, 5);
 
   return (
     <>
@@ -86,11 +103,11 @@ export default async function CharacterPage({ params }: Props) {
               </span>
             ) : null}
             <span className="font-mono text-[10px] tabular-nums text-zinc-600">
-              ~{readMins} min read
+              {readMins} min read
             </span>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl sm:leading-tight">
-            {data.title}
+            {displayTitle}
           </h1>
           <p className="mt-4 text-base leading-relaxed text-zinc-400 sm:text-lg">
             {data.description}
@@ -109,42 +126,17 @@ export default async function CharacterPage({ params }: Props) {
 
         <MarkdownContent content={content} className="mt-10 max-w-3xl" toc={toc} />
 
-        <ProgressionLinks
-          title="Character Learning Path"
-          subtitle="Use this roadmap to build neutral, punish game, and matchup discipline for this fighter."
-          links={roadmapLinks}
+        <RelatedContentPanel
+          title="Character Ecosystem"
+          subtitle="Build deeper matchup awareness with related fighters, strategic concepts, and improvement guides."
+          groupLabelClassName="mb-1.5 text-zinc-400/95"
+          groupsWrapClassName="mt-4 space-y-3.5"
+          linksWrapClassName="flex flex-wrap gap-x-2 gap-y-2.5"
+          groups={[
+            { title: "Related Guides", links: relatedGuides },
+            { title: "Related Fighters", links: relatedFighters },
+          ]}
         />
-
-        {data.relatedGuides && data.relatedGuides.length > 0 ? (
-          <RelatedGuides slugs={data.relatedGuides} />
-        ) : null}
-
-        <p className="mt-12 max-w-3xl text-sm leading-relaxed text-zinc-500">
-          Sharpen fundamentals with{" "}
-          <Link href="/guides/how-to-short-hop" className="text-cyan-400 hover:underline">
-            short hops
-          </Link>
-          ,{" "}
-          <Link href="/guides/what-is-neutral" className="text-cyan-400 hover:underline">
-            neutral framing
-          </Link>
-          , and{" "}
-          <Link
-            href="/guides/best-beginner-characters"
-            className="text-cyan-400 hover:underline"
-          >
-            roster picks for learning
-          </Link>
-          , plus{" "}
-          <Link href="/matchups" className="text-cyan-400 hover:underline">
-            matchup strategy
-          </Link>{" "}
-          and{" "}
-          <Link href="/glossary" className="text-cyan-400 hover:underline">
-            glossary terms
-          </Link>
-          .
-        </p>
       </ArticleShell>
     </>
   );

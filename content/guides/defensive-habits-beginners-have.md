@@ -1,5 +1,5 @@
 ---
-title: "Defensive Habits Beginners Have"
+title: "Why Beginners Panic on Defense in Smash Ultimate"
 description: "Recognize common defensive autopilot and replace it with stable tournament habits."
 slug: "defensive-habits-beginners-have"
 date: "2026-05-12"
@@ -10,7 +10,7 @@ keyTakeaways:
   - "Common defensive habits include over-shielding, panic rolls, and jumping from pressure at the same timing."
   - "Defend with purpose by choosing responses that keep stage position and reduce punish risk."
   - "Break bad habits by reviewing when you panic, then pre-selecting safer answers for that trigger."
-relatedGuides: ["how-to-avoid-panic-options", "best-oos-options", "escaping-the-corner", "how-to-tech"]
+relatedGuides: ["how-to-avoid-panic-options", "out-of-shield-options", "escaping-the-corner", "how-to-tech"]
 ---
 
 Fixing recurring defensive mistakes that turn survivable positions into stock losses is usually where many sets are decided. This guide gives practical choices you can repeat in real matches: spot patterns early, pick safer options under pressure, and turn small wins into steady control instead of risky guesses. The objective is simple: replace panic defense with predictable, low-risk escape structures.
@@ -74,7 +74,3 @@ Land without pressing for ten reps before adding one counter-hit.
 Review one lost stock and write exact panic trigger and replacement.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to avoid panic options](/guides/how-to-avoid-panic-options), [disadvantage state](/glossary/disadvantage-state), [escaping the corner](/guides/escaping-the-corner), [panic options glossary](/glossary/panic-options). These links teach the same ideas from different angles so your plan holds up across matchups.

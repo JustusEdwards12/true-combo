@@ -10,7 +10,7 @@ keyTakeaways:
   - "Mario rewards clean fundamentals through spacing, frame traps, and reliable punish confirms."
   - "Use movement discipline to create openings instead of fishing constantly for starter combos."
   - "Convert advantage into ledge pressure where Mario can repeatedly force constrained decisions."
-relatedGuides: ["how-to-whiff-punish", "how-to-keep-advantage", "landing-safely", "mario-vs-samus-matchup-basics"]
+relatedGuides: ["how-to-whiff-punish", "how-to-keep-advantage", "landing-safely", "mario-vs-samus-matchup-guide"]
 ---
 
 Mario wins when you play compact, disciplined offense: get in with purpose, convert cleanly, keep stage, and avoid greedy overextensions. He can do a lot, but beginners improve faster when they use a repeatable gameplan instead of forcing combo clips every neutral win.
@@ -85,15 +85,3 @@ Call one habit early, then structure your advantage around it.
 ### Drill 3: Ledge closeout (6 minutes)
 - Practice covering jump and neutral getup first.
 - Goal: stocks closed with position, not desperation.
-
-## Related Practice Routes
-
-Pair this with [how to keep advantage](/guides/how-to-keep-advantage) if you win neutral but lose stocks, and review [mario vs samus matchup basics](/guides/mario-vs-samus-matchup-basics) for anti-zoner pacing.
-
-## Related Links
-- [Mario character page](/characters/mario)
-- [Mario vs Samus matchup basics](/guides/mario-vs-samus-matchup-basics)
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)

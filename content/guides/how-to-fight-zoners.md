@@ -1,5 +1,5 @@
 ---
-title: "How to Fight Zoners"
+title: "How to Fight Zoners in Smash Ultimate"
 description: "A practical anti-zoner guide with entry patterns, spacing checks, adaptation logic, and matchup-realistic corner conversion."
 slug: "how-to-fight-zoners"
 date: "2026-05-12"
@@ -91,11 +91,3 @@ Build your anti-zoner plan around whichever two habits appear most.
 ## Practical Linkouts
 
 If this matchup still feels chaotic, review [dealing with projectile spam](/guides/dealing-with-projectile-spam) for composure habits and pair with [understanding stage control](/guides/understanding-stage-control) so your entries create lasting advantage instead of one-off hits.
-
-## Related Links
-- [Dealing with projectile spam](/guides/dealing-with-projectile-spam)
-- [Understanding stage control](/guides/understanding-stage-control)
-- [How to space safely](/guides/how-to-space-safely)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)

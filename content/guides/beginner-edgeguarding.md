@@ -1,10 +1,10 @@
 ---
-title: "Beginner Edgeguarding Guide for Smash Ultimate"
+title: "How to Edgeguard in Smash Ultimate (Beginner Guide)"
 description: "A beginner-friendly edgeguarding guide with risk/reward logic, recovery-type adaptation, and practical offstage decision-making."
 slug: "beginner-edgeguarding"
 date: "2026-05-12"
 category: "Advantage"
-tags: ["edgeguarding", "advantage", "offstage"]
+tags: ["edgeguarding", "advantage state", "offstage"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Force recoveries early by threatening ledge before your opponent commits to a path."
@@ -143,11 +143,3 @@ Use movement threat first, then punish the forced option. Goal is habit punishme
 
 ### Drill 4: Edgeguard-to-ledgetrap conversion (7 minutes)
 Land one offstage hit, return safely, and close with ledge pressure.
-
-## Related Links
-- [Common recovery habits](/guides/common-recovery-habits)
-- [How to recover better](/guides/how-to-recover-better)
-- [Beginner ledgetrapping](/guides/beginner-ledgetrapping)
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Ledgetrapping glossary](/glossary/ledgetrapping)
-- [Directional influence glossary](/glossary/directional-influence)

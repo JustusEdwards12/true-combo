@@ -11,6 +11,7 @@ import {
   getAllGuides,
   getAllMatchups,
 } from "@/lib/content/load";
+import { scoreGuideRecommendations } from "@/lib/related-content";
 import { stripFrontmatter } from "@/lib/toc";
 
 export function extractFirstBulletPoints(markdown: string, max = 4): string[] {
@@ -156,58 +157,7 @@ function mapGuidesBySlug() {
 export function buildGuideProgressionLinks(
   currentSlug: string,
 ): ProgressionRecommendation[] {
-  const { guides, bySlug } = mapGuidesBySlug();
-  const current = bySlug.get(currentSlug);
-  if (!current) return [];
-
-  const links: ProgressionRecommendation[] = [];
-
-  if (current.data.nextGuideSlug) {
-    const explicit = bySlug.get(current.data.nextGuideSlug);
-    if (explicit) {
-      links.push({
-        title: explicit.data.title,
-        href: `/guides/${explicit.data.slug}`,
-        label: "Next lesson",
-      });
-    }
-  }
-
-  if (
-    current.data.progressionTrack &&
-    typeof current.data.progressionStep === "number"
-  ) {
-    const sameTrack = guides
-      .filter((g) => g.data.progressionTrack === current.data.progressionTrack)
-      .sort(
-        (a, b) => (a.data.progressionStep ?? 0) - (b.data.progressionStep ?? 0),
-      );
-    const nextTrack = sameTrack.find(
-      (g) => (g.data.progressionStep ?? 0) === current.data.progressionStep! + 1,
-    );
-    if (nextTrack) {
-      links.push({
-        title: nextTrack.data.title,
-        href: `/guides/${nextTrack.data.slug}`,
-        label: "Track step",
-      });
-    }
-  }
-
-  for (const slug of current.data.relatedGuides ?? []) {
-    const doc = bySlug.get(slug);
-    if (!doc) continue;
-    if (doc.data.slug === currentSlug) continue;
-    if (links.some((l) => l.href === `/guides/${doc.data.slug}`)) continue;
-    links.push({
-      title: doc.data.title,
-      href: `/guides/${doc.data.slug}`,
-      label: "Related guide",
-    });
-    if (links.length >= 4) break;
-  }
-
-  return links.slice(0, 4);
+  return scoreGuideRecommendations(currentSlug, 4);
 }
 
 export function buildCharacterRoadmapLinks(

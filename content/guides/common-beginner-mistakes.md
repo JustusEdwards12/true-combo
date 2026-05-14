@@ -1,5 +1,5 @@
 ---
-title: "Common Beginner Mistakes in Smash Ultimate"
+title: "Why Beginners Repeat Mistakes in Smash Ultimate"
 description: "A coaching-first breakdown of the beginner habits that lose stocks, and how to replace them with stable match-ready decisions."
 slug: "common-beginner-mistakes"
 date: "2026-05-12"
@@ -112,4 +112,4 @@ After each set, write:
 2. The replacement option you will use next session.
 3. The situation where that replacement applies.
 
-That loop turns generic advice into a real plan. If you need the next step, pair this with [what beginners should practice first](/guides/what-beginners-should-practice-first) and [how to stop autopiloting](/guides/how-to-stop-autopiloting) so your corrections stay stable under pressure.
+That loop turns generic advice into a real plan. If you need the next step, pair this with [what beginners should practice first](/guides/beginner-practice-routine) and [how to stop autopiloting](/guides/how-to-stop-autopiloting) so your corrections stay stable under pressure.

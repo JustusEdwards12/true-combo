@@ -53,7 +53,7 @@ Focus on **low execution** strings that reward drift control: short hop aerial c
 
 ## Out of shield options
 
-Lab Cloud’s fastest answers at common spacings—pair with [OOS fundamentals](/guides/best-oos-options).
+Lab Cloud’s fastest answers at common spacings—pair with [OOS fundamentals](/guides/out-of-shield-options).
 
 ## Kill confirms
 

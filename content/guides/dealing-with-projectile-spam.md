@@ -1,5 +1,5 @@
 ---
-title: "Dealing with Projectile Spam"
+title: "How to Beat Projectile Spam in Smash Ultimate"
 description: "Handle repetitive projectile pressure with practical movement, timing, and adaptation."
 slug: "dealing-with-projectile-spam"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Record fast and delayed projectiles; react to tempo change.
 Start with zoner at ledge and practice safe jump/roll coverage.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to fight zoners](/guides/how-to-fight-zoners), [anti-projectile counterplay](/matchups/anti-projectile-counterplay), [zoner matchup fundamentals](/matchups/zoner-matchup-fundamentals), [stage control glossary](/glossary/stage-control). These links teach the same ideas from different angles so your plan holds up across matchups.

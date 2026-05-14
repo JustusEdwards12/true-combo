@@ -4,7 +4,7 @@ description: "Improve survival with route variation, resource tracking, and anti
 slug: "how-to-recover-better"
 date: "2026-05-12"
 category: "Disadvantage"
-tags: ["recovery", "survival", "disadvantage"]
+tags: ["recovery", "survival", "disadvantage state"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Strong recovery blends route variation, timing changes, and resource discipline."
@@ -74,7 +74,3 @@ Recover while preserving jump until needed.
 After recovery, practice safe ledge exits instead of instant getup attacks.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [common recovery habits](/guides/common-recovery-habits), [disadvantage state](/glossary/disadvantage-state), [edgeguarding glossary](/glossary/edgeguarding), [edgeguarding vs different recoveries](/matchups/edgeguarding-vs-different-recoveries). These links teach the same ideas from different angles so your plan holds up across matchups.

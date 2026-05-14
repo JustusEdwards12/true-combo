@@ -1,5 +1,5 @@
 ---
-title: "Building Better Habits in Smash Ultimate"
+title: "How to Build Better Habits in Smash Ultimate"
 description: "Create sustainable routines for decision-making, adaptation, and consistent tournament execution."
 slug: "building-better-habits"
 date: "2026-05-12"
@@ -10,7 +10,7 @@ keyTakeaways:
   - "Replace autopilot actions with repeatable defaults for neutral, disadvantage, and ledge situations."
   - "Track one recurring mistake at a time so adjustments are measurable across sets."
   - "Anchor habits to simple cues like percent, stage position, and opponent rhythm."
-relatedGuides: ["how-to-stop-autopiloting", "common-beginner-mistakes", "best-training-mode-drills", "what-beginners-should-practice-first"]
+relatedGuides: ["how-to-stop-autopiloting", "common-beginner-mistakes", "best-training-mode-drills", "beginner-practice-routine"]
 ---
 
 Replacing autopilot patterns with stable defaults that hold under pressure is usually where many sets are decided. This guide gives practical choices you can repeat in real matches: spot patterns early, pick safer options under pressure, and turn small wins into steady control instead of risky guesses. The objective is simple: create a weekly correction loop from replay notes to in-match adaptation.
@@ -74,7 +74,3 @@ Play while tracking one habit only; ignore everything else.
 After each set, run 15 reps of the exact situation that caused stock losses.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to stop autopiloting](/guides/how-to-stop-autopiloting), [common beginner mistakes](/guides/common-beginner-mistakes), [panic options](/glossary/panic-options), [matchup adaptation between games](/matchups/matchup-adaptation-between-games). These links teach the same ideas from different angles so your plan holds up across matchups.

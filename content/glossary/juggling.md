@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Juggling** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Juggling basics](/guides/juggling-basics)
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Anti airing glossary](/glossary/anti-airing)

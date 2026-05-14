@@ -74,7 +74,3 @@ Do not attack until opponent first commitment in each exchange.
 Write one neutral habit observed and one immediate adjustment.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [neutral game glossary](/glossary/neutral-game), [why beginners lose neutral](/guides/why-beginners-lose-neutral), [burst range explained](/guides/burst-range-explained), [neutral wins glossary](/glossary/neutral-wins). These links teach the same ideas from different angles so your plan holds up across matchups.

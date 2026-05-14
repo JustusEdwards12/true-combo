@@ -1,5 +1,5 @@
 ---
-title: "Neutral game"
+title: "Neutral Game"
 description: "The phase where both players fight for opening advantage through spacing, timing, and threat management."
 slug: "neutral-game"
 date: "2026-05-01"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Neutral game** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [What is neutral](/guides/what-is-neutral)
-- [Why beginners lose neutral](/guides/why-beginners-lose-neutral)
-- [Neutral wins glossary](/glossary/neutral-wins)

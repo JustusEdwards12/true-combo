@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Conditioning** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Conditioning in smash ultimate](/guides/conditioning-in-smash-ultimate)
-- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
-- [Frame traps glossary](/glossary/frame-traps)

@@ -1,5 +1,5 @@
 ---
-title: "Anti-Projectile Counterplay"
+title: "Anti-Projectile Counterplay Guide (Smash Ultimate)"
 description: "A practical counterplay guide for projectile-heavy opponents, including movement, shielding, and adaptation patterns."
 slug: "anti-projectile-counterplay"
 date: "2026-05-12"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [How to fight zoners guide](/guides/how-to-fight-zoners)
-- [Zoner matchup fundamentals](/matchups/zoner-matchup-fundamentals)
-- [Dealing with projectile spam guide](/guides/dealing-with-projectile-spam)
-- [Stage control glossary](/glossary/stage-control)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

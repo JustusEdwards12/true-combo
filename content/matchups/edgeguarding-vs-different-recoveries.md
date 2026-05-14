@@ -1,5 +1,5 @@
 ---
-title: "Edgeguarding vs Different Recoveries"
+title: "Edgeguarding Different Recoveries Guide (Smash Ultimate)"
 description: "How to edgeguard linear, vertical, and mix-up recoveries while balancing risk/reward and stage control."
 slug: "edgeguarding-vs-different-recoveries"
 date: "2026-05-12"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Beginner edgeguarding guide](/guides/beginner-edgeguarding)
-- [Ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide)
-- [Edgeguarding glossary](/glossary/edgeguarding)
-- [Juggling glossary](/glossary/juggling)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

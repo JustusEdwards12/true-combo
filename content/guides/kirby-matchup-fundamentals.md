@@ -1,5 +1,5 @@
 ---
-title: "Kirby Matchup Fundamentals"
+title: "Kirby Matchup Guide in Smash Ultimate"
 description: "Core anti-Kirby and Kirby-side fundamentals for neutral, corner play, and edge situations."
 slug: "kirby-matchup-fundamentals"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Convert neutral win into ledge trap before hunting kill option.
 Play focused sets where objective is reducing panic deaths.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [kirby vs swordies](/matchups/kirby-vs-swordies), [zoner matchup fundamentals](/matchups/zoner-matchup-fundamentals), [burst range glossary](/glossary/burst-range), [how to keep advantage](/guides/how-to-keep-advantage). These links teach the same ideas from different angles so your plan holds up across matchups.

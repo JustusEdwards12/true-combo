@@ -1,5 +1,5 @@
 ---
-title: "Shield pressure"
+title: "Shield Pressure"
 description: "Applying safe offense to force shield mistakes and open defensive options."
 slug: "shield-pressure"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Shield pressure** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
-- [Best oos options](/guides/best-oos-options)
-- [Frame traps glossary](/glossary/frame-traps)

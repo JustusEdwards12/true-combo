@@ -81,7 +81,7 @@ export function ArticleCard({
           ) : null}
           {readTimeMinutes ? (
             <span className="text-zinc-500">
-              ~{readTimeMinutes} min read
+              {readTimeMinutes} min read
             </span>
           ) : null}
         </div>

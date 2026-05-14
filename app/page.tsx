@@ -8,6 +8,10 @@ import { LaneVisualCard } from "@/components/home/LaneVisualCard";
 import { RotatingHeadlineWord } from "@/components/home/RotatingHeadlineWord";
 import { SectionHeading } from "@/components/SectionHeading";
 import {
+  buildCharacterGuideDisplayTitle,
+  getCharacterNameFromTitle,
+} from "@/lib/character-title";
+import {
   getAllCharacters,
   getAllGlossaryTerms,
   getAllGuides,
@@ -60,16 +64,16 @@ function sectionRevealStyle(ms: number): CSSProperties {
 }
 
 export const metadata = buildMetadata({
-  title: "Smash Ultimate Guides, Character Guides, and Matchup Strategy",
+  title: "Smash Ultimate Guides, Character Guides, and Matchup Guides",
   description:
-    "TrueCombo is a competitive Super Smash Bros. Ultimate improvement hub with beginner mechanics guides, character guides, matchup strategy, and concept training for tournament play.",
+    "TrueCombo is a competitive Super Smash Bros. Ultimate improvement hub with beginner fundamentals guides, character guides, matchup guides, and glossary-backed training.",
   path: "/",
   keywords: [
     "Smash Ultimate guides",
     "Smash Ultimate beginner guide",
     "Smash Ultimate character guides",
-    "Smash Ultimate matchup strategy",
-    "competitive Smash mechanics",
+    "Smash Ultimate matchup guide",
+    "Smash Ultimate fundamentals",
   ],
 });
 
@@ -329,7 +333,9 @@ export default function HomePage() {
             {characters.map(({ data }) => (
               <CharacterCard
                 key={data.slug}
-                name={data.title}
+                name={buildCharacterGuideDisplayTitle(
+                  getCharacterNameFromTitle(data.title),
+                )}
                 description={data.description}
                 slug={data.slug}
               />

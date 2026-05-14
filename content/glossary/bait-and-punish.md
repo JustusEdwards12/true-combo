@@ -1,5 +1,5 @@
 ---
-title: "Bait and punish"
+title: "Bait And Punish"
 description: "Forcing opponents to commit first, then punishing the resulting whiff or unsafe option."
 slug: "bait-and-punish"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Bait and punish** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to whiff punish](/guides/how-to-whiff-punish)
-- [How to read opponents](/guides/how-to-read-opponents)
-- [Whiff punishing glossary](/glossary/whiff-punishing)

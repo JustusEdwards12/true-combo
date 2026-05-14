@@ -4,7 +4,7 @@ description: "Build practical tech timing, avoid lockout panic, and survive disa
 slug: "how-to-tech"
 date: "2026-05-12"
 category: "Defense"
-tags: ["defense", "disadvantage", "execution"]
+tags: ["defense", "disadvantage state", "execution"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Teching consistently prevents early stocks from missed wall and stage impact reactions."
@@ -74,7 +74,3 @@ Record launch angles and react to tech window cue.
 Play mini-sets focused only on knockdown survival decisions.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [tech-chasing glossary](/glossary/tech-chasing), [directional influence glossary](/glossary/directional-influence), [disadvantage state](/glossary/disadvantage-state), [common beginner mistakes](/guides/common-beginner-mistakes). These links teach the same ideas from different angles so your plan holds up across matchups.

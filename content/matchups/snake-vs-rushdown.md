@@ -1,5 +1,5 @@
 ---
-title: "Snake vs Rushdown"
+title: "Snake vs Rushdown Matchup Guide (Smash Ultimate)"
 description: "Snake vs rushdown plan built around space traps, defensive discipline, and momentum resets."
 slug: "snake-vs-rushdown"
 date: "2026-05-12"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Rushdown matchup fundamentals](/matchups/rushdown-matchup-fundamentals)
-- [How to avoid panic options guide](/guides/how-to-avoid-panic-options)
-- [Mental stack glossary](/glossary/mental-stack)
-- [Stage control glossary](/glossary/stage-control)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

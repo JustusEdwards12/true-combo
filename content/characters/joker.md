@@ -7,7 +7,7 @@ category: "Fighter"
 tags: ["joker", "all-rounder"]
 character: "Joker"
 difficulty: "Intermediate"
-relatedGuides: ["what-is-neutral", "improve-advantage-state", "best-beginner-characters", "best-oos-options"]
+relatedGuides: ["what-is-neutral", "improve-advantage-state", "best-beginner-characters", "out-of-shield-options"]
 ---
 
 ## Character overview
@@ -52,7 +52,7 @@ Start with **low-percent** strings that reward drift and grab follow-ups before 
 
 ## Out of shield options
 
-Joker’s answers are spacing-sensitive—use the [OOS framework](/guides/best-oos-options) and test vs your locals’ common approaches.
+Joker’s answers are spacing-sensitive—use the [OOS framework](/guides/out-of-shield-options) and test vs your locals’ common approaches.
 
 ## Kill confirms
 
@@ -62,7 +62,3 @@ Kill routes vary by percent and character weight—prioritize **back air** punis
 
 - Burning resources to “force” Arsene instead of winning neutral first.
 - Overusing burst movement without a follow-up plan.
-
-## Related guides
-
-Neutral framing: [what is neutral](/guides/what-is-neutral). Roster context: [beginner characters](/guides/best-beginner-characters).

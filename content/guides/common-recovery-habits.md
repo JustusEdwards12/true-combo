@@ -1,5 +1,5 @@
 ---
-title: "Common Recovery Habits (And How to Punish Them)"
+title: "Why Recovery Habits Get Punished in Smash Ultimate"
 description: "Identify repeated recovery patterns and convert offstage pressure more reliably."
 slug: "common-recovery-habits"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Recover using jump only when route truly requires it.
 After recovering, practice two safe ledge exits and one timing mix.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [how to recover better](/guides/how-to-recover-better), [edgeguarding vs different recoveries](/matchups/edgeguarding-vs-different-recoveries), [disadvantage state](/glossary/disadvantage-state), [beginner edgeguarding](/guides/beginner-edgeguarding). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -74,7 +74,3 @@ Change one specific behavior per game and track results.
 Tag replay moments where you acted before confirming spacing or habit.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [building better habits](/guides/building-better-habits), [how to read opponents](/guides/how-to-read-opponents), [mental stack glossary](/glossary/mental-stack), [matchup adaptation between games](/matchups/matchup-adaptation-between-games). These links teach the same ideas from different angles so your plan holds up across matchups.

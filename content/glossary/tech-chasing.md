@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Tech-chasing** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to tech](/guides/how-to-tech)
-- [How to read opponents](/guides/how-to-read-opponents)
-- [Panic options glossary](/glossary/panic-options)

@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Edgeguarding** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Beginner edgeguarding](/guides/beginner-edgeguarding)
-- [Edgeguarding vs different recoveries](/matchups/edgeguarding-vs-different-recoveries)
-- [Ledgetrapping glossary](/glossary/ledgetrapping)

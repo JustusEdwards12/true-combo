@@ -1,7 +1,7 @@
 ---
-title: "Best Out-of-Shield Options Explained (Smash Ultimate)"
+title: "How to Choose Out-of-Shield Options in Smash Ultimate"
 description: "Learn practical out-of-shield decision trees without fake frame data, plus matchup-based shield discipline."
-slug: "best-oos-options"
+slug: "out-of-shield-options"
 date: "2026-05-12"
 category: "Defense"
 tags: ["defense", "shield", "punish"]
@@ -74,7 +74,3 @@ Start at ledge on shield and practice two safe defensive routes before any punis
 After each blocked move, choose punish only if in range; otherwise dash to center and hold space.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [shield pressure glossary](/glossary/shield-pressure), [how to improve shield pressure](/guides/how-to-improve-shield-pressure), [frame traps](/glossary/frame-traps), [escaping the corner](/guides/escaping-the-corner). These links teach the same ideas from different angles so your plan holds up across matchups.

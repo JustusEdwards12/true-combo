@@ -10,7 +10,7 @@ keyTakeaways:
   - "GSP reflects relative ranking movement, not a direct skill tier or guaranteed matchup quality."
   - "Short streaks can swing GSP quickly, so evaluate progress by decision quality over single sessions."
   - "Use GSP as trend feedback while focusing improvement plans on neutral, defense, and adaptation."
-relatedGuides: ["how-to-stop-autopiloting", "building-better-habits", "why-beginners-lose-neutral", "what-beginners-should-practice-first"]
+relatedGuides: ["how-to-stop-autopiloting", "building-better-habits", "why-beginners-lose-neutral", "beginner-practice-routine"]
 ---
 
 Understanding gsp expectations so players train correctly instead of chasing rank swings is usually where many sets are decided. This guide gives practical choices you can repeat in real matches: spot patterns early, pick safer options under pressure, and turn small wins into steady control instead of risky guesses. The objective is simple: connect ranking fluctuations to decision quality and long-term progression habits.
@@ -74,7 +74,3 @@ Tag three stocks: neutral loss, defensive panic, closeout miss.
 Compare decision metrics, not just current GSP number.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [building better habits](/guides/building-better-habits), [matchup adaptation between games](/matchups/matchup-adaptation-between-games), [mental stack](/glossary/mental-stack), [what beginners should practice first](/guides/what-beginners-should-practice-first). These links teach the same ideas from different angles so your plan holds up across matchups.

@@ -1,5 +1,5 @@
 ---
-title: "Smash directional influence (SDI)"
+title: "Smash Directional Influence (SDI)"
 description: "How SDI shifts your character during multi-hit moves and pressure sequences."
 slug: "sdi"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Smash directional influence (SDI)** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Understanding smash ultimate di](/guides/understanding-smash-ultimate-di)
-- [Directional influence glossary](/glossary/directional-influence)
-- [How to tech](/guides/how-to-tech)

@@ -1,5 +1,5 @@
 ---
-title: "Mental stack"
+title: "Mental Stack"
 description: "The number of threats a player can process at once before decision quality drops."
 slug: "mental-stack"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **mental stack** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to stop autopiloting](/guides/how-to-stop-autopiloting)
-- [How to improve reaction time](/guides/how-to-improve-reaction-time)
-- [Matchup adaptation between games](/matchups/matchup-adaptation-between-games)

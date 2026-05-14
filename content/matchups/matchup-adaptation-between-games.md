@@ -1,7 +1,7 @@
 ---
-title: "Matchup Adaptation Between Games"
+title: "Set Adaptation Between Games Guide (Smash Ultimate)"
 description: "How to adapt in a set using habit tracking, risk/reward shifts, and practical between-game adjustment plans."
-slug: "matchup-adaptation-between-games"
+slug: "set-adaptation-between-games"
 date: "2026-05-12"
 category: "Matchup"
 tags: ["adaptation", "setplay", "habits"]
@@ -65,13 +65,6 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [How to read opponents guide](/guides/how-to-read-opponents)
-- [Ledgetrap adaptation guide](/matchups/ledgetrap-adaptation-guide)
-- [Panic options glossary](/glossary/panic-options)
-- [Mental stack glossary](/glossary/mental-stack)
 
 ## Practical Between-Game Script
 

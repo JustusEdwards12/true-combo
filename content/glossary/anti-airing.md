@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Anti-airing** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Juggling basics](/guides/juggling-basics)
-- [How to space safely](/guides/how-to-space-safely)
-- [Juggling glossary](/glossary/juggling)

@@ -1,10 +1,10 @@
 ---
-title: "Juggling Basics in Smash Ultimate"
+title: "How to Juggle in Smash Ultimate"
 description: "Keep opponents above you with practical anti-air routes and stable conversion habits."
 slug: "juggling-basics"
 date: "2026-05-12"
 category: "Advantage"
-tags: ["juggling", "advantage", "anti-air"]
+tags: ["juggling", "advantage state", "anti-air"]
 difficulty: "Beginner"
 keyTakeaways:
   - "Juggling is strongest when you hold center and deny landing space before swinging again."
@@ -74,7 +74,3 @@ Delay anti-air by one beat to catch panic timing.
 Start from anti-air and end with ledge trap without losing center.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [juggling glossary](/glossary/juggling), [anti-airing glossary](/glossary/anti-airing), [beginner ledgetrapping](/guides/beginner-ledgetrapping), [how to keep advantage](/guides/how-to-keep-advantage). These links teach the same ideas from different angles so your plan holds up across matchups.

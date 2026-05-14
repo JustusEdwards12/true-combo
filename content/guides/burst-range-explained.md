@@ -1,5 +1,5 @@
 ---
-title: "Burst Range Explained"
+title: "What Is Burst Range in Smash Ultimate?"
 description: "Understand burst range so you can position for punishes and stop losing to sudden approaches."
 slug: "burst-range-explained"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Record dash feint then burst; punish only true commitment.
 Play short games where the objective is maintaining center while avoiding burst hits.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [burst range glossary](/glossary/burst-range), [how to space safely](/guides/how-to-space-safely), [whiff punishing glossary](/glossary/whiff-punishing), [rushdown matchup fundamentals](/matchups/rushdown-matchup-fundamentals). These links teach the same ideas from different angles so your plan holds up across matchups.

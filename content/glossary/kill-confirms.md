@@ -1,5 +1,5 @@
 ---
-title: "Kill confirms"
+title: "Kill Confirms"
 description: "Reliable setups that convert specific hits into stocks at expected percent ranges."
 slug: "kill-confirms"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Kill confirms** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to keep advantage](/guides/how-to-keep-advantage)
-- [Common beginner mistakes](/guides/common-beginner-mistakes)
-- [Neutral wins glossary](/glossary/neutral-wins)

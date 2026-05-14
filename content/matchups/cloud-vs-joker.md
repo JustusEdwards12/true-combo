@@ -1,5 +1,5 @@
 ---
-title: "Cloud vs Joker"
+title: "Cloud vs Joker Matchup Guide (Smash Ultimate)"
 description: "Cloud vs Joker matchup breakdown centered on spacing tempo, Arsene phase adaptation, and corner discipline."
 slug: "cloud-vs-joker"
 date: "2026-05-12"
@@ -65,12 +65,3 @@ Practical positioning checkpoints:
 1. Run one neutral-entry drill tied to this archetype.
 2. Rehearse one ledge closeout sequence with stable spacing.
 3. Review one replay and tag three moments where position was lost unnecessarily.
-
-## Related Study Links
-
-- [Cloud vs joker matchup tips guide](/guides/cloud-vs-joker-matchup-tips)
-- [Cloud beginner guide guide](/guides/cloud-beginner-guide)
-- [How to read opponents guide](/guides/how-to-read-opponents)
-- [Matchup adaptation between games](/matchups/matchup-adaptation-between-games)
-
-Concrete checkpoint: if an opponent repeats the same ledge or corner escape twice in one stock, hold coverage for that route first on the next interaction.

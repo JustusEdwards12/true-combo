@@ -50,7 +50,7 @@ Focus on **grab** follow-ups and simple aerial bridges at low percents; Samus re
 
 ## Out of shield options
 
-Lab Samus’s fastest answers—pair with [OOS fundamentals](/guides/best-oos-options).
+Lab Samus’s fastest answers—pair with [OOS fundamentals](/guides/out-of-shield-options).
 
 ## Kill confirms
 
@@ -60,7 +60,3 @@ Back air and charge shot reads are common milestones—pair kill attempts with [
 
 - Charging in the open without a plan.
 - Using only run-away zoning without contesting mid-range.
-
-## Related guides
-
-Neutral: [what is neutral](/guides/what-is-neutral). Roster context: [beginner characters](/guides/best-beginner-characters).

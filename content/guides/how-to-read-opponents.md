@@ -1,5 +1,5 @@
 ---
-title: "How to Read Opponents"
+title: "How to Read Opponents in Smash Ultimate"
 description: "Build real in-set reads using patterns, position habits, and adaptation checkpoints."
 slug: "how-to-read-opponents"
 date: "2026-05-12"
@@ -74,7 +74,3 @@ Deliberately test one bait, then punish only on repeat.
 After each game, write one read to apply immediately.
 
 If a drill is not improving match outcomes after a week, replace it with one tied directly to your most common stock-loss scenario.
-
-## Contextual Follow-Up
-
-Continue with [matchup adaptation between games](/matchups/matchup-adaptation-between-games), [conditioning in smash ultimate](/guides/conditioning-in-smash-ultimate), [panic options glossary](/glossary/panic-options), [whiff punishing](/glossary/whiff-punishing). These links teach the same ideas from different angles so your plan holds up across matchups.

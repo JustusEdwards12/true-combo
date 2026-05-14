@@ -4,13 +4,14 @@ import { getAllGlossaryTerms } from "@/lib/content/load";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Smash Ultimate Glossary",
+  title: "Smash Ultimate Glossary: Terms, Meanings, and Examples",
   description:
-    "Definitions of common Smash Ultimate and competitive fighting game terms for beginners and tournament-focused players.",
+    "Smash Ultimate glossary with plain-language definitions, practical examples, and in-match usage for neutral, advantage state, disadvantage state, and matchups.",
   path: "/glossary",
   keywords: [
     "Smash Ultimate glossary",
     "Smash Ultimate terms",
+    "Smash Ultimate definitions",
     "fighting game terminology",
   ],
 });

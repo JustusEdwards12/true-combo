@@ -10,7 +10,7 @@ keyTakeaways:
   - "Use Cloud’s range and speed to win neutral with safe aerial spacing and center control."
   - "Convert hits into ledge pressure rather than overextending for low-percent damage greed."
   - "Manage recovery routes and Limit usage so advantage does not turn into avoidable reversals."
-relatedGuides: ["how-to-space-safely", "burst-range-explained", "how-to-keep-advantage", "cloud-vs-joker-matchup-tips"]
+relatedGuides: ["how-to-space-safely", "burst-range-explained", "how-to-keep-advantage", "cloud-vs-joker-matchup-guide"]
 ---
 
 Cloud is strongest when you force opponents to enter your sword range on your terms. New Cloud players often lose by getting impatient: overswinging in scramble range, spending Limit without purpose, or chasing offstage where Cloud is most vulnerable.
@@ -87,15 +87,3 @@ Cloud punishes these best by holding position and reacting, not pre-committing.
 ### Drill 3: Limit discipline scenarios (7 minutes)
 - Rehearse three states: neutral spend, corner escape, stock closeout.
 - Goal: one deliberate plan per Limit use.
-
-## Related Routes
-
-Use [cloud vs joker matchup tips](/guides/cloud-vs-joker-matchup-tips) for high-tempo sword vs mobility situations, and pair this with [how to space safely](/guides/how-to-space-safely) when your neutral loses from overextension.
-
-## Related Links
-- [Cloud character page](/characters/cloud)
-- [Cloud vs Joker matchup tips](/guides/cloud-vs-joker-matchup-tips)
-- [How to space safely](/guides/how-to-space-safely)
-- [Neutral game glossary](/glossary/neutral-game)
-- [Directional influence glossary](/glossary/directional-influence)
-- [Teching guide](/guides/how-to-tech)

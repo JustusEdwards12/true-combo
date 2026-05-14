@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Crossups** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [How to improve shield pressure](/guides/how-to-improve-shield-pressure)
-- [Best oos options](/guides/best-oos-options)
-- [Shield pressure glossary](/glossary/shield-pressure)

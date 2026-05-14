@@ -1,5 +1,5 @@
 ---
-title: "Burst range"
+title: "Burst Range"
 description: "The distance where a character can suddenly threaten with a fast advancing option."
 slug: "burst-range"
 date: "2026-05-12"
@@ -45,9 +45,3 @@ Starter practice loop:
 
 
 Concrete checkpoint: in your next three games, call out one moment where **Burst range** appears and confirm whether your decision improved positioning.
-
-## Related Terms and Guides
-
-- [Burst range explained](/guides/burst-range-explained)
-- [How to space safely](/guides/how-to-space-safely)
-- [Rushdown matchup fundamentals](/matchups/rushdown-matchup-fundamentals)
