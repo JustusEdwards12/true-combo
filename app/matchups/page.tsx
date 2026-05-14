@@ -26,7 +26,7 @@ export default function MatchupsPage() {
       <h1 className="mt-6 text-3xl font-semibold tracking-tight text-zinc-50">
         Smash Ultimate Matchup Strategy
       </h1>
-      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-300 sm:text-base">
         Tight, actionable matchup notes: what to respect on reaction, what to
         call out on adaptation, and how to close stocks cleanly in tournament
         pace sets.

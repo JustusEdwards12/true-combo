@@ -13,7 +13,7 @@ const toneClass: Record<NonNullable<TipCardProps["tone"]>, string> = {
 export function TipCard({ title, body, tone = "tip" }: TipCardProps) {
   return (
     <aside className={`mt-6 rounded-2xl border p-5 sm:p-6 ${toneClass[tone]}`}>
-      <p className="font-mono text-[10px] uppercase tracking-[0.2em]">
+      <p className="font-mono text-xs uppercase tracking-[0.14em]">
         {tone === "tip" ? "Coaching Tip" : tone === "warning" ? "Warning" : "Common Mistake"}
       </p>
       <h3 className="mt-2 text-base font-semibold text-zinc-100">{title}</h3>

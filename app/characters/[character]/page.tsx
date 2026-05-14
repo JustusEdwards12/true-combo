@@ -94,25 +94,25 @@ export default async function CharacterPage({ params }: Props) {
       >
         <header className="mt-6 border-b border-zinc-800/80 pb-8">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="rounded-full border border-violet-500/25 bg-violet-500/5 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-violet-200/95">
+            <span className="rounded-full border border-violet-500/25 bg-violet-500/5 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-violet-200/95">
               Character guide
             </span>
             {data.difficulty ? (
-              <span className="rounded border border-zinc-700/70 bg-zinc-900/60 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-zinc-400">
+              <span className="rounded border border-zinc-700/70 bg-zinc-900/60 px-2 py-0.5 font-mono text-xs uppercase tracking-wide text-zinc-300">
                 {data.difficulty}
               </span>
             ) : null}
-            <span className="font-mono text-[10px] tabular-nums text-zinc-600">
+            <span className="font-mono text-xs tabular-nums text-zinc-500">
               {readMins} min read
             </span>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl sm:leading-tight">
             {displayTitle}
           </h1>
-          <p className="mt-4 text-base leading-relaxed text-zinc-400 sm:text-lg">
+          <p className="mt-4 text-base leading-relaxed text-zinc-300 sm:text-lg">
             {data.description}
           </p>
-          <div className="mt-5 flex flex-wrap gap-x-4 gap-y-1 font-mono text-[11px] text-zinc-500">
+          <div className="mt-5 flex flex-wrap gap-x-4 gap-y-1 font-mono text-xs text-zinc-400">
             <span>
               Published <time dateTime={data.date}>{formatContentDate(data.date)}</time>
             </span>

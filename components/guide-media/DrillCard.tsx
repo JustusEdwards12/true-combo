@@ -15,7 +15,7 @@ export function DrillCard({
 }: DrillCardProps) {
   return (
     <aside className="mt-6 rounded-2xl border border-zinc-800/80 bg-zinc-900/35 p-5 sm:p-6">
-      <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-cyan-300/85">
+      <p className="font-mono text-xs uppercase tracking-[0.14em] text-cyan-300/85">
         Drill Card
       </p>
       <h3 className="mt-2 text-base font-semibold text-zinc-100">{title}</h3>

@@ -50,8 +50,37 @@ function GuideGrid({
   );
 }
 
-export default function GuidesPage() {
-  const sorted = sortByDateDesc(getAllGuides());
+function guideMatchesQuery(
+  guide: ReturnType<typeof getAllGuides>[number],
+  queryTokens: string[],
+) {
+  const text = [
+    guide.data.title,
+    guide.data.description,
+    guide.data.category ?? "",
+    guide.data.difficulty ?? "",
+    ...(guide.data.tags ?? []),
+  ]
+    .join(" ")
+    .toLowerCase();
+  return queryTokens.every((token) => text.includes(token));
+}
+
+type GuidesPageProps = {
+  searchParams: Promise<{ q?: string }>;
+};
+
+export default async function GuidesPage({ searchParams }: GuidesPageProps) {
+  const { q = "" } = await searchParams;
+  const query = q.trim();
+  const queryTokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+  const isSearching = queryTokens.length > 0;
+  const sorted = sortByDateDesc(
+    getAllGuides().filter((guide) => guide.data.category !== "Matchup"),
+  );
+  const searchResults = isSearching
+    ? sorted.filter((guide) => guideMatchesQuery(guide, queryTokens))
+    : [];
   const byCategory = {
     neutral: sorted.filter((g) => g.data.category === "Neutral"),
     advantage: sorted.filter((g) => g.data.category === "Advantage"),
@@ -65,7 +94,6 @@ export default function GuidesPage() {
         g.data.category === "Mindset" ||
         g.data.category === "Systems",
     ),
-    matchup: sorted.filter((g) => g.data.category === "Matchup"),
     characterRoster: sorted.filter(
       (g) => g.data.category === "Character" || g.data.category === "Roster",
     ),
@@ -85,75 +113,98 @@ export default function GuidesPage() {
 
       <p className="mt-6 max-w-2xl text-sm leading-relaxed text-zinc-500">
         Build your path with{" "}
-        <a href="#beginner" className="text-cyan-400 hover:underline">
+        <a
+          href="#beginner"
+          className="text-cyan-300 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
+        >
           neutral and fundamentals
         </a>
         , then connect it to{" "}
-        <a href="#characters" className="text-cyan-400 hover:underline">
+        <a
+          href="#characters"
+          className="text-cyan-300 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
+        >
           character guides
         </a>
         , and{" "}
-        <Link href="/matchups" className="text-cyan-400 hover:underline">
+        <Link
+          href="/matchups"
+          className="text-cyan-300 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
+        >
           matchup strategy
         </Link>
         .
       </p>
 
-      <section className="mt-16" id="beginner">
-        <SectionHeading
-          title="Neutral and positioning"
-          subtitle="Spacing, stage control, and whiff-punish fundamentals that shape every interaction."
-        />
-        <GuideGrid guides={byCategory.neutral} />
-      </section>
+      {isSearching ? (
+        <section className="mt-16">
+          <SectionHeading
+            title={`Search results: "${query}"`}
+            subtitle="Filtered guides matching your search terms."
+          />
+          <GuideGrid guides={searchResults} />
+          <p className="mt-6 text-sm text-zinc-500">
+            Looking for the full archive?{" "}
+            <Link
+              href="/guides"
+              className="text-cyan-300 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
+            >
+              Clear search
+            </Link>
+            .
+          </p>
+        </section>
+      ) : (
+        <>
+          <section className="mt-16" id="beginner">
+            <SectionHeading
+              title="Neutral and positioning"
+              subtitle="Spacing, stage control, and whiff-punish fundamentals that shape every interaction."
+            />
+            <GuideGrid guides={byCategory.neutral} />
+          </section>
 
-      <section className="mt-20" id="concepts">
-        <SectionHeading
-          title="Advantage and pressure"
-          subtitle="Ledge traps, juggling, and pressure flow that turn openings into stocks."
-        />
-        <GuideGrid guides={byCategory.advantage} />
-      </section>
+          <section className="mt-20" id="concepts">
+            <SectionHeading
+              title="Advantage and pressure"
+              subtitle="Ledge traps, juggling, and pressure flow that turn openings into stocks."
+            />
+            <GuideGrid guides={byCategory.advantage} />
+          </section>
 
-      <section className="mt-20">
-        <SectionHeading
-          title="Defense and disadvantage"
-          subtitle="Shield responses, recovery choices, and corner escapes to survive pressure and reset neutral."
-        />
-        <GuideGrid guides={byCategory.defenseDisadvantage} />
-      </section>
+          <section className="mt-20">
+            <SectionHeading
+              title="Defense and disadvantage"
+              subtitle="Shield responses, recovery choices, and corner escapes to survive pressure and reset neutral."
+            />
+            <GuideGrid guides={byCategory.defenseDisadvantage} />
+          </section>
 
-      <section className="mt-20">
-        <SectionHeading
-          title="Movement and execution"
-          subtitle="Short hops, fast falls, and execution consistency that make your options reliable under pressure."
-        />
-        <GuideGrid guides={byCategory.movement} />
-      </section>
+          <section className="mt-20">
+            <SectionHeading
+              title="Movement and execution"
+              subtitle="Short hops, fast falls, and execution consistency that make your options reliable under pressure."
+            />
+            <GuideGrid guides={byCategory.movement} />
+          </section>
 
-      <section className="mt-20">
-        <SectionHeading
-          title="Training, mindset, and systems"
-          subtitle="Practice structure, adaptation habits, and rank-system context for long-term improvement."
-        />
-        <GuideGrid guides={byCategory.trainingMindset} />
-      </section>
+          <section className="mt-20">
+            <SectionHeading
+              title="Training, mindset, and systems"
+              subtitle="Practice structure, adaptation habits, and rank-system context for long-term improvement."
+            />
+            <GuideGrid guides={byCategory.trainingMindset} />
+          </section>
 
-      <section className="mt-20">
-        <SectionHeading
-          title="Matchup preparation"
-          subtitle="Counterplay plans and matchup-specific priorities you can bring straight into set play."
-        />
-        <GuideGrid guides={byCategory.matchup} />
-      </section>
-
-      <section className="mt-20" id="characters">
-        <SectionHeading
-          title="Smash Ultimate character guides"
-          subtitle="Starter routes, strengths, weaknesses, and matchup habits for each fighter's gameplan."
-        />
-        <GuideGrid guides={byCategory.characterRoster} />
-      </section>
+          <section className="mt-20" id="characters">
+            <SectionHeading
+              title="Smash Ultimate character guides"
+              subtitle="Starter routes, strengths, weaknesses, and matchup habits for each fighter's gameplan."
+            />
+            <GuideGrid guides={byCategory.characterRoster} />
+          </section>
+        </>
+      )}
     </div>
   );
 }

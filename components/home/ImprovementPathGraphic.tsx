@@ -3,10 +3,10 @@ export function ImprovementPathGraphic() {
     <div className="relative overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-950/45 p-6 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)] sm:p-7">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-400/35 to-transparent" />
 
-      <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-zinc-500">
+      <p className="font-mono text-xs uppercase tracking-[0.14em] text-zinc-400">
         Neutral game flow
       </p>
-      <p className="mt-2 text-sm text-zinc-400">
+      <p className="mt-2 text-base text-zinc-300">
         Neutral {"->"} opening {"->"} advantage.
       </p>
 

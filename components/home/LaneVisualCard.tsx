@@ -16,6 +16,7 @@ const metaByVariant: Record<
     metadata: string;
     cta: string;
     iconTone: string;
+    iconFrame: string;
     glow: string;
     hoverBg: string;
     hoverBorder: string;
@@ -28,9 +29,11 @@ const metaByVariant: Record<
     kicker: "Guides",
     lane: "Path 01",
     accent: "text-cyan-200/90",
-    metadata: "BEGINNER • FUNDAMENTALS",
+    metadata: "Beginner fundamentals",
     cta: "Start Guides →",
     iconTone: "text-cyan-300/90",
+    iconFrame:
+      "border-cyan-400/25 bg-cyan-500/[0.08] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)]",
     glow: "group-hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.35)]",
     hoverBg: "hover:bg-cyan-500/[0.07]",
     hoverBorder: "group-hover:border-cyan-400/45",
@@ -43,37 +46,49 @@ const metaByVariant: Record<
     kicker: "Characters",
     lane: "Path 02",
     accent: "text-violet-200/90",
-    metadata: "ROSTER • FIGHTER DATA",
+    metadata: "Roster and fighter data",
     cta: "Explore Fighters →",
-    iconTone: "text-violet-200/90",
+    iconTone: "text-violet-200/95",
+    iconFrame:
+      "border-violet-400/24 bg-violet-500/[0.08] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)]",
     glow: "group-hover:drop-shadow-[0_0_12px_rgba(167,139,250,0.32)]",
-    hoverBg: "hover:bg-cyan-500/[0.07]",
+    hoverBg: "hover:bg-violet-500/[0.07]",
     hoverBorder: "group-hover:border-violet-400/38",
     hoverShadow: "group-hover:shadow-[0_16px_34px_-22px_rgba(167,139,250,0.36)]",
+    baseCardTone:
+      "border-violet-400/18 bg-zinc-900/41 shadow-[0_8px_22px_-16px_rgba(167,139,250,0.2),inset_0_1px_0_0_rgba(255,255,255,0.04)]",
   },
   matchups: {
     kicker: "Matchups",
     lane: "Path 03",
     accent: "text-blue-200/90",
-    metadata: "STRATEGY • COUNTERPLAY",
+    metadata: "Strategy and counterplay",
     cta: "Study Matchups →",
-    iconTone: "text-blue-300/90",
+    iconTone: "text-blue-300/95",
+    iconFrame:
+      "border-blue-400/24 bg-blue-500/[0.08] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)]",
     glow: "group-hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.34)]",
-    hoverBg: "hover:bg-cyan-500/[0.07]",
+    hoverBg: "hover:bg-blue-500/[0.07]",
     hoverBorder: "group-hover:border-blue-400/42",
     hoverShadow: "group-hover:shadow-[0_16px_34px_-22px_rgba(59,130,246,0.38)]",
+    baseCardTone:
+      "border-blue-400/18 bg-zinc-900/41 shadow-[0_8px_22px_-16px_rgba(59,130,246,0.2),inset_0_1px_0_0_rgba(255,255,255,0.04)]",
   },
   glossary: {
     kicker: "Glossary",
     lane: "Path 04",
     accent: "text-amber-200/90",
-    metadata: "TERMS • QUICK REFERENCE",
+    metadata: "Terms and quick reference",
     cta: "Learn Terms →",
-    iconTone: "text-amber-200/85",
+    iconTone: "text-amber-200/95",
+    iconFrame:
+      "border-amber-400/24 bg-amber-500/[0.08] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)]",
     glow: "group-hover:drop-shadow-[0_0_12px_rgba(245,158,11,0.28)]",
-    hoverBg: "hover:bg-cyan-500/[0.07]",
+    hoverBg: "hover:bg-amber-500/[0.07]",
     hoverBorder: "group-hover:border-amber-400/34",
     hoverShadow: "group-hover:shadow-[0_16px_34px_-22px_rgba(245,158,11,0.33)]",
+    baseCardTone:
+      "border-amber-400/18 bg-zinc-900/41 shadow-[0_8px_22px_-16px_rgba(245,158,11,0.2),inset_0_1px_0_0_rgba(255,255,255,0.04)]",
   },
 };
 
@@ -93,7 +108,7 @@ const iconByVariant: Record<LaneVisualVariant, ReactNode> = {
       <rect x="49" y="12" width="34" height="18" rx="4" fill="none" stroke="currentColor" strokeWidth="1.2" />
       <rect x="88" y="12" width="34" height="18" rx="4" fill="none" stroke="currentColor" strokeWidth="1.2" />
       <rect x="10" y="34" width="34" height="18" rx="4" fill="none" stroke="currentColor" strokeWidth="1.2" />
-      <rect x="49" y="34" width="34" height="18" rx="4" fill="rgb(34 211 238)" fillOpacity="0.18" stroke="rgb(103 232 249)" strokeWidth="1.3" />
+      <rect x="49" y="34" width="34" height="18" rx="4" fill="rgb(167 139 250)" fillOpacity="0.2" stroke="rgb(196 181 253)" strokeWidth="1.3" />
       <rect x="88" y="34" width="34" height="18" rx="4" fill="none" stroke="currentColor" strokeWidth="1.2" />
     </svg>
   ),
@@ -116,9 +131,9 @@ const iconByVariant: Record<LaneVisualVariant, ReactNode> = {
   glossary: (
     <svg viewBox="0 0 132 62" className="h-11 w-full" aria-hidden>
       <rect x="18" y="10" width="96" height="42" rx="5" fill="none" stroke="currentColor" strokeWidth="1.2" />
-      <rect x="18" y="10" width="20" height="42" rx="5" fill="rgb(34 211 238)" fillOpacity="0.14" />
+      <rect x="18" y="10" width="20" height="42" rx="5" fill="rgb(245 158 11)" fillOpacity="0.16" />
       <path d="M46 22 H106 M46 31 H98 M46 40 H102" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
-      <circle cx="30" cy="31" r="3" fill="rgb(103 232 249)" />
+      <circle cx="30" cy="31" r="3" fill="rgb(251 191 36)" />
     </svg>
   ),
 };
@@ -143,7 +158,7 @@ export function LaneVisualCard({
   return (
     <Link
       href={href}
-      className={`group relative overflow-hidden rounded-2xl border p-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)] transition-[transform,border-color,background-color,box-shadow] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-safe:hover:-translate-y-1 ${meta.recommended ? meta.baseCardTone : "border-zinc-800/90 bg-zinc-900/40"} ${meta.hoverBg} ${meta.hoverBorder} ${meta.hoverShadow}`}
+      className={`group relative overflow-hidden rounded-2xl border p-4 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)] transition-[border-color,background-color,box-shadow] duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45 ${meta.baseCardTone ?? "border-zinc-800/90 bg-zinc-900/40"} ${meta.hoverBg} ${meta.hoverBorder} ${meta.hoverShadow}`}
     >
       <span
         className={`pointer-events-none absolute inset-x-4 top-0 h-px bg-gradient-to-r from-transparent via-current to-transparent opacity-55 ${meta.accent}`}
@@ -151,30 +166,25 @@ export function LaneVisualCard({
       />
       <div className="relative">
         <div className="mb-1 flex items-center justify-between">
-          <span className={`${rajdhani.className} text-[11px] uppercase tracking-[0.18em] ${meta.accent}`}>
+          <span className={`${rajdhani.className} text-xs uppercase tracking-[0.12em] ${meta.accent}`}>
             {meta.kicker}
           </span>
-          <span className={`${rajdhani.className} text-[10px] uppercase tracking-[0.14em] text-zinc-600`}>
+          <span className={`${rajdhani.className} text-xs uppercase tracking-[0.08em] text-zinc-500`}>
             {meta.lane}
           </span>
         </div>
-        <p className={`${rajdhani.className} text-[10px] uppercase tracking-[0.2em] text-zinc-500`}>
+        <p className={`${rajdhani.className} text-xs text-zinc-400`}>
           {meta.metadata}
         </p>
-        <div className={`mt-1 ${meta.iconTone} transition-all duration-300 ${meta.glow}`}>
+        <div
+          className={`mt-1 rounded-lg border px-2.5 py-1 ${meta.iconFrame} ${meta.iconTone} transition-all duration-300 ${meta.glow}`}
+        >
           {iconByVariant[variant]}
         </div>
-        {meta.recommended ? (
-          <span
-            className={`${rajdhani.className} mt-1 inline-flex items-center rounded-full border border-cyan-400/24 bg-cyan-500/[0.06] px-1.5 py-[1px] text-[9px] font-semibold uppercase tracking-[0.15em] text-cyan-200/85 shadow-[0_0_10px_-6px_rgba(34,211,238,0.22)]`}
-          >
-            Start Here
-          </span>
-        ) : null}
-        <p className={`${sora.className} mt-1 text-[17px] font-bold text-zinc-100`}>{title}</p>
-        <p className="mt-1 text-sm leading-relaxed text-zinc-500">{description}</p>
-        <p className="mt-3 text-[11px] font-medium text-zinc-400">{stat}</p>
-        <p className={`mt-3 text-xs font-semibold ${meta.accent}`}>
+        <p className={`${sora.className} mt-2 text-xl font-bold text-zinc-100`}>{title}</p>
+        <p className="mt-1 text-base leading-relaxed text-zinc-300/90">{description}</p>
+        <p className="mt-3 text-sm font-medium text-zinc-300">{stat}</p>
+        <p className={`mt-3 text-sm font-semibold ${meta.accent}`}>
           {meta.cta}
         </p>
       </div>

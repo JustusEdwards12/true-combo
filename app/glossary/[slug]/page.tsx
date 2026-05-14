@@ -125,23 +125,23 @@ export default async function GlossaryTermPage({ params }: Props) {
       <ArticleShell breadcrumbs={breadcrumbs} toc={toc} tocLabel="Term sections">
         <header className="mt-6 border-b border-zinc-800/80 pb-8">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="rounded-full border border-cyan-500/25 bg-cyan-500/5 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-cyan-300/95">
+            <span className="rounded-full border border-cyan-500/25 bg-cyan-500/5 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-cyan-300/95">
               Glossary term
             </span>
-            <span className="font-mono text-[10px] tabular-nums text-zinc-600">
+            <span className="font-mono text-xs tabular-nums text-zinc-500">
               {readMins} min read
             </span>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl sm:leading-tight">
             {data.title}
           </h1>
-          <p className="mt-4 text-base leading-relaxed text-zinc-400 sm:text-lg">
+          <p className="mt-4 text-base leading-relaxed text-zinc-300 sm:text-lg">
             {data.description}
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-zinc-500 sm:text-base">
+          <p className="mt-3 text-sm leading-relaxed text-zinc-300 sm:text-base">
             In Smash Ultimate, {data.title} {introPhrase} {seoIntroDescription}.
           </p>
-          <p className="mt-5 font-mono text-[11px] text-zinc-500">
+          <p className="mt-5 font-mono text-xs text-zinc-400">
             Published <time dateTime={data.date}>{formatContentDate(data.date)}</time>
           </p>
         </header>

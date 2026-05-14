@@ -31,7 +31,7 @@ export default function CharactersPage() {
       <h1 className="mt-6 text-3xl font-semibold tracking-tight text-zinc-50">
         Smash Ultimate Character Guides
       </h1>
-      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-300 sm:text-base">
         Pick a fighter for focused notes on neutral, advantage, and
         disadvantage-what to lean on early, what to respect in bracket, and
         where players commonly leak percent.

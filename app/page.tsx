@@ -78,7 +78,9 @@ export const metadata = buildMetadata({
 });
 
 export default function HomePage() {
-  const sortedGuides = sortByDateDesc(getAllGuides());
+  const sortedGuides = sortByDateDesc(
+    getAllGuides().filter((guide) => guide.data.category !== "Matchup"),
+  );
   const allCharacters = getAllCharacters();
   const allMatchups = getAllMatchups();
   const allGlossaryTerms = getAllGlossaryTerms();
@@ -93,16 +95,16 @@ export default function HomePage() {
         "Training",
       ].includes(g.data.category ?? ""),
     ),
-  ).slice(0, 4);
+  ).slice(0, 3);
   const featuredGuides = sortedGuides.slice(0, 3);
-  const latestGuides = sortedGuides.slice(3, 12);
+  const latestGuides = sortedGuides.slice(3, 9);
   const conceptGuides = sortedGuides.filter(
     (g) =>
       ["Neutral", "Advantage", "Mindset", "Systems"].includes(
         g.data.category ?? "",
       ),
-  );
-  const characters = sortByDateDesc(allCharacters).slice(0, 5);
+  ).slice(0, 6);
+  const characters = sortByDateDesc(allCharacters).slice(0, 4);
   const matchups = sortByDateDesc(allMatchups).slice(0, 3);
 
   const pathwayStats = {
@@ -120,9 +122,9 @@ export default function HomePage() {
       >
         <HomeAtmosphere />
         <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500/25 to-transparent" />
-        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20 xl:max-w-[88rem]">
           <div className="tc-home-section" style={sectionRevealStyle(0)}>
-            <p className="font-mono text-[10px] font-medium uppercase tracking-[0.32em] text-cyan-500/85">
+            <p className="font-mono text-xs font-medium uppercase tracking-[0.14em] text-cyan-400/85">
               Super Smash Bros. Ultimate · Knowledge hub
             </p>
             <h1
@@ -145,7 +147,7 @@ export default function HomePage() {
               />{" "}
               at a time.
             </h1>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg">
               Serious Super Smash Bros. Ultimate guides for beginner
               improvement, character mastery, matchup strategy, and competitive
               mechanics, built like an esports desk and written for bracket
@@ -157,7 +159,7 @@ export default function HomePage() {
                 <li key={chip.href + chip.label}>
                   <Link
                     href={chip.href}
-                    className="inline-flex items-center rounded-full border border-zinc-700/80 bg-zinc-950/50 px-3.5 py-1.5 text-xs font-medium text-zinc-300 shadow-[0_0_0_1px_rgba(0,0,0,0.4)_inset] transition-[transform,border-color,background-color,box-shadow] duration-300 motion-safe:hover:-translate-y-0.5 hover:border-cyan-500/35 hover:bg-cyan-500/5 hover:shadow-[0_0_24px_-8px_rgba(34,211,238,0.35)]"
+                    className="inline-flex items-center rounded-full border border-zinc-700/80 bg-zinc-950/50 px-3.5 py-1.5 text-sm font-medium text-zinc-200 shadow-[0_0_0_1px_rgba(0,0,0,0.4)_inset] transition-[border-color,background-color,box-shadow] duration-200 hover:border-cyan-500/35 hover:bg-cyan-500/5 hover:shadow-[0_0_24px_-8px_rgba(34,211,238,0.3)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
                   >
                     {chip.label}
                   </Link>
@@ -168,13 +170,13 @@ export default function HomePage() {
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
                 href="/guides"
-                className="inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-400 px-7 text-sm font-semibold text-zinc-950 shadow-[0_16px_40px_-18px_rgba(34,211,238,0.55)] transition-[transform,filter] duration-300 motion-safe:hover:-translate-y-0.5 hover:brightness-105"
+                className="inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-400 px-7 text-sm font-semibold text-zinc-950 shadow-[0_16px_40px_-18px_rgba(34,211,238,0.55)] transition-[filter] duration-200 hover:brightness-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/60"
               >
                 Start Smash Ultimate Guides
               </Link>
               <Link
                 href="/characters"
-                className="inline-flex h-12 items-center justify-center rounded-xl border border-zinc-700/90 bg-zinc-950/40 px-7 text-sm font-semibold text-zinc-100 transition-[transform,border-color,background-color] duration-300 motion-safe:hover:-translate-y-0.5 hover:border-zinc-500/80 hover:bg-zinc-900/50"
+                className="inline-flex h-12 items-center justify-center rounded-xl border border-zinc-700/90 bg-zinc-950/40 px-7 text-sm font-semibold text-zinc-100 transition-[border-color,background-color] duration-200 hover:border-zinc-500/80 hover:bg-zinc-900/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
               >
                 Browse Characters
               </Link>
@@ -190,7 +192,7 @@ export default function HomePage() {
       >
         <div className="pointer-events-none absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-zinc-950/70 to-transparent" />
         <div
-          className="tc-home-section mx-auto max-w-[68rem] px-5 sm:px-8"
+          className="tc-home-section mx-auto max-w-7xl px-5 sm:px-8 xl:max-w-[88rem]"
           style={sectionRevealStyle(100)}
         >
           <div className="relative">
@@ -204,7 +206,7 @@ export default function HomePage() {
                 title="Smash Ultimate Learning Pathways"
                 subtitle="Pick one focused lane and build match-ready skill with clear progression."
               />
-              <span className="rounded-full border border-zinc-700/80 bg-zinc-900/55 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-400">
+              <span className="rounded-full border border-zinc-700/80 bg-zinc-900/55 px-3 py-1 font-mono text-xs uppercase tracking-[0.12em] text-zinc-300">
                 4 pathways
               </span>
             </div>
@@ -229,7 +231,7 @@ export default function HomePage() {
         aria-labelledby="featured-beginner-heading"
       >
         <div
-          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          className="tc-home-section mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]"
           style={sectionRevealStyle(110)}
         >
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -241,12 +243,12 @@ export default function HomePage() {
             />
             <Link
               href="/guides#beginner"
-              className="text-sm font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+              className="text-sm font-semibold text-cyan-300 transition-colors hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
               All beginner guides →
             </Link>
           </div>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {featuredBeginner.map(({ data, content }) => (
               <ArticleCard
                 key={data.slug}
@@ -270,7 +272,7 @@ export default function HomePage() {
         aria-labelledby="featured-guides-heading"
       >
         <div
-          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          className="tc-home-section mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]"
           style={sectionRevealStyle(120)}
         >
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -282,7 +284,7 @@ export default function HomePage() {
             />
             <Link
               href="/guides"
-              className="text-sm font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+              className="text-sm font-semibold text-cyan-300 transition-colors hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
               View archive →
             </Link>
@@ -312,7 +314,7 @@ export default function HomePage() {
         aria-labelledby="character-guides-heading"
       >
         <div
-          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          className="tc-home-section mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]"
           style={sectionRevealStyle(140)}
         >
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -324,12 +326,12 @@ export default function HomePage() {
             />
             <Link
               href="/characters"
-              className="text-sm font-semibold text-violet-300/90 transition-colors hover:text-violet-200"
+              className="text-sm font-semibold text-violet-200 transition-colors hover:text-violet-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400/45"
             >
               Full roster →
             </Link>
           </div>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {characters.map(({ data }) => (
               <CharacterCard
                 key={data.slug}
@@ -349,7 +351,7 @@ export default function HomePage() {
         aria-labelledby="matchup-analysis-heading"
       >
         <div
-          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          className="tc-home-section mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]"
           style={sectionRevealStyle(160)}
         >
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -361,7 +363,7 @@ export default function HomePage() {
             />
             <Link
               href="/matchups"
-              className="text-sm font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+              className="text-sm font-semibold text-cyan-300 transition-colors hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
               All matchups →
             </Link>
@@ -390,7 +392,7 @@ export default function HomePage() {
         aria-labelledby="competitive-concepts-heading"
       >
         <div
-          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          className="tc-home-section mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]"
           style={sectionRevealStyle(180)}
         >
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -402,7 +404,7 @@ export default function HomePage() {
             />
             <Link
               href="/guides#concepts"
-              className="text-sm font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+              className="text-sm font-semibold text-cyan-300 transition-colors hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
               Jump to section →
             </Link>
@@ -412,7 +414,7 @@ export default function HomePage() {
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {conceptGuides.length === 0 ? (
-              <p className="text-sm text-zinc-500">
+              <p className="text-sm text-zinc-300">
                 Concept guides are on the way—browse all guides for now.
               </p>
             ) : (
@@ -440,7 +442,7 @@ export default function HomePage() {
         aria-labelledby="latest-articles-heading"
       >
         <div
-          className="tc-home-section mx-auto max-w-6xl px-4 sm:px-6"
+          className="tc-home-section mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]"
           style={sectionRevealStyle(200)}
         >
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -452,14 +454,14 @@ export default function HomePage() {
             />
             <Link
               href="/guides"
-              className="text-sm font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+              className="text-sm font-semibold text-cyan-300 transition-colors hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
               Open feed →
             </Link>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {latestGuides.length === 0 ? (
-              <p className="col-span-full text-sm text-zinc-500">
+              <p className="col-span-full text-sm text-zinc-300">
                 You’re caught up—check featured guides above.
               </p>
             ) : (

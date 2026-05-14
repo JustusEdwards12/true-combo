@@ -18,9 +18,9 @@ export function GuidePrevNext({ prev, next }: GuidePrevNextProps) {
         {prev ? (
           <Link
             href={`/guides/${prev.data.slug}`}
-            className="group block rounded-xl border border-zinc-800/80 bg-zinc-950/40 p-4 transition-colors hover:border-cyan-500/25 hover:bg-zinc-900/40"
+            className="group block rounded-xl border border-zinc-800/80 bg-zinc-950/40 p-4 transition-colors hover:border-cyan-500/25 hover:bg-zinc-900/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
           >
-            <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-600">
+            <span className="font-mono text-xs uppercase tracking-wide text-zinc-500">
               ← Previous
             </span>
             <span className="mt-1 block text-sm font-semibold text-zinc-200 transition-colors group-hover:text-cyan-300">
@@ -35,9 +35,9 @@ export function GuidePrevNext({ prev, next }: GuidePrevNextProps) {
         {next ? (
           <Link
             href={`/guides/${next.data.slug}`}
-            className="group block rounded-xl border border-zinc-800/80 bg-zinc-950/40 p-4 transition-colors hover:border-cyan-500/25 hover:bg-zinc-900/40"
+            className="group block rounded-xl border border-zinc-800/80 bg-zinc-950/40 p-4 transition-colors hover:border-cyan-500/25 hover:bg-zinc-900/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
           >
-            <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-600">
+            <span className="font-mono text-xs uppercase tracking-wide text-zinc-500">
               Next →
             </span>
             <span className="mt-1 block text-sm font-semibold text-zinc-200 transition-colors group-hover:text-cyan-300">

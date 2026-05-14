@@ -50,18 +50,18 @@ export function HubLinkCard({
     <li>
       <Link
         href={href}
-        className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/40 p-6 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-[transform,box-shadow,border-color,background-color] duration-300 ease-out motion-safe:hover:-translate-y-1 hover:border-zinc-700/90 hover:bg-zinc-900/35 hover:shadow-[0_24px_60px_-28px_rgba(34,211,238,0.18)]"
+        className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/40 p-6 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-[box-shadow,border-color,background-color] duration-200 ease-out hover:border-zinc-700/90 hover:bg-zinc-900/35 hover:shadow-[0_24px_60px_-28px_rgba(34,211,238,0.18)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
       >
         <span
           className={`pointer-events-none absolute left-0 top-0 h-px w-full bg-gradient-to-r ${p.bar} opacity-70 transition-opacity duration-300 group-hover:opacity-100`}
           aria-hidden
         />
         <div className="flex items-start justify-between gap-3">
-          <span className="font-mono text-[10px] font-medium tabular-nums tracking-widest text-zinc-600 transition-colors duration-300 group-hover:text-zinc-400">
+          <span className="font-mono text-xs font-medium tabular-nums tracking-wide text-zinc-500 transition-colors duration-300 group-hover:text-zinc-300">
             {index}
           </span>
           <span
-            className={`rounded border px-2 py-0.5 font-mono text-[9px] font-semibold uppercase tracking-[0.14em] ${p.tag}`}
+            className={`rounded border px-2 py-0.5 font-mono text-xs font-semibold uppercase tracking-[0.1em] ${p.tag}`}
           >
             {p.tagText}
           </span>
@@ -69,11 +69,11 @@ export function HubLinkCard({
         <span className="mt-5 text-lg font-semibold tracking-tight text-zinc-50 transition-colors duration-300 group-hover:text-cyan-100">
           {title}
         </span>
-        <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-500 transition-colors duration-300 group-hover:text-zinc-400">
+        <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-300 transition-colors duration-300 group-hover:text-zinc-200">
           {description}
         </p>
         <div className="mt-5 flex items-center justify-between gap-3 border-t border-zinc-800/80 pt-4">
-          <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-600">
+          <span className="font-mono text-xs uppercase tracking-wide text-zinc-500">
             {framesLabel}
           </span>
           <span className="text-xs font-semibold text-cyan-400/90 transition-transform duration-300 group-hover:translate-x-0.5">

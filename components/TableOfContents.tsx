@@ -14,7 +14,7 @@ export function TableOfContents({ items, className = "" }: TableOfContentsProps)
       className={className}
       aria-label="On this page"
     >
-      <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
+      <p className="font-mono text-xs font-semibold uppercase tracking-[0.12em] text-zinc-400">
         On this page
       </p>
       <ol className="mt-4 space-y-2 border-l border-zinc-800/90 pl-3">
@@ -25,7 +25,7 @@ export function TableOfContents({ items, className = "" }: TableOfContentsProps)
           >
             <a
               href={`#${item.id}`}
-              className="block text-left text-xs leading-snug text-zinc-500 transition-colors hover:text-cyan-400"
+              className="block rounded-sm text-left text-sm leading-snug text-zinc-300 transition-colors hover:text-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
               {item.text}
             </a>

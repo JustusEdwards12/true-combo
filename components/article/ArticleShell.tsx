@@ -25,7 +25,7 @@ export function ArticleShell({
           <Breadcrumbs items={breadcrumbs} />
 
           <details className="motion-safe:open:shadow-none mt-6 rounded-xl border border-zinc-800/80 bg-zinc-950/50 lg:hidden">
-            <summary className="cursor-pointer list-none px-4 py-3 font-mono text-[11px] font-semibold uppercase tracking-wider text-zinc-400 [&::-webkit-details-marker]:hidden">
+            <summary className="cursor-pointer list-none px-4 py-3 font-mono text-xs font-semibold uppercase tracking-wide text-zinc-300 [&::-webkit-details-marker]:hidden">
               <span className="flex items-center justify-between">
                 {tocLabel}
                 <span className={tocAccentClassName} aria-hidden>

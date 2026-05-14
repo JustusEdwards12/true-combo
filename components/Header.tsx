@@ -1,14 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Sora } from "next/font/google";
-import { usePathname } from "next/navigation";
+import { Chakra_Petch } from "next/font/google";
+import { usePathname, useRouter } from "next/navigation";
 import { ComboMark } from "@/components/brand/ComboMark";
 
-const sora = Sora({
+/** Display face for the TrueCombo wordmark — geometric, reads well small in the header bar */
+const brandWordmark = Chakra_Petch({
   subsets: ["latin"],
-  weight: ["700", "800"],
+  weight: ["700"],
 });
 
 const nav = [
@@ -18,18 +19,23 @@ const nav = [
   { href: "/glossary", label: "Glossary" },
 ] as const;
 
-function NavLink({ href, children }: { href: string; children: string }) {
-  const pathname = usePathname();
-  const [hash, setHash] = useState("");
+function NavLink({
+  href,
+  children,
+  pathname,
+  hash = "",
+  onNavigate,
+  mobile = false,
+}: {
+  href: string;
+  children: string;
+  pathname: string;
+  hash?: string;
+  onNavigate?: () => void;
+  mobile?: boolean;
+}) {
   const hrefPath = href.split("#")[0] || "/";
   const hrefHash = href.includes("#") ? `#${href.split("#")[1]}` : "";
-
-  useEffect(() => {
-    const syncHash = () => setHash(window.location.hash || "");
-    syncHash();
-    window.addEventListener("hashchange", syncHash);
-    return () => window.removeEventListener("hashchange", syncHash);
-  }, []);
 
   const hasSectionNavForPath = nav.some(
     (item) => item.href.startsWith(`${hrefPath}#`),
@@ -49,8 +55,13 @@ function NavLink({ href, children }: { href: string; children: string }) {
   return (
     <Link
       href={href}
-      className={`group relative px-2.5 py-2 text-xs font-medium transition-colors sm:px-3 sm:text-sm ${
-        active ? "text-zinc-100" : "text-zinc-500 hover:text-zinc-200"
+      onClick={onNavigate}
+      className={`group relative rounded-lg px-2.5 py-2 font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45 ${
+        mobile ? "text-sm" : "text-xs sm:px-3 sm:text-sm"
+      } ${
+        active
+          ? "text-zinc-100"
+          : "text-zinc-400 hover:text-zinc-100 focus-visible:text-zinc-100"
       }`}
     >
       <span>{children}</span>
@@ -66,45 +77,215 @@ function NavLink({ href, children }: { href: string; children: string }) {
   );
 }
 
+function BrandHomeLink({
+  variant,
+  className = "",
+}: {
+  variant: "compact" | "full";
+  className?: string;
+}) {
+  const compact = variant === "compact";
+
+  return (
+    <Link
+      href="/"
+      className={[
+        "group inline-flex max-w-[min(100%,18rem)] items-center rounded-xl transition-[background-color,color,box-shadow] duration-200",
+        "hover:bg-white/[0.035] active:bg-white/[0.055]",
+        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/40 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950",
+        compact ? "gap-2 px-1 py-1" : "gap-3 px-1.5 py-1",
+        className,
+      ].join(" ")}
+    >
+      <span
+        className={[
+          "relative flex shrink-0 items-center justify-center rounded-[10px] bg-gradient-to-b from-zinc-800/95 to-zinc-950 ring-1 ring-inset ring-white/[0.08] transition-[box-shadow,ring-color] duration-300",
+          "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.07)]",
+          "group-hover:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.09),0_0_24px_-10px_rgba(34,211,238,0.28)] group-hover:ring-cyan-400/25",
+          compact ? "p-1.5" : "p-2",
+        ].join(" ")}
+        aria-hidden
+      >
+        <ComboMark
+          className={[
+            "relative shrink-0 text-cyan-300/95 transition-colors duration-300 group-hover:text-cyan-200",
+            compact ? "h-6 w-6" : "h-[26px] w-[26px] sm:h-7 sm:w-7",
+          ].join(" ")}
+          aria-hidden
+        />
+      </span>
+      <div className="flex min-w-0 flex-col leading-none">
+        <span
+          className={[
+            `${brandWordmark.className} truncate tracking-[0.06em] text-zinc-50 transition-colors duration-200 group-hover:text-white`,
+            compact ? "text-[14px]" : "text-[15px] sm:text-[16px]",
+          ].join(" ")}
+        >
+          TrueCombo
+        </span>
+        {!compact ? (
+          <span className="mt-1 font-mono text-xs font-medium uppercase tracking-[0.14em] text-zinc-500 transition-colors duration-200 group-hover:text-zinc-400">
+            Smash Ultimate
+          </span>
+        ) : null}
+      </div>
+    </Link>
+  );
+}
+
+function HeaderGuideSearch({ initialQuery }: { initialQuery: string }) {
+  const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState(initialQuery);
+  const inputRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "/" || event.metaKey || event.ctrlKey || event.altKey) {
+        return;
+      }
+
+      const target = event.target as HTMLElement | null;
+      const isTypingTarget =
+        target?.tagName === "INPUT" ||
+        target?.tagName === "TEXTAREA" ||
+        target?.tagName === "SELECT" ||
+        target?.isContentEditable;
+      if (isTypingTarget) return;
+
+      if (!inputRef.current) return;
+      event.preventDefault();
+      inputRef.current.focus();
+      inputRef.current.select();
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
+
+  const handleSearchSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const query = searchQuery.trim();
+    if (!query) {
+      router.push("/search");
+      return;
+    }
+    router.push(`/search?q=${encodeURIComponent(query)}`);
+  };
+
+  return (
+    <form onSubmit={handleSearchSubmit} className="hidden sm:block">
+      <label htmlFor="header-guide-search" className="sr-only">
+        Search site
+      </label>
+      <div className="flex items-center gap-1.5 rounded-lg border border-zinc-700/70 bg-zinc-900/55 px-2 py-1 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)]">
+        <input
+          id="header-guide-search"
+          ref={inputRef}
+          type="search"
+          value={searchQuery}
+          onChange={(event) => setSearchQuery(event.target.value)}
+          placeholder="Search site..."
+          title="Press / to focus search"
+          className="w-36 bg-transparent text-sm text-zinc-200 placeholder:text-zinc-500 focus:outline-none lg:w-44"
+        />
+        <kbd
+          className="hidden rounded border border-zinc-700/80 bg-zinc-950/70 px-1.5 py-0.5 font-mono text-xs text-zinc-500 lg:inline"
+          aria-label="Press slash to focus search"
+        >
+          /
+        </kbd>
+        <button
+          type="submit"
+          className="rounded border border-zinc-700/80 bg-zinc-950/60 px-2 py-0.5 text-xs font-semibold text-zinc-300 transition-colors hover:border-cyan-400/35 hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
+        >
+          Go
+        </button>
+      </div>
+    </form>
+  );
+}
+
 export function Header() {
+  const pathname = usePathname();
+  const [hash, setHash] = useState("");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const syncHash = () => setHash(window.location.hash || "");
+    syncHash();
+    window.addEventListener("hashchange", syncHash);
+    return () => window.removeEventListener("hashchange", syncHash);
+  }, []);
+
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-800/60 bg-zinc-950/78 shadow-[0_1px_0_0_rgba(255,255,255,0.03)_inset] backdrop-blur-xl backdrop-saturate-150">
-      <div className="relative mx-auto flex h-14 max-w-6xl items-center px-4 sm:h-[58px] sm:px-6">
-        <nav
-          className="ml-auto flex min-w-0 items-center justify-end gap-0.5 pl-[156px] sm:gap-1 sm:pl-[176px]"
-          aria-label="Main navigation"
-        >
-          {nav.map((item) => (
-            <NavLink key={item.href} href={item.href}>
-              {item.label}
-            </NavLink>
-          ))}
-        </nav>
-        <Link
-          href="/"
-          className="group absolute left-4 top-1/2 flex -translate-y-1/2 items-center rounded-xl border border-zinc-700/70 bg-zinc-950/70 px-3 py-1.5 shadow-[0_10px_24px_-14px_rgba(0,0,0,0.75),inset_0_1px_0_0_rgba(255,255,255,0.045)] transition-[border-color,box-shadow,background-color,transform] duration-300 hover:border-cyan-400/35 hover:bg-zinc-900/70 hover:shadow-[0_12px_28px_-14px_rgba(34,211,238,0.25),inset_0_1px_0_0_rgba(255,255,255,0.06)] motion-safe:hover:-translate-y-[calc(50%+2px)] sm:left-6"
-        >
-          <div className="relative mr-2.5">
-            <span
-              className="pointer-events-none absolute inset-0 rounded-full bg-cyan-400/35 blur-md transition-opacity duration-300 group-hover:opacity-100 opacity-70"
-              aria-hidden
-            />
-            <ComboMark
-              className="relative h-7 w-7 shrink-0 text-cyan-300/95 transition-all duration-300 group-hover:text-cyan-200"
-              aria-hidden
-            />
-          </div>
-          <div className="flex min-w-0 flex-col leading-none">
-            <span
-              className={`${sora.className} text-[16px] font-extrabold tracking-[0.02em] text-zinc-50 transition-colors duration-300 group-hover:text-white sm:text-[17px]`}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 xl:max-w-[88rem]">
+        <div className="flex h-14 items-center justify-between sm:hidden">
+          <BrandHomeLink variant="compact" />
+          <div className="flex items-center gap-2">
+            <Link
+              href="/search"
+              onClick={() => setMobileMenuOpen(false)}
+              className="rounded-lg border border-zinc-700/80 bg-zinc-950/60 px-2.5 py-1 text-xs font-semibold text-zinc-300 transition-colors hover:border-cyan-400/35 hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
             >
-              TrueCombo
-            </span>
-            <span className="mt-1 font-mono text-[8px] font-medium uppercase tracking-[0.28em] text-zinc-500/85 transition-colors duration-300 group-hover:text-zinc-400/90">
-              SMASH ULTIMATE
-            </span>
+              Search
+            </Link>
+            <button
+              type="button"
+              onClick={() => setMobileMenuOpen((open) => !open)}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-main-nav"
+              className="rounded-lg border border-zinc-700/80 bg-zinc-950/60 px-2.5 py-1 text-xs font-semibold text-zinc-300 transition-colors hover:border-cyan-400/35 hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/45"
+            >
+              Menu
+            </button>
           </div>
-        </Link>
+        </div>
+        {mobileMenuOpen ? (
+          <nav
+            id="mobile-main-nav"
+            className="grid grid-cols-2 gap-1 border-t border-zinc-800/80 py-2 sm:hidden"
+            aria-label="Main navigation"
+          >
+            {nav.map((item) => (
+              <NavLink
+                key={item.href}
+                href={item.href}
+                pathname={pathname}
+                hash={hash}
+                onNavigate={() => setMobileMenuOpen(false)}
+                mobile
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
+        ) : null}
+
+        <div className="relative hidden h-[58px] items-center sm:flex">
+          <div className="ml-auto flex min-w-0 items-center justify-end gap-3 pl-[188px]">
+            <nav
+              className="flex min-w-0 items-center justify-end gap-1"
+              aria-label="Main navigation"
+            >
+              {nav.map((item) => (
+                <NavLink
+                  key={item.href}
+                  href={item.href}
+                  pathname={pathname}
+                  hash={hash}
+                >
+                  {item.label}
+                </NavLink>
+              ))}
+            </nav>
+            <HeaderGuideSearch initialQuery="" />
+          </div>
+          <BrandHomeLink
+            variant="full"
+            className="absolute left-6 top-1/2 -translate-y-1/2"
+          />
+        </div>
       </div>
     </header>
   );
